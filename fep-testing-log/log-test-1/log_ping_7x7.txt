@@ -1,0 +1,562 @@
+
+==============================================================================
+[root@8606f271d002 /]# ping 112.26.1.1
+PING 112.26.1.1 (112.26.1.1) 56(84) bytes of data.
+64 bytes from 112.26.1.1: icmp_seq=1 ttl=53 time=2278 ms
+64 bytes from 112.26.1.1: icmp_seq=2 ttl=53 time=1618 ms
+64 bytes from 112.26.1.1: icmp_seq=3 ttl=53 time=2551 ms
+64 bytes from 112.26.1.1: icmp_seq=4 ttl=53 time=2898 ms
+64 bytes from 112.26.1.1: icmp_seq=5 ttl=53 time=4733 ms
+64 bytes from 112.26.1.1: icmp_seq=6 ttl=53 time=4552 ms
+64 bytes from 112.26.1.1: icmp_seq=7 ttl=53 time=3945 ms
+64 bytes from 112.26.1.1: icmp_seq=8 ttl=53 time=3617 ms
+64 bytes from 112.26.1.1: icmp_seq=9 ttl=53 time=3411 ms
+64 bytes from 112.26.1.1: icmp_seq=10 ttl=53 time=3260 ms
+64 bytes from 112.26.1.1: icmp_seq=11 ttl=53 time=2979 ms
+64 bytes from 112.26.1.1: icmp_seq=12 ttl=53 time=2755 ms
+64 bytes from 112.26.1.1: icmp_seq=13 ttl=53 time=2682 ms
+64 bytes from 112.26.1.1: icmp_seq=14 ttl=53 time=2250 ms
+64 bytes from 112.26.1.1: icmp_seq=15 ttl=53 time=1525 ms
+64 bytes from 112.26.1.1: icmp_seq=16 ttl=53 time=850 ms
+64 bytes from 112.26.1.1: icmp_seq=17 ttl=53 time=951 ms
+64 bytes from 112.26.1.1: icmp_seq=18 ttl=53 time=1451 ms
+64 bytes from 112.26.1.1: icmp_seq=19 ttl=53 time=979 ms
+64 bytes from 112.26.1.1: icmp_seq=20 ttl=53 time=971 ms
+64 bytes from 112.26.1.1: icmp_seq=21 ttl=53 time=883 ms
+64 bytes from 112.26.1.1: icmp_seq=22 ttl=53 time=934 ms
+64 bytes from 112.26.1.1: icmp_seq=23 ttl=53 time=963 ms
+64 bytes from 112.26.1.1: icmp_seq=24 ttl=53 time=794 ms
+64 bytes from 112.26.1.1: icmp_seq=25 ttl=53 time=728 ms
+64 bytes from 112.26.1.1: icmp_seq=26 ttl=53 time=518 ms
+64 bytes from 112.26.1.1: icmp_seq=27 ttl=53 time=825 ms
+64 bytes from 112.26.1.1: icmp_seq=28 ttl=53 time=2840 ms
+64 bytes from 112.26.1.1: icmp_seq=29 ttl=53 time=2708 ms
+64 bytes from 112.26.1.1: icmp_seq=30 ttl=53 time=2607 ms
+64 bytes from 112.26.1.1: icmp_seq=31 ttl=53 time=2564 ms
+64 bytes from 112.26.1.1: icmp_seq=32 ttl=53 time=3230 ms
+64 bytes from 112.26.1.1: icmp_seq=33 ttl=53 time=3270 ms
+64 bytes from 112.26.1.1: icmp_seq=34 ttl=53 time=3079 ms
+64 bytes from 112.26.1.1: icmp_seq=35 ttl=53 time=2607 ms
+64 bytes from 112.26.1.1: icmp_seq=36 ttl=53 time=2858 ms
+64 bytes from 112.26.1.1: icmp_seq=37 ttl=53 time=2372 ms
+64 bytes from 112.26.1.1: icmp_seq=38 ttl=53 time=2653 ms
+64 bytes from 112.26.1.1: icmp_seq=39 ttl=53 time=1954 ms
+64 bytes from 112.26.1.1: icmp_seq=40 ttl=53 time=1685 ms
+64 bytes from 112.26.1.1: icmp_seq=41 ttl=53 time=1570 ms
+64 bytes from 112.26.1.1: icmp_seq=42 ttl=53 time=836 ms
+64 bytes from 112.26.1.1: icmp_seq=43 ttl=53 time=474 ms
+64 bytes from 112.26.1.1: icmp_seq=44 ttl=53 time=363 ms
+64 bytes from 112.26.1.1: icmp_seq=45 ttl=53 time=488 ms
+64 bytes from 112.26.1.1: icmp_seq=46 ttl=53 time=377 ms
+64 bytes from 112.26.1.1: icmp_seq=47 ttl=53 time=389 ms
+64 bytes from 112.26.1.1: icmp_seq=48 ttl=53 time=465 ms
+64 bytes from 112.26.1.1: icmp_seq=49 ttl=53 time=340 ms
+64 bytes from 112.26.1.1: icmp_seq=50 ttl=53 time=601 ms
+64 bytes from 112.26.1.1: icmp_seq=51 ttl=53 time=422 ms
+64 bytes from 112.26.1.1: icmp_seq=52 ttl=53 time=1912 ms
+64 bytes from 112.26.1.1: icmp_seq=53 ttl=53 time=1579 ms
+64 bytes from 112.26.1.1: icmp_seq=54 ttl=53 time=819 ms
+64 bytes from 112.26.1.1: icmp_seq=55 ttl=53 time=1880 ms
+64 bytes from 112.26.1.1: icmp_seq=56 ttl=53 time=1760 ms
+64 bytes from 112.26.1.1: icmp_seq=57 ttl=53 time=2517 ms
+64 bytes from 112.26.1.1: icmp_seq=58 ttl=53 time=1702 ms
+64 bytes from 112.26.1.1: icmp_seq=59 ttl=53 time=989 ms
+64 bytes from 112.26.1.1: icmp_seq=60 ttl=53 time=340 ms
+^C
+--- 112.26.1.1 ping statistics ---
+60 packets transmitted, 60 received, 0% packet loss, time 59385ms
+rtt min/avg/max/mdev = 340.180/1836.371/4733.533/1142.059 ms, pipe 5
+[root@8606f271d002 /]# 
+
+==============================================================================
+[root@8606f271d002 /]# ping 112.26.1.1
+PING 112.26.1.1 (112.26.1.1) 56(84) bytes of data.
+64 bytes from 112.26.1.1: icmp_seq=1 ttl=53 time=1282 ms
+64 bytes from 112.26.1.1: icmp_seq=2 ttl=53 time=1687 ms
+64 bytes from 112.26.1.1: icmp_seq=3 ttl=53 time=1485 ms
+64 bytes from 112.26.1.1: icmp_seq=4 ttl=53 time=4276 ms
+64 bytes from 112.26.1.1: icmp_seq=5 ttl=53 time=4659 ms
+64 bytes from 112.26.1.1: icmp_seq=6 ttl=53 time=3919 ms
+64 bytes from 112.26.1.1: icmp_seq=7 ttl=53 time=3508 ms
+64 bytes from 112.26.1.1: icmp_seq=8 ttl=53 time=3555 ms
+64 bytes from 112.26.1.1: icmp_seq=9 ttl=53 time=3685 ms
+64 bytes from 112.26.1.1: icmp_seq=10 ttl=53 time=3586 ms
+64 bytes from 112.26.1.1: icmp_seq=11 ttl=53 time=3440 ms
+64 bytes from 112.26.1.1: icmp_seq=12 ttl=53 time=2651 ms
+64 bytes from 112.26.1.1: icmp_seq=13 ttl=53 time=2154 ms
+64 bytes from 112.26.1.1: icmp_seq=14 ttl=53 time=2392 ms
+64 bytes from 112.26.1.1: icmp_seq=15 ttl=53 time=1692 ms
+64 bytes from 112.26.1.1: icmp_seq=16 ttl=53 time=1001 ms
+64 bytes from 112.26.1.1: icmp_seq=17 ttl=53 time=566 ms
+64 bytes from 112.26.1.1: icmp_seq=18 ttl=53 time=462 ms
+64 bytes from 112.26.1.1: icmp_seq=19 ttl=53 time=384 ms
+64 bytes from 112.26.1.1: icmp_seq=20 ttl=53 time=478 ms
+64 bytes from 112.26.1.1: icmp_seq=21 ttl=53 time=530 ms
+64 bytes from 112.26.1.1: icmp_seq=22 ttl=53 time=336 ms
+64 bytes from 112.26.1.1: icmp_seq=23 ttl=53 time=242 ms
+64 bytes from 112.26.1.1: icmp_seq=24 ttl=53 time=584 ms
+64 bytes from 112.26.1.1: icmp_seq=25 ttl=53 time=800 ms
+64 bytes from 112.26.1.1: icmp_seq=26 ttl=53 time=547 ms
+64 bytes from 112.26.1.1: icmp_seq=27 ttl=53 time=557 ms
+64 bytes from 112.26.1.1: icmp_seq=28 ttl=53 time=284 ms
+64 bytes from 112.26.1.1: icmp_seq=29 ttl=53 time=795 ms
+64 bytes from 112.26.1.1: icmp_seq=30 ttl=53 time=1954 ms
+64 bytes from 112.26.1.1: icmp_seq=31 ttl=53 time=1869 ms
+64 bytes from 112.26.1.1: icmp_seq=32 ttl=53 time=1286 ms
+64 bytes from 112.26.1.1: icmp_seq=33 ttl=53 time=898 ms
+64 bytes from 112.26.1.1: icmp_seq=34 ttl=53 time=3709 ms
+64 bytes from 112.26.1.1: icmp_seq=35 ttl=53 time=3168 ms
+64 bytes from 112.26.1.1: icmp_seq=36 ttl=53 time=3874 ms
+64 bytes from 112.26.1.1: icmp_seq=37 ttl=53 time=3922 ms
+64 bytes from 112.26.1.1: icmp_seq=38 ttl=53 time=3764 ms
+64 bytes from 112.26.1.1: icmp_seq=39 ttl=53 time=3052 ms
+64 bytes from 112.26.1.1: icmp_seq=40 ttl=53 time=2666 ms
+64 bytes from 112.26.1.1: icmp_seq=41 ttl=53 time=1786 ms
+64 bytes from 112.26.1.1: icmp_seq=42 ttl=53 time=1296 ms
+64 bytes from 112.26.1.1: icmp_seq=43 ttl=53 time=772 ms
+64 bytes from 112.26.1.1: icmp_seq=44 ttl=53 time=648 ms
+64 bytes from 112.26.1.1: icmp_seq=45 ttl=53 time=628 ms
+64 bytes from 112.26.1.1: icmp_seq=46 ttl=53 time=293 ms
+64 bytes from 112.26.1.1: icmp_seq=47 ttl=53 time=293 ms
+64 bytes from 112.26.1.1: icmp_seq=48 ttl=53 time=245 ms
+64 bytes from 112.26.1.1: icmp_seq=49 ttl=53 time=348 ms
+64 bytes from 112.26.1.1: icmp_seq=50 ttl=53 time=308 ms
+64 bytes from 112.26.1.1: icmp_seq=51 ttl=53 time=308 ms
+64 bytes from 112.26.1.1: icmp_seq=52 ttl=53 time=268 ms
+64 bytes from 112.26.1.1: icmp_seq=53 ttl=53 time=312 ms
+64 bytes from 112.26.1.1: icmp_seq=54 ttl=53 time=394 ms
+64 bytes from 112.26.1.1: icmp_seq=55 ttl=53 time=1266 ms
+64 bytes from 112.26.1.1: icmp_seq=56 ttl=53 time=640 ms
+64 bytes from 112.26.1.1: icmp_seq=57 ttl=53 time=374 ms
+64 bytes from 112.26.1.1: icmp_seq=58 ttl=53 time=848 ms
+64 bytes from 112.26.1.1: icmp_seq=59 ttl=41 time=3147 ms
+64 bytes from 112.26.1.1: icmp_seq=60 ttl=53 time=3255 ms
+64 bytes from 112.26.1.1: icmp_seq=61 ttl=53 time=2663 ms
+^C
+--- 112.26.1.1 ping statistics ---
+63 packets transmitted, 61 received, 3% packet loss, time 62300ms
+rtt min/avg/max/mdev = 242.089/1669.234/4659.956/1357.985 ms, pipe 5
+[root@8606f271d002 /]# 
+
+==============================================================================
+[root@8606f271d002 /]# ping 112.26.1.1
+PING 112.26.1.1 (112.26.1.1) 56(84) bytes of data.
+64 bytes from 112.26.1.1: icmp_seq=1 ttl=53 time=1471 ms
+64 bytes from 112.26.1.1: icmp_seq=2 ttl=53 time=1617 ms
+64 bytes from 112.26.1.1: icmp_seq=3 ttl=53 time=2256 ms
+64 bytes from 112.26.1.1: icmp_seq=4 ttl=53 time=2178 ms
+64 bytes from 112.26.1.1: icmp_seq=5 ttl=53 time=4531 ms
+64 bytes from 112.26.1.1: icmp_seq=6 ttl=53 time=4591 ms
+64 bytes from 112.26.1.1: icmp_seq=7 ttl=53 time=4132 ms
+64 bytes from 112.26.1.1: icmp_seq=8 ttl=53 time=3556 ms
+64 bytes from 112.26.1.1: icmp_seq=9 ttl=53 time=2757 ms
+64 bytes from 112.26.1.1: icmp_seq=10 ttl=53 time=2271 ms
+64 bytes from 112.26.1.1: icmp_seq=11 ttl=53 time=1540 ms
+64 bytes from 112.26.1.1: icmp_seq=12 ttl=53 time=978 ms
+64 bytes from 112.26.1.1: icmp_seq=13 ttl=53 time=946 ms
+64 bytes from 112.26.1.1: icmp_seq=14 ttl=53 time=583 ms
+64 bytes from 112.26.1.1: icmp_seq=15 ttl=53 time=461 ms
+64 bytes from 112.26.1.1: icmp_seq=16 ttl=53 time=420 ms
+64 bytes from 112.26.1.1: icmp_seq=17 ttl=53 time=466 ms
+64 bytes from 112.26.1.1: icmp_seq=18 ttl=53 time=466 ms
+64 bytes from 112.26.1.1: icmp_seq=19 ttl=53 time=518 ms
+64 bytes from 112.26.1.1: icmp_seq=20 ttl=53 time=326 ms
+64 bytes from 112.26.1.1: icmp_seq=21 ttl=53 time=499 ms
+64 bytes from 112.26.1.1: icmp_seq=22 ttl=53 time=435 ms
+64 bytes from 112.26.1.1: icmp_seq=23 ttl=53 time=1880 ms
+64 bytes from 112.26.1.1: icmp_seq=24 ttl=53 time=1286 ms
+64 bytes from 112.26.1.1: icmp_seq=25 ttl=53 time=609 ms
+64 bytes from 112.26.1.1: icmp_seq=26 ttl=53 time=478 ms
+64 bytes from 112.26.1.1: icmp_seq=27 ttl=53 time=386 ms
+64 bytes from 112.26.1.1: icmp_seq=28 ttl=53 time=1648 ms
+64 bytes from 112.26.1.1: icmp_seq=29 ttl=53 time=1452 ms
+64 bytes from 112.26.1.1: icmp_seq=30 ttl=53 time=724 ms
+64 bytes from 112.26.1.1: icmp_seq=31 ttl=53 time=416 ms
+64 bytes from 112.26.1.1: icmp_seq=32 ttl=53 time=360 ms
+64 bytes from 112.26.1.1: icmp_seq=33 ttl=53 time=765 ms
+64 bytes from 112.26.1.1: icmp_seq=34 ttl=53 time=304 ms
+64 bytes from 112.26.1.1: icmp_seq=35 ttl=53 time=495 ms
+64 bytes from 112.26.1.1: icmp_seq=36 ttl=53 time=296 ms
+64 bytes from 112.26.1.1: icmp_seq=37 ttl=53 time=311 ms
+64 bytes from 112.26.1.1: icmp_seq=38 ttl=53 time=672 ms
+64 bytes from 112.26.1.1: icmp_seq=39 ttl=53 time=360 ms
+64 bytes from 112.26.1.1: icmp_seq=40 ttl=53 time=478 ms
+64 bytes from 112.26.1.1: icmp_seq=41 ttl=53 time=4498 ms
+64 bytes from 112.26.1.1: icmp_seq=42 ttl=53 time=4774 ms
+64 bytes from 112.26.1.1: icmp_seq=43 ttl=53 time=4770 ms
+64 bytes from 112.26.1.1: icmp_seq=44 ttl=53 time=3915 ms
+64 bytes from 112.26.1.1: icmp_seq=45 ttl=53 time=3215 ms
+64 bytes from 112.26.1.1: icmp_seq=46 ttl=53 time=2616 ms
+64 bytes from 112.26.1.1: icmp_seq=47 ttl=53 time=1910 ms
+64 bytes from 112.26.1.1: icmp_seq=48 ttl=53 time=1556 ms
+64 bytes from 112.26.1.1: icmp_seq=49 ttl=53 time=912 ms
+64 bytes from 112.26.1.1: icmp_seq=50 ttl=53 time=961 ms
+64 bytes from 112.26.1.1: icmp_seq=51 ttl=53 time=563 ms
+64 bytes from 112.26.1.1: icmp_seq=52 ttl=53 time=548 ms
+64 bytes from 112.26.1.1: icmp_seq=53 ttl=53 time=368 ms
+64 bytes from 112.26.1.1: icmp_seq=54 ttl=53 time=466 ms
+64 bytes from 112.26.1.1: icmp_seq=55 ttl=53 time=419 ms
+64 bytes from 112.26.1.1: icmp_seq=56 ttl=53 time=439 ms
+64 bytes from 112.26.1.1: icmp_seq=57 ttl=53 time=340 ms
+64 bytes from 112.26.1.1: icmp_seq=58 ttl=53 time=383 ms
+64 bytes from 112.26.1.1: icmp_seq=59 ttl=53 time=4103 ms
+64 bytes from 112.26.1.1: icmp_seq=60 ttl=53 time=4038 ms
+^C
+--- 112.26.1.1 ping statistics ---
+64 packets transmitted, 60 received, 6% packet loss, time 63402ms
+rtt min/avg/max/mdev = 296.105/1512.395/4774.304/1426.578 ms, pipe 5
+[root@8606f271d002 /]# 
+
+
+
+==============================================================================
+
+[root@8606f271d002 /]# ping 112.26.1.1
+PING 112.26.1.1 (112.26.1.1) 56(84) bytes of data.
+64 bytes from 112.26.1.1: icmp_seq=1 ttl=53 time=4586 ms
+64 bytes from 112.26.1.1: icmp_seq=2 ttl=53 time=4385 ms
+64 bytes from 112.26.1.1: icmp_seq=3 ttl=53 time=5529 ms
+64 bytes from 112.26.1.1: icmp_seq=4 ttl=53 time=4954 ms
+64 bytes from 112.26.1.1: icmp_seq=5 ttl=53 time=4284 ms
+64 bytes from 112.26.1.1: icmp_seq=6 ttl=53 time=4471 ms
+64 bytes from 112.26.1.1: icmp_seq=7 ttl=53 time=3648 ms
+64 bytes from 112.26.1.1: icmp_seq=8 ttl=53 time=2886 ms
+64 bytes from 112.26.1.1: icmp_seq=9 ttl=53 time=2076 ms
+64 bytes from 112.26.1.1: icmp_seq=10 ttl=53 time=1209 ms
+64 bytes from 112.26.1.1: icmp_seq=11 ttl=53 time=493 ms
+64 bytes from 112.26.1.1: icmp_seq=12 ttl=53 time=373 ms
+64 bytes from 112.26.1.1: icmp_seq=13 ttl=53 time=332 ms
+64 bytes from 112.26.1.1: icmp_seq=14 ttl=53 time=329 ms
+64 bytes from 112.26.1.1: icmp_seq=15 ttl=53 time=281 ms
+64 bytes from 112.26.1.1: icmp_seq=16 ttl=53 time=279 ms
+64 bytes from 112.26.1.1: icmp_seq=17 ttl=53 time=372 ms
+64 bytes from 112.26.1.1: icmp_seq=18 ttl=53 time=325 ms
+64 bytes from 112.26.1.1: icmp_seq=19 ttl=53 time=535 ms
+64 bytes from 112.26.1.1: icmp_seq=20 ttl=53 time=304 ms
+64 bytes from 112.26.1.1: icmp_seq=21 ttl=53 time=207 ms
+64 bytes from 112.26.1.1: icmp_seq=22 ttl=53 time=2051 ms
+64 bytes from 112.26.1.1: icmp_seq=23 ttl=53 time=2002 ms
+64 bytes from 112.26.1.1: icmp_seq=24 ttl=53 time=1723 ms
+64 bytes from 112.26.1.1: icmp_seq=25 ttl=53 time=1044 ms
+64 bytes from 112.26.1.1: icmp_seq=26 ttl=53 time=680 ms
+64 bytes from 112.26.1.1: icmp_seq=27 ttl=53 time=1011 ms
+64 bytes from 112.26.1.1: icmp_seq=28 ttl=53 time=1532 ms
+64 bytes from 112.26.1.1: icmp_seq=29 ttl=53 time=1812 ms
+64 bytes from 112.26.1.1: icmp_seq=30 ttl=53 time=1347 ms
+64 bytes from 112.26.1.1: icmp_seq=31 ttl=53 time=691 ms
+64 bytes from 112.26.1.1: icmp_seq=32 ttl=53 time=951 ms
+64 bytes from 112.26.1.1: icmp_seq=33 ttl=53 time=719 ms
+64 bytes from 112.26.1.1: icmp_seq=34 ttl=53 time=562 ms
+64 bytes from 112.26.1.1: icmp_seq=35 ttl=53 time=569 ms
+64 bytes from 112.26.1.1: icmp_seq=36 ttl=53 time=305 ms
+64 bytes from 112.26.1.1: icmp_seq=37 ttl=53 time=505 ms
+64 bytes from 112.26.1.1: icmp_seq=38 ttl=53 time=619 ms
+64 bytes from 112.26.1.1: icmp_seq=39 ttl=53 time=351 ms
+64 bytes from 112.26.1.1: icmp_seq=40 ttl=53 time=314 ms
+64 bytes from 112.26.1.1: icmp_seq=41 ttl=53 time=1338 ms
+64 bytes from 112.26.1.1: icmp_seq=42 ttl=53 time=3287 ms
+64 bytes from 112.26.1.1: icmp_seq=43 ttl=53 time=8126 ms
+64 bytes from 112.26.1.1: icmp_seq=44 ttl=53 time=8042 ms
+64 bytes from 112.26.1.1: icmp_seq=45 ttl=53 time=8915 ms
+64 bytes from 112.26.1.1: icmp_seq=46 ttl=53 time=9697 ms
+64 bytes from 112.26.1.1: icmp_seq=48 ttl=53 time=9722 ms
+64 bytes from 112.26.1.1: icmp_seq=49 ttl=53 time=9660 ms
+64 bytes from 112.26.1.1: icmp_seq=50 ttl=53 time=8980 ms
+64 bytes from 112.26.1.1: icmp_seq=51 ttl=53 time=8494 ms
+64 bytes from 112.26.1.1: icmp_seq=55 ttl=53 time=8122 ms
+64 bytes from 112.26.1.1: icmp_seq=56 ttl=53 time=7793 ms
+64 bytes from 112.26.1.1: icmp_seq=57 ttl=53 time=7605 ms
+64 bytes from 112.26.1.1: icmp_seq=58 ttl=53 time=7554 ms
+64 bytes from 112.26.1.1: icmp_seq=60 ttl=53 time=6646 ms
+^C
+--- 112.26.1.1 ping statistics ---
+67 packets transmitted, 55 received, 17% packet loss, time 66653ms
+rtt min/avg/max/mdev = 207.709/3175.566/9722.985/3236.187 ms, pipe 10
+[root@8606f271d002 /]# 
+
+==============================================================================
+
+[root@8606f271d002 /]# ping 112.26.1.1
+PING 112.26.1.1 (112.26.1.1) 56(84) bytes of data.
+64 bytes from 112.26.1.1: icmp_seq=1 ttl=53 time=4979 ms
+64 bytes from 112.26.1.1: icmp_seq=2 ttl=53 time=7303 ms
+64 bytes from 112.26.1.1: icmp_seq=4 ttl=53 time=6570 ms
+64 bytes from 112.26.1.1: icmp_seq=5 ttl=53 time=5836 ms
+64 bytes from 112.26.1.1: icmp_seq=6 ttl=53 time=6595 ms
+64 bytes from 112.26.1.1: icmp_seq=7 ttl=53 time=6326 ms
+64 bytes from 112.26.1.1: icmp_seq=8 ttl=53 time=6266 ms
+64 bytes from 112.26.1.1: icmp_seq=9 ttl=53 time=6443 ms
+64 bytes from 112.26.1.1: icmp_seq=10 ttl=53 time=5832 ms
+64 bytes from 112.26.1.1: icmp_seq=11 ttl=53 time=5719 ms
+64 bytes from 112.26.1.1: icmp_seq=12 ttl=53 time=4879 ms
+64 bytes from 112.26.1.1: icmp_seq=13 ttl=53 time=4667 ms
+64 bytes from 112.26.1.1: icmp_seq=14 ttl=53 time=4251 ms
+64 bytes from 112.26.1.1: icmp_seq=15 ttl=53 time=3884 ms
+64 bytes from 112.26.1.1: icmp_seq=16 ttl=53 time=3331 ms
+64 bytes from 112.26.1.1: icmp_seq=17 ttl=53 time=3312 ms
+64 bytes from 112.26.1.1: icmp_seq=18 ttl=53 time=2952 ms
+64 bytes from 112.26.1.1: icmp_seq=19 ttl=53 time=2723 ms
+64 bytes from 112.26.1.1: icmp_seq=20 ttl=53 time=2434 ms
+64 bytes from 112.26.1.1: icmp_seq=21 ttl=53 time=2223 ms
+64 bytes from 112.26.1.1: icmp_seq=22 ttl=53 time=1909 ms
+64 bytes from 112.26.1.1: icmp_seq=23 ttl=53 time=1703 ms
+64 bytes from 112.26.1.1: icmp_seq=24 ttl=53 time=1285 ms
+64 bytes from 112.26.1.1: icmp_seq=25 ttl=53 time=940 ms
+64 bytes from 112.26.1.1: icmp_seq=26 ttl=53 time=668 ms
+64 bytes from 112.26.1.1: icmp_seq=27 ttl=53 time=320 ms
+64 bytes from 112.26.1.1: icmp_seq=28 ttl=53 time=540 ms
+64 bytes from 112.26.1.1: icmp_seq=29 ttl=53 time=421 ms
+64 bytes from 112.26.1.1: icmp_seq=30 ttl=53 time=1859 ms
+64 bytes from 112.26.1.1: icmp_seq=31 ttl=53 time=2587 ms
+64 bytes from 112.26.1.1: icmp_seq=32 ttl=53 time=2892 ms
+64 bytes from 112.26.1.1: icmp_seq=33 ttl=53 time=3059 ms
+64 bytes from 112.26.1.1: icmp_seq=34 ttl=53 time=2547 ms
+64 bytes from 112.26.1.1: icmp_seq=35 ttl=53 time=2246 ms
+64 bytes from 112.26.1.1: icmp_seq=36 ttl=53 time=1472 ms
+64 bytes from 112.26.1.1: icmp_seq=37 ttl=53 time=798 ms
+64 bytes from 112.26.1.1: icmp_seq=38 ttl=53 time=939 ms
+64 bytes from 112.26.1.1: icmp_seq=39 ttl=53 time=758 ms
+64 bytes from 112.26.1.1: icmp_seq=40 ttl=53 time=1462 ms
+64 bytes from 112.26.1.1: icmp_seq=41 ttl=53 time=1367 ms
+64 bytes from 112.26.1.1: icmp_seq=42 ttl=53 time=656 ms
+64 bytes from 112.26.1.1: icmp_seq=43 ttl=53 time=1356 ms
+64 bytes from 112.26.1.1: icmp_seq=44 ttl=53 time=731 ms
+64 bytes from 112.26.1.1: icmp_seq=45 ttl=53 time=953 ms
+64 bytes from 112.26.1.1: icmp_seq=46 ttl=53 time=1009 ms
+64 bytes from 112.26.1.1: icmp_seq=47 ttl=53 time=427 ms
+64 bytes from 112.26.1.1: icmp_seq=48 ttl=53 time=261 ms
+64 bytes from 112.26.1.1: icmp_seq=49 ttl=53 time=417 ms
+64 bytes from 112.26.1.1: icmp_seq=50 ttl=53 time=370 ms
+64 bytes from 112.26.1.1: icmp_seq=51 ttl=53 time=307 ms
+64 bytes from 112.26.1.1: icmp_seq=52 ttl=53 time=338 ms
+64 bytes from 112.26.1.1: icmp_seq=53 ttl=53 time=507 ms
+64 bytes from 112.26.1.1: icmp_seq=54 ttl=53 time=1011 ms
+64 bytes from 112.26.1.1: icmp_seq=55 ttl=53 time=737 ms
+64 bytes from 112.26.1.1: icmp_seq=56 ttl=53 time=1787 ms
+64 bytes from 112.26.1.1: icmp_seq=57 ttl=53 time=999 ms
+64 bytes from 112.26.1.1: icmp_seq=58 ttl=53 time=366 ms
+64 bytes from 112.26.1.1: icmp_seq=59 ttl=53 time=347 ms
+64 bytes from 112.26.1.1: icmp_seq=60 ttl=53 time=525 ms
+^C
+--- 112.26.1.1 ping statistics ---
+61 packets transmitted, 59 received, 3% packet loss, time 60389ms
+rtt min/avg/max/mdev = 261.889/2363.262/7303.251/2077.304 ms, pipe 8
+[root@8606f271d002 /]# 
+
+
+
+
+==============================================================================
+
+[root@8606f271d002 /]# ping 112.26.1.1
+PING 112.26.1.1 (112.26.1.1) 56(84) bytes of data.
+64 bytes from 112.26.1.1: icmp_seq=1 ttl=53 time=1787 ms
+64 bytes from 112.26.1.1: icmp_seq=2 ttl=53 time=1267 ms
+64 bytes from 112.26.1.1: icmp_seq=3 ttl=53 time=1294 ms
+64 bytes from 112.26.1.1: icmp_seq=4 ttl=53 time=1755 ms
+64 bytes from 112.26.1.1: icmp_seq=5 ttl=53 time=2736 ms
+64 bytes from 112.26.1.1: icmp_seq=6 ttl=53 time=2904 ms
+64 bytes from 112.26.1.1: icmp_seq=7 ttl=53 time=2938 ms
+64 bytes from 112.26.1.1: icmp_seq=8 ttl=53 time=2548 ms
+64 bytes from 112.26.1.1: icmp_seq=9 ttl=53 time=3553 ms
+64 bytes from 112.26.1.1: icmp_seq=10 ttl=53 time=3427 ms
+64 bytes from 112.26.1.1: icmp_seq=11 ttl=53 time=2807 ms
+64 bytes from 112.26.1.1: icmp_seq=12 ttl=53 time=2270 ms
+64 bytes from 112.26.1.1: icmp_seq=13 ttl=53 time=1838 ms
+64 bytes from 112.26.1.1: icmp_seq=14 ttl=53 time=1802 ms
+64 bytes from 112.26.1.1: icmp_seq=15 ttl=53 time=1203 ms
+64 bytes from 112.26.1.1: icmp_seq=16 ttl=53 time=1781 ms
+64 bytes from 112.26.1.1: icmp_seq=17 ttl=53 time=1159 ms
+64 bytes from 112.26.1.1: icmp_seq=18 ttl=53 time=549 ms
+64 bytes from 112.26.1.1: icmp_seq=19 ttl=53 time=407 ms
+64 bytes from 112.26.1.1: icmp_seq=20 ttl=53 time=353 ms
+64 bytes from 112.26.1.1: icmp_seq=21 ttl=53 time=379 ms
+64 bytes from 112.26.1.1: icmp_seq=22 ttl=53 time=408 ms
+64 bytes from 112.26.1.1: icmp_seq=23 ttl=53 time=507 ms
+64 bytes from 112.26.1.1: icmp_seq=24 ttl=53 time=477 ms
+64 bytes from 112.26.1.1: icmp_seq=25 ttl=53 time=1950 ms
+64 bytes from 112.26.1.1: icmp_seq=26 ttl=53 time=1318 ms
+64 bytes from 112.26.1.1: icmp_seq=27 ttl=53 time=734 ms
+64 bytes from 112.26.1.1: icmp_seq=28 ttl=53 time=458 ms
+64 bytes from 112.26.1.1: icmp_seq=29 ttl=53 time=796 ms
+64 bytes from 112.26.1.1: icmp_seq=30 ttl=53 time=579 ms
+64 bytes from 112.26.1.1: icmp_seq=31 ttl=53 time=832 ms
+64 bytes from 112.26.1.1: icmp_seq=32 ttl=53 time=480 ms
+64 bytes from 112.26.1.1: icmp_seq=33 ttl=41 time=1557 ms
+64 bytes from 112.26.1.1: icmp_seq=34 ttl=51 time=1217 ms
+64 bytes from 112.26.1.1: icmp_seq=35 ttl=53 time=1873 ms
+64 bytes from 112.26.1.1: icmp_seq=36 ttl=53 time=1320 ms
+64 bytes from 112.26.1.1: icmp_seq=37 ttl=53 time=505 ms
+64 bytes from 112.26.1.1: icmp_seq=38 ttl=53 time=399 ms
+64 bytes from 112.26.1.1: icmp_seq=39 ttl=53 time=857 ms
+64 bytes from 112.26.1.1: icmp_seq=40 ttl=53 time=721 ms
+64 bytes from 112.26.1.1: icmp_seq=41 ttl=53 time=358 ms
+64 bytes from 112.26.1.1: icmp_seq=42 ttl=53 time=323 ms
+64 bytes from 112.26.1.1: icmp_seq=43 ttl=53 time=265 ms
+64 bytes from 112.26.1.1: icmp_seq=44 ttl=53 time=2712 ms
+64 bytes from 112.26.1.1: icmp_seq=47 ttl=53 time=2438 ms
+64 bytes from 112.26.1.1: icmp_seq=45 ttl=51 time=4755 ms
+64 bytes from 112.26.1.1: icmp_seq=48 ttl=53 time=2419 ms
+64 bytes from 112.26.1.1: icmp_seq=49 ttl=53 time=3959 ms
+64 bytes from 112.26.1.1: icmp_seq=50 ttl=53 time=3600 ms
+64 bytes from 112.26.1.1: icmp_seq=51 ttl=53 time=3576 ms
+64 bytes from 112.26.1.1: icmp_seq=52 ttl=53 time=3507 ms
+64 bytes from 112.26.1.1: icmp_seq=53 ttl=53 time=3083 ms
+64 bytes from 112.26.1.1: icmp_seq=54 ttl=53 time=2542 ms
+64 bytes from 112.26.1.1: icmp_seq=55 ttl=54 time=2257 ms
+64 bytes from 112.26.1.1: icmp_seq=56 ttl=54 time=1985 ms
+64 bytes from 112.26.1.1: icmp_seq=57 ttl=54 time=1187 ms
+64 bytes from 112.26.1.1: icmp_seq=58 ttl=54 time=1128 ms
+64 bytes from 112.26.1.1: icmp_seq=59 ttl=54 time=1656 ms
+64 bytes from 112.26.1.1: icmp_seq=60 ttl=54 time=2064 ms
+^C
+--- 112.26.1.1 ping statistics ---
+62 packets transmitted, 59 received, 4% packet loss, time 61249ms
+rtt min/avg/max/mdev = 265.090/1687.882/4755.590/1115.744 ms, pipe 5
+[root@8606f271d002 /]# 
+
+
+==============================================================================
+[root@8606f271d002 /]# ping 112.26.1.1
+PING 112.26.1.1 (112.26.1.1) 56(84) bytes of data.
+64 bytes from 112.26.1.1: icmp_seq=1 ttl=53 time=4711 ms
+64 bytes from 112.26.1.1: icmp_seq=2 ttl=53 time=5797 ms
+64 bytes from 112.26.1.1: icmp_seq=3 ttl=53 time=5586 ms
+64 bytes from 112.26.1.1: icmp_seq=4 ttl=53 time=4898 ms
+64 bytes from 112.26.1.1: icmp_seq=5 ttl=53 time=7833 ms
+64 bytes from 112.26.1.1: icmp_seq=6 ttl=53 time=7706 ms
+64 bytes from 112.26.1.1: icmp_seq=7 ttl=53 time=7026 ms
+64 bytes from 112.26.1.1: icmp_seq=8 ttl=53 time=6332 ms
+64 bytes from 112.26.1.1: icmp_seq=9 ttl=53 time=5583 ms
+64 bytes from 112.26.1.1: icmp_seq=10 ttl=53 time=4760 ms
+64 bytes from 112.26.1.1: icmp_seq=11 ttl=53 time=3973 ms
+64 bytes from 112.26.1.1: icmp_seq=12 ttl=53 time=3219 ms
+64 bytes from 112.26.1.1: icmp_seq=13 ttl=53 time=2446 ms
+64 bytes from 112.26.1.1: icmp_seq=14 ttl=53 time=1606 ms
+64 bytes from 112.26.1.1: icmp_seq=15 ttl=53 time=731 ms
+64 bytes from 112.26.1.1: icmp_seq=16 ttl=53 time=312 ms
+64 bytes from 112.26.1.1: icmp_seq=17 ttl=53 time=316 ms
+64 bytes from 112.26.1.1: icmp_seq=18 ttl=53 time=501 ms
+64 bytes from 112.26.1.1: icmp_seq=19 ttl=53 time=413 ms
+64 bytes from 112.26.1.1: icmp_seq=20 ttl=53 time=331 ms
+64 bytes from 112.26.1.1: icmp_seq=21 ttl=51 time=779 ms
+64 bytes from 112.26.1.1: icmp_seq=22 ttl=51 time=549 ms
+64 bytes from 112.26.1.1: icmp_seq=23 ttl=51 time=359 ms
+64 bytes from 112.26.1.1: icmp_seq=24 ttl=51 time=1053 ms
+64 bytes from 112.26.1.1: icmp_seq=33 ttl=53 time=1597 ms
+64 bytes from 112.26.1.1: icmp_seq=34 ttl=53 time=2941 ms
+64 bytes from 112.26.1.1: icmp_seq=35 ttl=53 time=4461 ms
+64 bytes from 112.26.1.1: icmp_seq=36 ttl=53 time=4813 ms
+64 bytes from 112.26.1.1: icmp_seq=37 ttl=53 time=5530 ms
+64 bytes from 112.26.1.1: icmp_seq=39 ttl=53 time=4842 ms
+64 bytes from 112.26.1.1: icmp_seq=41 ttl=53 time=4367 ms
+64 bytes from 112.26.1.1: icmp_seq=42 ttl=53 time=3593 ms
+64 bytes from 112.26.1.1: icmp_seq=43 ttl=53 time=3010 ms
+64 bytes from 112.26.1.1: icmp_seq=44 ttl=53 time=2688 ms
+64 bytes from 112.26.1.1: icmp_seq=45 ttl=53 time=2588 ms
+64 bytes from 112.26.1.1: icmp_seq=46 ttl=53 time=3456 ms
+64 bytes from 112.26.1.1: icmp_seq=47 ttl=53 time=2614 ms
+64 bytes from 112.26.1.1: icmp_seq=48 ttl=53 time=1803 ms
+64 bytes from 112.26.1.1: icmp_seq=49 ttl=53 time=1293 ms
+64 bytes from 112.26.1.1: icmp_seq=50 ttl=53 time=551 ms
+64 bytes from 112.26.1.1: icmp_seq=51 ttl=53 time=300 ms
+64 bytes from 112.26.1.1: icmp_seq=52 ttl=53 time=344 ms
+64 bytes from 112.26.1.1: icmp_seq=53 ttl=53 time=339 ms
+64 bytes from 112.26.1.1: icmp_seq=54 ttl=53 time=250 ms
+64 bytes from 112.26.1.1: icmp_seq=55 ttl=53 time=370 ms
+64 bytes from 112.26.1.1: icmp_seq=56 ttl=53 time=918 ms
+64 bytes from 112.26.1.1: icmp_seq=57 ttl=53 time=484 ms
+64 bytes from 112.26.1.1: icmp_seq=58 ttl=53 time=323 ms
+64 bytes from 112.26.1.1: icmp_seq=61 ttl=53 time=4024 ms
+^C
+--- 112.26.1.1 ping statistics ---
+65 packets transmitted, 49 received, 24% packet loss, time 64775ms
+rtt min/avg/max/mdev = 250.097/2741.692/7833.905/2259.212 ms, pipe 8
+[root@8606f271d002 /]# 
+
+
+
+==============================================================================
+[root@f50ac6c861a4 /]# ping 112.26.1.1
+PING 112.26.1.1 (112.26.1.1) 56(84) bytes of data.
+64 bytes from 112.26.1.1: icmp_seq=1 ttl=53 time=827 ms
+64 bytes from 112.26.1.1: icmp_seq=2 ttl=53 time=1603 ms
+64 bytes from 112.26.1.1: icmp_seq=3 ttl=53 time=1626 ms
+64 bytes from 112.26.1.1: icmp_seq=4 ttl=53 time=3810 ms
+64 bytes from 112.26.1.1: icmp_seq=5 ttl=53 time=7016 ms
+64 bytes from 112.26.1.1: icmp_seq=6 ttl=53 time=6961 ms
+64 bytes from 112.26.1.1: icmp_seq=7 ttl=53 time=6850 ms
+64 bytes from 112.26.1.1: icmp_seq=8 ttl=53 time=6679 ms
+64 bytes from 112.26.1.1: icmp_seq=9 ttl=53 time=6493 ms
+64 bytes from 112.26.1.1: icmp_seq=10 ttl=53 time=6372 ms
+64 bytes from 112.26.1.1: icmp_seq=11 ttl=53 time=6030 ms
+64 bytes from 112.26.1.1: icmp_seq=12 ttl=53 time=5798 ms
+64 bytes from 112.26.1.1: icmp_seq=13 ttl=53 time=5386 ms
+64 bytes from 112.26.1.1: icmp_seq=14 ttl=53 time=4747 ms
+64 bytes from 112.26.1.1: icmp_seq=15 ttl=53 time=4424 ms
+64 bytes from 112.26.1.1: icmp_seq=16 ttl=53 time=3719 ms
+64 bytes from 112.26.1.1: icmp_seq=17 ttl=53 time=3593 ms
+64 bytes from 112.26.1.1: icmp_seq=18 ttl=53 time=3216 ms
+64 bytes from 112.26.1.1: icmp_seq=19 ttl=53 time=2841 ms
+64 bytes from 112.26.1.1: icmp_seq=20 ttl=53 time=2368 ms
+64 bytes from 112.26.1.1: icmp_seq=21 ttl=53 time=1667 ms
+64 bytes from 112.26.1.1: icmp_seq=22 ttl=53 time=1523 ms
+64 bytes from 112.26.1.1: icmp_seq=23 ttl=53 time=894 ms
+64 bytes from 112.26.1.1: icmp_seq=24 ttl=53 time=696 ms
+64 bytes from 112.26.1.1: icmp_seq=25 ttl=53 time=645 ms
+64 bytes from 112.26.1.1: icmp_seq=26 ttl=53 time=901 ms
+64 bytes from 112.26.1.1: icmp_seq=27 ttl=53 time=751 ms
+64 bytes from 112.26.1.1: icmp_seq=28 ttl=53 time=695 ms
+64 bytes from 112.26.1.1: icmp_seq=29 ttl=53 time=652 ms
+64 bytes from 112.26.1.1: icmp_seq=30 ttl=53 time=570 ms
+64 bytes from 112.26.1.1: icmp_seq=31 ttl=53 time=978 ms
+64 bytes from 112.26.1.1: icmp_seq=32 ttl=53 time=866 ms
+64 bytes from 112.26.1.1: icmp_seq=33 ttl=53 time=614 ms
+64 bytes from 112.26.1.1: icmp_seq=34 ttl=53 time=443 ms
+64 bytes from 112.26.1.1: icmp_seq=35 ttl=53 time=818 ms
+64 bytes from 112.26.1.1: icmp_seq=36 ttl=53 time=429 ms
+64 bytes from 112.26.1.1: icmp_seq=37 ttl=53 time=475 ms
+64 bytes from 112.26.1.1: icmp_seq=38 ttl=53 time=429 ms
+64 bytes from 112.26.1.1: icmp_seq=39 ttl=53 time=545 ms
+64 bytes from 112.26.1.1: icmp_seq=40 ttl=53 time=990 ms
+64 bytes from 112.26.1.1: icmp_seq=41 ttl=53 time=864 ms
+64 bytes from 112.26.1.1: icmp_seq=42 ttl=53 time=501 ms
+64 bytes from 112.26.1.1: icmp_seq=43 ttl=53 time=439 ms
+64 bytes from 112.26.1.1: icmp_seq=44 ttl=53 time=514 ms
+64 bytes from 112.26.1.1: icmp_seq=45 ttl=53 time=223 ms
+64 bytes from 112.26.1.1: icmp_seq=46 ttl=53 time=187 ms
+64 bytes from 112.26.1.1: icmp_seq=47 ttl=53 time=303 ms
+64 bytes from 112.26.1.1: icmp_seq=48 ttl=53 time=339 ms
+64 bytes from 112.26.1.1: icmp_seq=49 ttl=53 time=337 ms
+64 bytes from 112.26.1.1: icmp_seq=50 ttl=53 time=275 ms
+64 bytes from 112.26.1.1: icmp_seq=51 ttl=53 time=344 ms
+64 bytes from 112.26.1.1: icmp_seq=52 ttl=53 time=334 ms
+64 bytes from 112.26.1.1: icmp_seq=53 ttl=53 time=353 ms
+64 bytes from 112.26.1.1: icmp_seq=54 ttl=53 time=396 ms
+64 bytes from 112.26.1.1: icmp_seq=55 ttl=51 time=3083 ms
+64 bytes from 112.26.1.1: icmp_seq=56 ttl=53 time=3059 ms
+64 bytes from 112.26.1.1: icmp_seq=57 ttl=53 time=2434 ms
+64 bytes from 112.26.1.1: icmp_seq=58 ttl=53 time=1819 ms
+64 bytes from 112.26.1.1: icmp_seq=59 ttl=53 time=1874 ms
+64 bytes from 112.26.1.1: icmp_seq=60 ttl=53 time=1917 ms
+64 bytes from 112.26.1.1: icmp_seq=61 ttl=53 time=1429 ms
+^C
+--- 112.26.1.1 ping statistics ---
+62 packets transmitted, 61 received, 1% packet loss, time 61304ms
+rtt min/avg/max/mdev = 187.879/2081.924/7016.866/2119.370 ms, pipe 7
+[root@f50ac6c861a4 /]# 
+
+
+
+==============================================================================
+
+
+
+==============================================================================
+
+
+
+==============================================================================
+
+
+
