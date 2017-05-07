@@ -12,7 +12,7 @@ set grid
 
 set key top left
 set xlabel "Number of Rows (Columns) of Docker Matrices"
-set ylabel "The Average RTT of ping\n(microseconds)"
+set ylabel "The Average RTT of ping\n(milliseconds)"
 
 #plot 'fep-test-ping.dat' using 1:2 title "The Average RTT of ping" with lines ls 1 lw 1 lc "red"
 
