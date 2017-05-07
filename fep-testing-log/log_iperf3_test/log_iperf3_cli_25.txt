@@ -1,0 +1,2133 @@
+
+[root@localhost ~]# docker attach docker_25
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# date +%H:%M:%S >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "iperf3 -c 112.26.1.1 -i 2 -n 200K" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# iperf3 -c 112.26.1.1 -i 2 -n 200K >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# 
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# date +%H:%M:%S >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "iperf3 -c 112.26.1.1 -i 2 -n 400K" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# iperf3 -c 112.26.1.1 -i 2 -n 400K >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# 
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# date +%H:%M:%S >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "iperf3 -c 112.26.1.1 -i 2 -n 600K" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# iperf3 -c 112.26.1.1 -i 2 -n 600K >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# sleep 2
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# date +%H:%M:%S >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "iperf3 -c 112.26.1.1 -i 2 -n 800K" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# iperf3 -c 112.26.1.1 -i 2 -n 800K >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# sleep 2
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# date +%H:%M:%S >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "iperf3 -c 112.26.1.1 -i 2 -n 1000K" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# iperf3 -c 112.26.1.1 -i 2 -n 1000K >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# ping 112.26.1.1
+PING 112.26.1.1 (112.26.1.1) 56(84) bytes of data.
+From 112.26.1.25 icmp_seq=1 Destination Host Unreachable
+From 112.26.1.25 icmp_seq=2 Destination Host Unreachable
+64 bytes from 112.26.1.1: icmp_seq=7 ttl=57 time=612 ms
+64 bytes from 112.26.1.1: icmp_seq=8 ttl=57 time=145 ms
+^C
+--- 112.26.1.1 ping statistics ---
+8 packets transmitted, 2 received, +2 errors, 75% packet loss, time 7131ms
+rtt min/avg/max/mdev = 145.403/379.035/612.667/233.632 ms, pipe 6
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# date +%H:%M:%S >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "iperf3 -c 112.26.1.1 -i 2 -n 200K" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# iperf3 -c 112.26.1.1 -i 2 -n 200K >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# sleep 2
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# date +%H:%M:%S >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "iperf3 -c 112.26.1.1 -i 2 -n 400K" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# iperf3 -c 112.26.1.1 -i 2 -n 400K >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# sleep 2
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# date +%H:%M:%S >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "iperf3 -c 112.26.1.1 -i 2 -n 600K" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# iperf3 -c 112.26.1.1 -i 2 -n 600K >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# sleep 2
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# date +%H:%M:%S >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "iperf3 -c 112.26.1.1 -i 2 -n 800K" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# iperf3 -c 112.26.1.1 -i 2 -n 800K >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# sleep 2
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# date +%H:%M:%S >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "iperf3 -c 112.26.1.1 -i 2 -n 1000K" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# iperf3 -c 112.26.1.1 -i 2 -n 1000K >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# ping 112.26.1.1
+PING 112.26.1.1 (112.26.1.1) 56(84) bytes of data.
+64 bytes from 112.26.1.1: icmp_seq=2 ttl=57 time=318 ms
+^C
+--- 112.26.1.1 ping statistics ---
+3 packets transmitted, 1 received, 66% packet loss, time 2045ms
+rtt min/avg/max/mdev = 318.008/318.008/318.008/0.000 ms
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# date +%H:%M:%S >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "iperf3 -c 112.26.1.1 -i 2 -n 200K" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# iperf3 -c 112.26.1.1 -i 2 -n 200K >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# sleep 2
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# date +%H:%M:%S >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "iperf3 -c 112.26.1.1 -i 2 -n 400K" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# iperf3 -c 112.26.1.1 -i 2 -n 400K >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# sleep 2
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# date +%H:%M:%S >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "iperf3 -c 112.26.1.1 -i 2 -n 600K" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# iperf3 -c 112.26.1.1 -i 2 -n 600K >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# sleep 2
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# date +%H:%M:%S >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "iperf3 -c 112.26.1.1 -i 2 -n 800K" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# iperf3 -c 112.26.1.1 -i 2 -n 800K >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# sleep 2
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# date +%H:%M:%S >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "iperf3 -c 112.26.1.1 -i 2 -n 1000K" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# echo "==================================" >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# iperf3 -c 112.26.1.1 -i 2 -n 1000K >> log_iperf3_cli_25.txt
+[root@84e6ee811cce /]# 
+[root@84e6ee811cce /]# 
+[root@84e6ee811cce /]# cat log_iperf3_cli_25.txt
+==================================
+09:02:23
+iperf3 -c 112.26.1.1 -i 2 -n 200K
+==================================
+Connecting to host 112.26.1.1, port 5201
+[  4] local 112.26.1.25 port 55682 connected to 112.26.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-2.00   sec  86.3 KBytes   353 Kbits/sec    0   15.6 KBytes       
+[  4]   2.00-4.00   sec  5.66 KBytes  23.2 Kbits/sec    5   5.66 KBytes       
+[  4]   4.00-6.00   sec  2.83 KBytes  11.6 Kbits/sec    3   8.48 KBytes       
+[  4]   6.00-8.00   sec  7.07 KBytes  28.9 Kbits/sec    0   9.90 KBytes       
+[  4]   8.00-10.00  sec  7.07 KBytes  29.0 Kbits/sec    2   4.24 KBytes       
+[  4]  10.00-12.00  sec  4.24 KBytes  17.4 Kbits/sec    0   5.66 KBytes       
+[  4]  12.00-14.00  sec  8.48 KBytes  34.8 Kbits/sec    0   7.07 KBytes       
+[  4]  14.00-16.00  sec  5.66 KBytes  23.2 Kbits/sec    1   4.24 KBytes       
+[  4]  16.00-18.00  sec  2.83 KBytes  11.6 Kbits/sec    0   5.66 KBytes       
+[  4]  18.00-20.00  sec  4.24 KBytes  17.4 Kbits/sec    0   8.48 KBytes       
+[  4]  20.00-22.00  sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4]  22.00-24.00  sec  63.6 KBytes   261 Kbits/sec    1   5.66 KBytes       
+[  4]  24.00-26.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  26.00-28.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  28.00-30.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  30.00-32.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  32.00-34.00  sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4]  34.00-36.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  36.00-38.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  38.00-40.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  40.00-42.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  42.00-44.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  44.00-46.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  46.00-48.00  sec  63.6 KBytes   261 Kbits/sec    2   2.83 KBytes       
+[  4]  48.00-48.00  sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-48.00  sec   262 KBytes  44.6 Kbits/sec   20             sender
+[  4]   0.00-48.00  sec   130 KBytes  22.2 Kbits/sec                  receiver
+
+iperf Done.
+==================================
+09:03:37
+iperf3 -c 112.26.1.1 -i 2 -n 400K
+==================================
+Connecting to host 112.26.1.1, port 5201
+[  4] local 112.26.1.25 port 57990 connected to 112.26.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-2.00   sec  84.8 KBytes   347 Kbits/sec    0   14.1 KBytes       
+[  4]   2.00-4.00   sec  4.24 KBytes  17.4 Kbits/sec    5   8.48 KBytes       
+[  4]   4.00-6.00   sec  1.41 KBytes  5.79 Kbits/sec    3   8.48 KBytes       
+[  4]   6.00-8.00   sec  5.66 KBytes  23.2 Kbits/sec    3   7.07 KBytes       
+[  4]   8.00-10.00  sec  4.24 KBytes  17.4 Kbits/sec    0   7.07 KBytes       
+[  4]  10.00-12.00  sec  4.24 KBytes  17.4 Kbits/sec    0   11.3 KBytes       
+[  4]  12.00-14.00  sec  4.24 KBytes  17.4 Kbits/sec    2   7.07 KBytes       
+[  4]  14.00-16.00  sec  4.24 KBytes  17.4 Kbits/sec    2   7.07 KBytes       
+[  4]  16.00-18.00  sec  5.66 KBytes  23.2 Kbits/sec    2   4.24 KBytes       
+[  4]  18.00-20.00  sec  4.24 KBytes  17.4 Kbits/sec    0   7.07 KBytes       
+[  4]  20.00-22.00  sec  5.66 KBytes  23.2 Kbits/sec    0   9.90 KBytes       
+[  4]  22.00-24.00  sec  5.66 KBytes  23.2 Kbits/sec    3   5.66 KBytes       
+[  4]  24.00-26.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  26.00-28.00  sec  63.6 KBytes   261 Kbits/sec    0   8.48 KBytes       
+[  4]  28.00-30.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  30.00-32.00  sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4]  32.00-34.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  34.00-36.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  36.00-38.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  38.00-40.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  40.00-42.00  sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4]  42.00-44.00  sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4]  44.00-46.00  sec  0.00 Bytes  0.00 bits/sec    5   8.48 KBytes       
+[  4]  46.00-48.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  48.00-50.00  sec  63.6 KBytes   261 Kbits/sec    1   5.66 KBytes       
+[  4]  50.00-52.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  52.00-54.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  54.00-56.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  56.00-58.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  58.00-60.00  sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4]  60.00-62.00  sec  0.00 Bytes  0.00 bits/sec    2   8.48 KBytes       
+[  4]  62.00-64.00  sec  0.00 Bytes  0.00 bits/sec    3   7.07 KBytes       
+[  4]  64.00-66.00  sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4]  66.00-68.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  68.00-70.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  70.00-72.00  sec  63.6 KBytes   261 Kbits/sec    0   4.24 KBytes       
+[  4]  72.00-74.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  74.00-76.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  76.00-78.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  78.00-80.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  80.00-82.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  82.00-84.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  84.00-86.00  sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4]  86.00-88.00  sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4]  88.00-90.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  90.00-92.00  sec  63.6 KBytes   261 Kbits/sec    0   7.07 KBytes       
+[  4]  92.00-94.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  94.00-96.00  sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4]  96.00-98.00  sec  0.00 Bytes  0.00 bits/sec    0   14.1 KBytes       
+[  4]  98.00-100.00 sec  0.00 Bytes  0.00 bits/sec    5   9.90 KBytes       
+[  4] 100.00-102.00 sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4] 102.00-104.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 104.00-106.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 106.00-108.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 108.00-110.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 110.00-112.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 112.00-114.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 114.00-116.00 sec  63.6 KBytes   261 Kbits/sec    1   4.24 KBytes       
+[  4] 116.00-116.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-116.00 sec   452 KBytes  32.0 Kbits/sec   62             sender
+[  4]   0.00-116.00 sec   320 KBytes  22.6 Kbits/sec                  receiver
+
+iperf Done.
+==================================
+09:05:50
+iperf3 -c 112.26.1.1 -i 2 -n 600K
+==================================
+Connecting to host 112.26.1.1, port 5201
+[  4] local 112.26.1.25 port 34020 connected to 112.26.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-2.00   sec  86.3 KBytes   353 Kbits/sec    0   15.6 KBytes       
+[  4]   2.00-4.00   sec  4.24 KBytes  17.4 Kbits/sec    2   7.07 KBytes       
+[  4]   4.00-6.00   sec  4.24 KBytes  17.4 Kbits/sec    4   5.66 KBytes       
+[  4]   6.00-8.00   sec  4.24 KBytes  17.4 Kbits/sec    3   8.48 KBytes       
+[  4]   8.00-10.00  sec  4.24 KBytes  17.4 Kbits/sec    3   2.83 KBytes       
+[  4]  10.00-12.00  sec  5.66 KBytes  23.2 Kbits/sec    1   7.07 KBytes       
+[  4]  12.00-14.00  sec  4.24 KBytes  17.4 Kbits/sec    2   4.24 KBytes       
+[  4]  14.00-16.00  sec  4.24 KBytes  17.4 Kbits/sec    0   4.24 KBytes       
+[  4]  16.00-18.00  sec  7.07 KBytes  29.0 Kbits/sec    1   2.83 KBytes       
+[  4]  18.00-20.00  sec  2.83 KBytes  11.6 Kbits/sec    0   5.66 KBytes       
+[  4]  20.00-22.00  sec  5.66 KBytes  23.2 Kbits/sec    0   7.07 KBytes       
+[  4]  22.00-24.00  sec  1.41 KBytes  5.79 Kbits/sec    1   4.24 KBytes       
+[  4]  24.00-26.00  sec  63.6 KBytes   261 Kbits/sec    0   5.66 KBytes       
+[  4]  26.00-28.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  28.00-30.00  sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4]  30.00-32.00  sec  0.00 Bytes  0.00 bits/sec    5   7.07 KBytes       
+[  4]  32.00-34.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  34.00-36.00  sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4]  36.00-38.00  sec  0.00 Bytes  0.00 bits/sec    4   4.24 KBytes       
+[  4]  38.00-40.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  40.00-42.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  42.00-44.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  44.00-46.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  46.00-48.00  sec  63.6 KBytes   261 Kbits/sec    0   2.83 KBytes       
+[  4]  48.00-50.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  50.00-52.00  sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4]  52.00-54.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  54.00-56.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  56.00-58.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  58.00-60.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  60.00-62.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  62.00-64.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  64.00-66.00  sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4]  66.00-68.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  68.00-70.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  70.00-72.00  sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4]  72.00-74.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  74.00-76.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  76.00-78.00  sec  63.6 KBytes   261 Kbits/sec    0   4.24 KBytes       
+[  4]  78.00-80.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  80.00-82.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  82.00-84.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  84.00-86.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  86.00-88.00  sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4]  88.00-90.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  90.00-92.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  92.00-94.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  94.00-96.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  96.00-98.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  98.00-100.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 100.00-102.00 sec  5.66 KBytes  23.2 Kbits/sec    0   14.1 KBytes       
+[  4] 102.00-104.00 sec  0.00 Bytes  0.00 bits/sec    2   9.90 KBytes       
+[  4] 104.00-106.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 106.00-108.00 sec  69.3 KBytes   284 Kbits/sec    3   8.48 KBytes       
+[  4] 108.00-110.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 110.00-112.00 sec  0.00 Bytes  0.00 bits/sec    1   9.90 KBytes       
+[  4] 112.00-114.00 sec  0.00 Bytes  0.00 bits/sec    4   5.66 KBytes       
+[  4] 114.00-116.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 116.00-118.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 118.00-120.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 120.00-122.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 122.00-124.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 124.00-126.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 126.00-128.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 128.00-130.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 130.00-132.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 132.00-134.00 sec  63.6 KBytes   261 Kbits/sec    0   4.24 KBytes       
+[  4] 134.00-136.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 136.00-138.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 138.00-140.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 140.00-142.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 142.00-144.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 144.00-146.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 146.00-148.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 148.00-150.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 150.00-152.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 152.00-154.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 154.00-156.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 156.00-158.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 158.00-160.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 160.00-162.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 162.00-164.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 164.00-166.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 166.00-168.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 168.00-170.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 170.00-172.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 172.00-174.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 174.00-176.00 sec  0.00 Bytes  0.00 bits/sec    3   7.07 KBytes       
+[  4] 176.00-178.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 178.00-180.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 180.00-182.00 sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4] 182.00-184.00 sec  0.00 Bytes  0.00 bits/sec    4   7.07 KBytes       
+[  4] 184.00-186.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 186.00-188.00 sec  63.6 KBytes   261 Kbits/sec    0   9.90 KBytes       
+[  4] 188.00-190.00 sec  0.00 Bytes  0.00 bits/sec    4   4.24 KBytes       
+[  4] 190.00-192.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 192.00-194.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 194.00-196.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 196.00-198.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 198.00-200.00 sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4] 200.00-202.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 202.00-204.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 204.00-206.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 206.00-208.00 sec  63.6 KBytes   261 Kbits/sec    0   8.48 KBytes       
+[  4] 208.00-210.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 210.00-212.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 212.00-214.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 214.00-216.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 216.00-218.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 218.00-220.00 sec  0.00 Bytes  0.00 bits/sec    0   14.1 KBytes       
+[  4] 220.00-222.00 sec  0.00 Bytes  0.00 bits/sec    0   14.1 KBytes       
+[  4] 222.00-224.00 sec  0.00 Bytes  0.00 bits/sec    4   9.90 KBytes       
+[  4] 224.00-226.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 226.00-228.00 sec  0.00 Bytes  0.00 bits/sec    2   7.07 KBytes       
+[  4] 228.00-230.00 sec  63.6 KBytes   261 Kbits/sec    1   7.07 KBytes       
+[  4] 230.00-230.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-230.00 sec   655 KBytes  23.3 Kbits/sec  100             sender
+[  4]   0.00-230.00 sec   519 KBytes  18.5 Kbits/sec                  receiver
+
+iperf Done.
+==================================
+09:09:49
+iperf3 -c 112.26.1.1 -i 2 -n 800K
+==================================
+Connecting to host 112.26.1.1, port 5201
+[  4] local 112.26.1.25 port 41642 connected to 112.26.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-2.00   sec  87.7 KBytes   359 Kbits/sec    0   17.0 KBytes       
+[  4]   2.00-4.00   sec  2.83 KBytes  11.6 Kbits/sec    2   9.90 KBytes       
+[  4]   4.00-6.00   sec  5.66 KBytes  23.2 Kbits/sec    5   7.07 KBytes       
+[  4]   6.00-8.00   sec  5.66 KBytes  23.2 Kbits/sec    3   5.66 KBytes       
+[  4]   8.00-10.00  sec  4.24 KBytes  17.4 Kbits/sec    0   7.07 KBytes       
+[  4]  10.00-12.00  sec  4.24 KBytes  17.4 Kbits/sec    0   12.7 KBytes       
+[  4]  12.00-14.00  sec  7.07 KBytes  29.0 Kbits/sec    5   7.07 KBytes       
+[  4]  14.00-16.00  sec  4.24 KBytes  17.4 Kbits/sec    0   8.48 KBytes       
+[  4]  16.00-18.00  sec  7.07 KBytes  29.0 Kbits/sec    3   4.24 KBytes       
+[  4]  18.00-20.00  sec  2.83 KBytes  11.6 Kbits/sec    1   4.24 KBytes       
+[  4]  20.00-22.00  sec  2.83 KBytes  11.6 Kbits/sec    0   5.66 KBytes       
+[  4]  22.00-24.00  sec  63.6 KBytes   261 Kbits/sec    0   7.07 KBytes       
+[  4]  24.00-26.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  26.00-28.00  sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4]  28.00-30.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  30.00-32.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  32.00-34.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  34.00-36.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  36.00-38.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  38.00-40.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  40.00-42.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  42.00-44.00  sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4]  44.00-46.00  sec  0.00 Bytes  0.00 bits/sec    5   7.07 KBytes       
+[  4]  46.00-48.00  sec  65.0 KBytes   266 Kbits/sec    0   8.48 KBytes       
+[  4]  48.00-50.00  sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4]  50.00-52.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  52.00-54.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  54.00-56.00  sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4]  56.00-58.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  58.00-60.00  sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4]  60.00-62.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  62.00-64.00  sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4]  64.00-66.00  sec  0.00 Bytes  0.00 bits/sec    0   14.1 KBytes       
+[  4]  66.00-68.00  sec  63.6 KBytes   260 Kbits/sec    1   11.3 KBytes       
+[  4]  68.00-70.00  sec  0.00 Bytes  0.00 bits/sec    4   7.07 KBytes       
+[  4]  70.00-72.00  sec  0.00 Bytes  0.00 bits/sec    1   11.3 KBytes       
+[  4]  72.00-74.00  sec  0.00 Bytes  0.00 bits/sec    1   11.3 KBytes       
+[  4]  74.00-76.00  sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4]  76.00-78.00  sec  0.00 Bytes  0.00 bits/sec    2   8.48 KBytes       
+[  4]  78.00-80.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  80.00-82.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  82.00-84.00  sec  63.6 KBytes   261 Kbits/sec    1   4.24 KBytes       
+[  4]  84.00-86.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  86.00-88.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  88.00-90.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  90.00-92.00  sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4]  92.00-94.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  94.00-96.00  sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4]  96.00-98.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  98.00-100.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 100.00-102.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 102.00-104.00 sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4] 104.00-106.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 106.00-108.00 sec  63.6 KBytes   261 Kbits/sec    0   9.90 KBytes       
+[  4] 108.00-110.00 sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4] 110.00-112.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 112.00-114.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 114.00-116.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 116.00-118.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 118.00-120.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 120.00-122.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 122.00-124.00 sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4] 124.00-126.00 sec  0.00 Bytes  0.00 bits/sec    4   7.07 KBytes       
+[  4] 126.00-128.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 128.00-130.00 sec  63.6 KBytes   261 Kbits/sec    2   7.07 KBytes       
+[  4] 130.00-132.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 132.00-134.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 134.00-136.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 136.00-138.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 138.00-140.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 140.00-142.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 142.00-144.00 sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4] 144.00-146.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 146.00-148.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 148.00-150.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 150.00-152.00 sec  63.6 KBytes   261 Kbits/sec    0   11.3 KBytes       
+[  4] 152.00-154.00 sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4] 154.00-156.00 sec  0.00 Bytes  0.00 bits/sec    3   7.07 KBytes       
+[  4] 156.00-158.00 sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4] 158.00-160.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 160.00-162.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 162.00-164.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 164.00-166.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 166.00-168.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 168.00-170.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 170.00-172.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 172.00-174.00 sec  63.6 KBytes   261 Kbits/sec    0   9.90 KBytes       
+[  4] 174.00-176.00 sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4] 176.00-178.00 sec  0.00 Bytes  0.00 bits/sec    2   8.48 KBytes       
+[  4] 178.00-180.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 180.00-182.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 182.00-184.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 184.00-186.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 186.00-188.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 188.00-190.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 190.00-192.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 192.00-194.00 sec  63.6 KBytes   261 Kbits/sec    0   7.07 KBytes       
+[  4] 194.00-196.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 196.00-198.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 198.00-200.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 200.00-202.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 202.00-204.00 sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4] 204.00-206.00 sec  0.00 Bytes  0.00 bits/sec    5   4.24 KBytes       
+[  4] 206.00-208.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 208.00-210.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 210.00-212.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 212.00-214.00 sec  63.6 KBytes   261 Kbits/sec    3   2.83 KBytes       
+[  4] 214.00-216.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 216.00-218.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 218.00-220.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 220.00-222.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 222.00-224.00 sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4] 224.00-226.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 226.00-228.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 228.00-230.00 sec  0.00 Bytes  0.00 bits/sec    3   2.83 KBytes       
+[  4] 230.00-232.00 sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4] 232.00-234.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 234.00-236.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 236.00-238.00 sec  63.6 KBytes   261 Kbits/sec    1   4.24 KBytes       
+[  4] 238.00-238.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-238.00 sec   836 KBytes  28.8 Kbits/sec  116             sender
+[  4]   0.00-238.00 sec   683 KBytes  23.5 Kbits/sec                  receiver
+
+iperf Done.
+==================================
+09:13:59
+iperf3 -c 112.26.1.1 -i 2 -n 1000K
+==================================
+Connecting to host 112.26.1.1, port 5201
+[  4] local 112.26.1.25 port 49646 connected to 112.26.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-2.00   sec   105 KBytes   428 Kbits/sec    1   17.0 KBytes       
+[  4]   2.00-4.00   sec  5.66 KBytes  23.2 Kbits/sec    3   5.66 KBytes       
+[  4]   4.00-6.00   sec  2.83 KBytes  11.6 Kbits/sec    3   2.83 KBytes       
+[  4]   6.00-8.00   sec  2.83 KBytes  11.6 Kbits/sec    4   5.66 KBytes       
+[  4]   8.00-10.00  sec  4.24 KBytes  17.4 Kbits/sec    2   7.07 KBytes       
+[  4]  10.00-12.00  sec  4.24 KBytes  17.4 Kbits/sec    0   14.1 KBytes       
+[  4]  12.00-14.00  sec  5.66 KBytes  23.2 Kbits/sec    2   9.90 KBytes       
+[  4]  14.00-16.00  sec  4.24 KBytes  17.4 Kbits/sec    4   7.07 KBytes       
+[  4]  16.00-18.00  sec  4.24 KBytes  17.4 Kbits/sec    0   9.90 KBytes       
+[  4]  18.00-20.00  sec  5.66 KBytes  23.2 Kbits/sec    1   8.48 KBytes       
+[  4]  20.00-22.00  sec  4.24 KBytes  17.4 Kbits/sec    3   5.66 KBytes       
+[  4]  22.00-24.00  sec  2.83 KBytes  11.6 Kbits/sec    0   5.66 KBytes       
+[  4]  24.00-26.00  sec  63.6 KBytes   261 Kbits/sec    0   8.48 KBytes       
+[  4]  26.00-28.00  sec  0.00 Bytes  0.00 bits/sec    1   9.90 KBytes       
+[  4]  28.00-30.00  sec  0.00 Bytes  0.00 bits/sec    4   5.66 KBytes       
+[  4]  30.00-32.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  32.00-34.00  sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4]  34.00-36.00  sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4]  36.00-38.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  38.00-40.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  40.00-42.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  42.00-44.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  44.00-46.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  46.00-48.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  48.00-50.00  sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4]  50.00-52.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  52.00-54.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  54.00-56.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  56.00-58.00  sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4]  58.00-60.00  sec  63.6 KBytes   261 Kbits/sec    0   4.24 KBytes       
+[  4]  60.00-62.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  62.00-64.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  64.00-66.00  sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4]  66.00-68.00  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4]  68.00-70.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  70.00-72.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  72.00-74.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  74.00-76.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  76.00-78.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  78.00-80.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  80.00-82.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  82.00-84.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  84.00-86.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  86.00-88.00  sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4]  88.00-90.00  sec  63.6 KBytes   261 Kbits/sec    0   5.66 KBytes       
+[  4]  90.00-92.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  92.00-94.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  94.00-96.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  96.00-98.00  sec  0.00 Bytes  0.00 bits/sec    4   4.24 KBytes       
+[  4]  98.00-100.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 100.00-102.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 102.00-104.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 104.00-106.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 106.00-108.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 108.00-110.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 110.00-112.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 112.00-114.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 114.00-116.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 116.00-118.00 sec  63.6 KBytes   261 Kbits/sec    2   4.24 KBytes       
+[  4] 118.00-120.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 120.00-122.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 122.00-124.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 124.00-126.00 sec  0.00 Bytes  0.00 bits/sec    0   14.1 KBytes       
+[  4] 126.00-128.00 sec  0.00 Bytes  0.00 bits/sec    4   1.41 KBytes       
+[  4] 128.00-130.00 sec  0.00 Bytes  0.00 bits/sec    3   11.3 KBytes       
+[  4] 130.00-132.00 sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4] 132.00-134.00 sec  0.00 Bytes  0.00 bits/sec    3   7.07 KBytes       
+[  4] 134.00-136.00 sec  0.00 Bytes  0.00 bits/sec    2   7.07 KBytes       
+[  4] 136.00-138.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 138.00-140.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 140.00-142.00 sec  63.6 KBytes   261 Kbits/sec    0   8.48 KBytes       
+[  4] 142.00-144.00 sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4] 144.00-146.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 146.00-148.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 148.00-150.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 150.00-152.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 152.00-154.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 154.00-156.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 156.00-158.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 158.00-160.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 160.00-162.00 sec  0.00 Bytes  0.00 bits/sec    2   7.07 KBytes       
+[  4] 162.00-164.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 164.00-166.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 166.00-168.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 168.00-170.00 sec  63.6 KBytes   261 Kbits/sec    1   2.83 KBytes       
+[  4] 170.00-172.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 172.00-174.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 174.00-176.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 176.00-178.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 178.00-180.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 180.00-182.00 sec  0.00 Bytes  0.00 bits/sec    3   7.07 KBytes       
+[  4] 182.00-184.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 184.00-186.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 186.00-188.00 sec  63.6 KBytes   261 Kbits/sec    0   5.66 KBytes       
+[  4] 188.00-190.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 190.00-192.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 192.00-194.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 194.00-196.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 196.00-198.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 198.00-200.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 200.00-202.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 202.00-204.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 204.00-206.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 206.00-208.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 208.00-210.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 210.00-212.00 sec  0.00 Bytes  0.00 bits/sec    2   7.07 KBytes       
+[  4] 212.00-214.00 sec  0.00 Bytes  0.00 bits/sec    2   8.48 KBytes       
+[  4] 214.00-216.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 216.00-218.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 218.00-220.00 sec  63.6 KBytes   261 Kbits/sec    0   7.07 KBytes       
+[  4] 220.00-222.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 222.00-224.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 224.00-226.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 226.00-228.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 228.00-230.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 230.00-232.00 sec  0.00 Bytes  0.00 bits/sec    5   4.24 KBytes       
+[  4] 232.00-234.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 234.00-236.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 236.00-238.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 238.00-240.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 240.00-242.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 242.00-244.00 sec  0.00 Bytes  0.00 bits/sec    3   2.83 KBytes       
+[  4] 244.00-246.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 246.00-248.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 248.00-250.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 250.00-252.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 252.00-254.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 254.00-256.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 256.00-258.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 258.00-260.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 260.00-262.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 262.00-264.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 264.00-266.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 266.00-268.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 268.00-270.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 270.00-272.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 272.00-274.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 274.00-276.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 276.00-278.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 278.00-280.00 sec  63.6 KBytes   261 Kbits/sec    0   4.24 KBytes       
+[  4] 280.00-282.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 282.00-284.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 284.00-286.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 286.00-288.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 288.00-290.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 290.00-292.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 292.00-294.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 294.00-296.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 296.00-298.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 298.00-300.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 300.00-302.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 302.00-304.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 304.00-306.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 306.00-308.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 308.00-310.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 310.00-312.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 312.00-314.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 314.00-316.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 316.00-318.00 sec  63.6 KBytes   261 Kbits/sec    1   5.66 KBytes       
+[  4] 318.00-320.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 320.00-322.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 322.00-324.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 324.00-326.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 326.00-328.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 328.00-330.00 sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4] 330.00-332.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 332.00-334.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 334.00-336.00 sec  63.6 KBytes   261 Kbits/sec    1   2.83 KBytes       
+[  4] 336.00-338.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 338.00-340.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 340.00-342.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 342.00-344.00 sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4] 344.00-346.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 346.00-348.00 sec  0.00 Bytes  0.00 bits/sec    3   2.83 KBytes       
+[  4] 348.00-350.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 350.00-352.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 352.00-354.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 354.00-356.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 356.00-358.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 358.00-360.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 360.00-362.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 362.00-364.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 364.00-366.00 sec  63.6 KBytes   261 Kbits/sec    2   5.66 KBytes       
+[  4] 366.00-368.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 368.00-370.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 370.00-372.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 372.00-374.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 374.00-376.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 376.00-378.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 378.00-380.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 380.00-382.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 382.00-384.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 384.00-386.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 386.00-388.00 sec  63.6 KBytes   261 Kbits/sec    0   4.24 KBytes       
+[  4] 388.00-390.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 390.00-392.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 392.00-394.00 sec  0.00 Bytes  0.00 bits/sec    3   2.83 KBytes       
+[  4] 394.00-396.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 396.00-398.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 398.00-400.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 400.00-402.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 402.00-404.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 404.00-406.00 sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4] 406.00-408.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 408.00-410.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 410.00-412.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 412.00-414.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 414.00-416.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 416.00-418.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 418.00-420.00 sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4] 420.00-422.00 sec  63.6 KBytes   261 Kbits/sec    0   4.24 KBytes       
+[  4] 422.00-422.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-422.00 sec  1.02 MBytes  20.2 Kbits/sec  190             sender
+[  4]   0.00-422.00 sec   892 KBytes  17.3 Kbits/sec                  receiver
+
+iperf Done.
+==================================
+09:22:04
+iperf3 -c 112.26.1.1 -i 2 -n 200K
+==================================
+Connecting to host 112.26.1.1, port 5201
+[  4] local 112.26.1.25 port 36910 connected to 112.26.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-2.00   sec  84.8 KBytes   347 Kbits/sec    0   14.1 KBytes       
+[  4]   2.00-4.00   sec  5.66 KBytes  23.2 Kbits/sec    1   11.3 KBytes       
+[  4]   4.00-6.00   sec  5.66 KBytes  23.2 Kbits/sec    4   8.48 KBytes       
+[  4]   6.00-8.00   sec  5.66 KBytes  23.2 Kbits/sec    4   8.48 KBytes       
+[  4]   8.00-10.00  sec  5.66 KBytes  23.2 Kbits/sec    0   8.48 KBytes       
+[  4]  10.00-12.00  sec  4.24 KBytes  17.4 Kbits/sec    0   12.7 KBytes       
+[  4]  12.00-14.00  sec  7.07 KBytes  29.0 Kbits/sec    0   15.6 KBytes       
+[  4]  14.00-16.00  sec  7.07 KBytes  29.0 Kbits/sec    3   9.90 KBytes       
+[  4]  16.00-18.00  sec  4.24 KBytes  17.4 Kbits/sec    3   9.90 KBytes       
+[  4]  18.00-20.00  sec  67.9 KBytes   278 Kbits/sec    0   11.3 KBytes       
+[  4]  20.00-22.00  sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4]  22.00-24.00  sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4]  24.00-26.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  26.00-28.00  sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4]  28.00-30.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  30.00-32.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  32.00-34.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  34.00-36.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  36.00-38.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  38.00-40.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  40.00-42.00  sec  63.6 KBytes   261 Kbits/sec    0   9.90 KBytes       
+[  4]  42.00-42.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-42.00  sec   262 KBytes  51.0 Kbits/sec   24             sender
+[  4]   0.00-42.00  sec   119 KBytes  23.2 Kbits/sec                  receiver
+
+iperf Done.
+==================================
+09:22:54
+iperf3 -c 112.26.1.1 -i 2 -n 400K
+==================================
+Connecting to host 112.26.1.1, port 5201
+[  4] local 112.26.1.25 port 38546 connected to 112.26.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-2.00   sec  87.7 KBytes   359 Kbits/sec    1   17.0 KBytes       
+[  4]   2.00-4.00   sec  4.24 KBytes  17.4 Kbits/sec    3   5.66 KBytes       
+[  4]   4.00-6.00   sec  4.24 KBytes  17.4 Kbits/sec    4   7.07 KBytes       
+[  4]   6.00-8.00   sec  7.07 KBytes  29.0 Kbits/sec    2   9.90 KBytes       
+[  4]   8.00-10.00  sec  4.24 KBytes  17.4 Kbits/sec    0   9.90 KBytes       
+[  4]  10.00-12.00  sec  50.9 KBytes   209 Kbits/sec    4   5.66 KBytes       
+[  4]  12.00-14.00  sec  2.83 KBytes  11.6 Kbits/sec    0   7.07 KBytes       
+[  4]  14.00-16.00  sec  5.66 KBytes  23.2 Kbits/sec    0   9.90 KBytes       
+[  4]  16.00-18.00  sec  5.66 KBytes  23.2 Kbits/sec    0   11.3 KBytes       
+[  4]  18.00-20.00  sec  5.66 KBytes  23.2 Kbits/sec    3   7.07 KBytes       
+[  4]  20.00-22.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  22.00-24.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  24.00-26.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  26.00-28.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  28.00-30.00  sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4]  30.00-32.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  32.00-34.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  34.00-36.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  36.00-38.00  sec  63.6 KBytes   261 Kbits/sec    1   4.24 KBytes       
+[  4]  38.00-40.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  40.00-42.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  42.00-44.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  44.00-46.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  46.00-48.00  sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4]  48.00-50.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  50.00-52.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  52.00-54.00  sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4]  54.00-56.00  sec  0.00 Bytes  0.00 bits/sec    0   14.1 KBytes       
+[  4]  56.00-58.00  sec  0.00 Bytes  0.00 bits/sec    3   7.07 KBytes       
+[  4]  58.00-60.00  sec  0.00 Bytes  0.00 bits/sec    4   5.66 KBytes       
+[  4]  60.00-62.00  sec  63.6 KBytes   261 Kbits/sec    0   11.3 KBytes       
+[  4]  62.00-64.00  sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4]  64.00-66.00  sec  0.00 Bytes  0.00 bits/sec    3   7.07 KBytes       
+[  4]  66.00-68.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  68.00-70.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  70.00-72.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  72.00-74.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  74.00-76.00  sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4]  76.00-78.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  78.00-80.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  80.00-82.00  sec  63.6 KBytes   261 Kbits/sec    0   11.3 KBytes       
+[  4]  82.00-84.00  sec  0.00 Bytes  0.00 bits/sec    0   14.1 KBytes       
+[  4]  84.00-86.00  sec  0.00 Bytes  0.00 bits/sec    4   8.48 KBytes       
+[  4]  86.00-88.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  88.00-90.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  90.00-92.00  sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4]  92.00-94.00  sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4]  94.00-96.00  sec  0.00 Bytes  0.00 bits/sec    2   7.07 KBytes       
+[  4]  96.00-98.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  98.00-100.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 100.00-102.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 102.00-104.00 sec  63.6 KBytes   261 Kbits/sec    0   8.48 KBytes       
+[  4] 104.00-104.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-104.00 sec   433 KBytes  34.1 Kbits/sec   55             sender
+[  4]   0.00-104.00 sec   277 KBytes  21.8 Kbits/sec                  receiver
+
+iperf Done.
+==================================
+09:24:46
+iperf3 -c 112.26.1.1 -i 2 -n 600K
+==================================
+Connecting to host 112.26.1.1, port 5201
+[  4] local 112.26.1.25 port 42104 connected to 112.26.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-2.00   sec  89.1 KBytes   365 Kbits/sec    1   17.0 KBytes       
+[  4]   2.00-4.00   sec  4.24 KBytes  17.4 Kbits/sec    5   5.66 KBytes       
+[  4]   4.00-6.00   sec  5.66 KBytes  23.2 Kbits/sec    6   7.07 KBytes       
+[  4]   6.00-8.00   sec  5.66 KBytes  23.2 Kbits/sec    2   7.07 KBytes       
+[  4]   8.00-10.00  sec  48.1 KBytes   197 Kbits/sec    1   12.7 KBytes       
+[  4]  10.00-12.00  sec  8.48 KBytes  34.8 Kbits/sec    4   8.48 KBytes       
+[  4]  12.00-14.00  sec  4.24 KBytes  17.4 Kbits/sec    0   8.48 KBytes       
+[  4]  14.00-16.00  sec  5.66 KBytes  23.2 Kbits/sec    2   5.66 KBytes       
+[  4]  16.00-18.00  sec  4.24 KBytes  17.4 Kbits/sec    1   5.66 KBytes       
+[  4]  18.00-20.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  20.00-22.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  22.00-24.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  24.00-26.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  26.00-28.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  28.00-30.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  30.00-32.00  sec  63.6 KBytes   261 Kbits/sec    0   7.07 KBytes       
+[  4]  32.00-34.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  34.00-36.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  36.00-38.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  38.00-40.00  sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4]  40.00-42.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  42.00-44.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  44.00-46.00  sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4]  46.00-48.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  48.00-50.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  50.00-52.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  52.00-54.00  sec  63.6 KBytes   261 Kbits/sec    0   8.48 KBytes       
+[  4]  54.00-56.00  sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4]  56.00-58.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  58.00-60.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  60.00-62.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  62.00-64.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  64.00-66.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  66.00-68.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  68.00-70.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  70.00-72.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  72.00-74.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  74.00-76.00  sec  63.6 KBytes   261 Kbits/sec    1   4.24 KBytes       
+[  4]  76.00-78.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  78.00-80.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  80.00-82.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  82.00-84.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  84.00-86.00  sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4]  86.00-88.00  sec  0.00 Bytes  0.00 bits/sec    0   15.6 KBytes       
+[  4]  88.00-90.00  sec  0.00 Bytes  0.00 bits/sec    1   12.7 KBytes       
+[  4]  90.00-92.00  sec  0.00 Bytes  0.00 bits/sec    5   9.90 KBytes       
+[  4]  92.00-94.00  sec  0.00 Bytes  0.00 bits/sec    1   9.90 KBytes       
+[  4]  94.00-96.00  sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4]  96.00-98.00  sec  63.6 KBytes   261 Kbits/sec    2   7.07 KBytes       
+[  4]  98.00-100.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 100.00-102.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 102.00-104.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 104.00-106.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 106.00-108.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 108.00-110.00 sec  0.00 Bytes  0.00 bits/sec    3   7.07 KBytes       
+[  4] 110.00-112.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 112.00-114.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 114.00-116.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 116.00-118.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 118.00-120.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 120.00-122.00 sec  0.00 Bytes  0.00 bits/sec    2   7.07 KBytes       
+[  4] 122.00-124.00 sec  63.6 KBytes   261 Kbits/sec    2   7.07 KBytes       
+[  4] 124.00-126.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 126.00-128.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 128.00-130.00 sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4] 130.00-132.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 132.00-134.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 134.00-136.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 136.00-138.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 138.00-140.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 140.00-142.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 142.00-144.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 144.00-146.00 sec  63.6 KBytes   261 Kbits/sec    0   7.07 KBytes       
+[  4] 146.00-148.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 148.00-150.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 150.00-152.00 sec  0.00 Bytes  0.00 bits/sec    4   4.24 KBytes       
+[  4] 152.00-154.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 154.00-156.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 156.00-158.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 158.00-160.00 sec  0.00 Bytes  0.00 bits/sec    2   7.07 KBytes       
+[  4] 160.00-162.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 162.00-164.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 164.00-166.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 166.00-168.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 168.00-170.00 sec  63.6 KBytes   261 Kbits/sec    0   4.24 KBytes       
+[  4] 170.00-170.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-170.00 sec   621 KBytes  29.9 Kbits/sec   85             sender
+[  4]   0.00-170.00 sec   467 KBytes  22.5 Kbits/sec                  receiver
+
+iperf Done.
+==================================
+09:27:46
+iperf3 -c 112.26.1.1 -i 2 -n 800K
+==================================
+Connecting to host 112.26.1.1, port 5201
+[  4] local 112.26.1.25 port 47868 connected to 112.26.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-2.00   sec  86.3 KBytes   353 Kbits/sec    0   15.6 KBytes       
+[  4]   2.00-4.00   sec  4.24 KBytes  17.4 Kbits/sec    2   8.48 KBytes       
+[  4]   4.00-6.00   sec  5.66 KBytes  23.2 Kbits/sec    6   8.48 KBytes       
+[  4]   6.00-8.00   sec  4.24 KBytes  17.4 Kbits/sec    0   11.3 KBytes       
+[  4]   8.00-10.00  sec  8.48 KBytes  34.8 Kbits/sec    3   7.07 KBytes       
+[  4]  10.00-12.00  sec  4.24 KBytes  17.4 Kbits/sec    1   5.66 KBytes       
+[  4]  12.00-14.00  sec  2.83 KBytes  11.6 Kbits/sec    0   11.3 KBytes       
+[  4]  14.00-16.00  sec  4.24 KBytes  17.4 Kbits/sec    2   4.24 KBytes       
+[  4]  16.00-18.00  sec  4.24 KBytes  17.4 Kbits/sec    3   7.07 KBytes       
+[  4]  18.00-20.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  20.00-22.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  22.00-24.00  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4]  24.00-26.00  sec  4.24 KBytes  17.4 Kbits/sec    3   5.66 KBytes       
+[  4]  26.00-28.00  sec  4.24 KBytes  17.4 Kbits/sec    0   7.07 KBytes       
+[  4]  28.00-30.00  sec  1.41 KBytes  5.79 Kbits/sec    3   4.24 KBytes       
+[  4]  30.00-32.00  sec  63.6 KBytes   261 Kbits/sec    0   5.66 KBytes       
+[  4]  32.00-34.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  34.00-36.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  36.00-38.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  38.00-40.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  40.00-42.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  42.00-44.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  44.00-46.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  46.00-48.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  48.00-50.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  50.00-52.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  52.00-54.00  sec  1.41 KBytes  5.79 Kbits/sec    1   1.41 KBytes       
+[  4]  54.00-56.00  sec  69.3 KBytes   284 Kbits/sec    1   5.66 KBytes       
+[  4]  56.00-58.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  58.00-60.00  sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4]  60.00-62.00  sec  0.00 Bytes  0.00 bits/sec    4   7.07 KBytes       
+[  4]  62.00-64.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  64.00-66.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  66.00-68.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  68.00-70.00  sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4]  70.00-72.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  72.00-74.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  74.00-76.00  sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4]  76.00-78.00  sec  4.24 KBytes  17.4 Kbits/sec    0   14.1 KBytes       
+[  4]  78.00-80.00  sec  0.00 Bytes  0.00 bits/sec    4   7.07 KBytes       
+[  4]  80.00-82.00  sec  5.66 KBytes  23.2 Kbits/sec    2   7.07 KBytes       
+[  4]  82.00-84.00  sec  8.48 KBytes  34.8 Kbits/sec    0   9.90 KBytes       
+[  4]  84.00-86.00  sec  2.83 KBytes  11.6 Kbits/sec    1   5.66 KBytes       
+[  4]  86.00-88.00  sec  69.3 KBytes   284 Kbits/sec    0   5.66 KBytes       
+[  4]  88.00-90.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  90.00-92.00  sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4]  92.00-94.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  94.00-96.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  96.00-98.00  sec  0.00 Bytes  0.00 bits/sec    1   9.90 KBytes       
+[  4]  98.00-100.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 100.00-102.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 102.00-104.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 104.00-106.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 106.00-108.00 sec  63.6 KBytes   261 Kbits/sec    0   8.48 KBytes       
+[  4] 108.00-110.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 110.00-112.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 112.00-114.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 114.00-116.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 116.00-118.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 118.00-120.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 120.00-122.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 122.00-124.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 124.00-126.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 126.00-128.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 128.00-130.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 130.00-132.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 132.00-134.00 sec  63.6 KBytes   261 Kbits/sec    0   4.24 KBytes       
+[  4] 134.00-136.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 136.00-138.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 138.00-140.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 140.00-142.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 142.00-144.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 144.00-146.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 146.00-148.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 148.00-150.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 150.00-152.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 152.00-154.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 154.00-156.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 156.00-158.00 sec  63.6 KBytes   261 Kbits/sec    0   4.24 KBytes       
+[  4] 158.00-160.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 160.00-162.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 162.00-164.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 164.00-166.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 166.00-168.00 sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4] 168.00-170.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 170.00-172.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 172.00-174.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 174.00-176.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 176.00-178.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 178.00-180.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 180.00-182.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 182.00-184.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 184.00-186.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 186.00-188.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 188.00-190.00 sec  66.5 KBytes   272 Kbits/sec    2   5.66 KBytes       
+[  4] 190.00-192.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 192.00-194.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 194.00-196.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 196.00-198.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 198.00-200.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 200.00-202.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 202.00-204.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 204.00-206.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 206.00-208.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 208.00-210.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 210.00-212.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 212.00-214.00 sec  63.6 KBytes   261 Kbits/sec    1   2.83 KBytes       
+[  4] 214.00-216.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 216.00-218.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 218.00-220.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 220.00-222.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 222.00-224.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 224.00-226.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 226.00-228.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 228.00-230.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 230.00-232.00 sec  0.00 Bytes  0.00 bits/sec    1   11.3 KBytes       
+[  4] 232.00-234.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 234.00-236.00 sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4] 236.00-238.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 238.00-240.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 240.00-242.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 242.00-244.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 244.00-246.00 sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4] 246.00-248.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 248.00-250.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 250.00-252.00 sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4] 252.00-254.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 254.00-256.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 256.00-258.00 sec  69.3 KBytes   284 Kbits/sec    0   5.66 KBytes       
+[  4] 258.00-260.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 260.00-262.00 sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4] 262.00-264.00 sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4] 264.00-266.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 266.00-268.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 268.00-270.00 sec  0.00 Bytes  0.00 bits/sec    3   7.07 KBytes       
+[  4] 270.00-272.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 272.00-274.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 274.00-276.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 276.00-278.00 sec  66.5 KBytes   272 Kbits/sec    3   7.07 KBytes       
+[  4] 278.00-278.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-278.00 sec   816 KBytes  24.0 Kbits/sec  113             sender
+[  4]   0.00-278.00 sec   690 KBytes  20.3 Kbits/sec                  receiver
+
+iperf Done.
+==================================
+09:32:33
+iperf3 -c 112.26.1.1 -i 2 -n 1000K
+==================================
+Connecting to host 112.26.1.1, port 5201
+[  4] local 112.26.1.25 port 57026 connected to 112.26.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-2.00   sec  86.3 KBytes   353 Kbits/sec    1   15.6 KBytes       
+[  4]   2.00-4.00   sec  5.66 KBytes  23.2 Kbits/sec    2   2.83 KBytes       
+[  4]   4.00-6.00   sec  2.83 KBytes  11.6 Kbits/sec    4   5.66 KBytes       
+[  4]   6.00-8.00   sec  7.07 KBytes  29.0 Kbits/sec    3   9.90 KBytes       
+[  4]   8.00-10.00  sec  5.66 KBytes  23.2 Kbits/sec    0   12.7 KBytes       
+[  4]  10.00-12.00  sec  5.66 KBytes  23.2 Kbits/sec    1   8.48 KBytes       
+[  4]  12.00-14.00  sec  7.07 KBytes  29.0 Kbits/sec    2   8.48 KBytes       
+[  4]  14.00-16.00  sec  5.66 KBytes  23.2 Kbits/sec    1   5.66 KBytes       
+[  4]  16.00-18.00  sec  5.66 KBytes  23.2 Kbits/sec    2   5.66 KBytes       
+[  4]  18.00-20.00  sec  2.83 KBytes  11.6 Kbits/sec    0   9.90 KBytes       
+[  4]  20.00-22.00  sec  2.83 KBytes  11.6 Kbits/sec    0   12.7 KBytes       
+[  4]  22.00-24.00  sec  1.41 KBytes  5.79 Kbits/sec    2   7.07 KBytes       
+[  4]  24.00-26.00  sec  70.7 KBytes   290 Kbits/sec    1   8.48 KBytes       
+[  4]  26.00-28.00  sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4]  28.00-30.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  30.00-32.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  32.00-34.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  34.00-36.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  36.00-38.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  38.00-40.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  40.00-42.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  42.00-44.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  44.00-46.00  sec  63.6 KBytes   261 Kbits/sec    0   9.90 KBytes       
+[  4]  46.00-48.00  sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4]  48.00-50.00  sec  0.00 Bytes  0.00 bits/sec    3   7.07 KBytes       
+[  4]  50.00-52.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  52.00-54.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  54.00-56.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  56.00-58.00  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4]  58.00-60.00  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4]  60.00-62.00  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4]  62.00-64.00  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4]  64.00-66.00  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4]  66.00-68.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  68.00-70.00  sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4]  70.00-72.00  sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4]  72.00-74.00  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4]  74.00-76.00  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4]  76.00-78.00  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4]  78.00-80.00  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4]  80.00-82.00  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4]  82.00-84.00  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4]  84.00-86.00  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4]  86.00-88.00  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4]  88.00-90.00  sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4]  90.00-92.00  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4]  92.00-94.00  sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4]  94.00-96.00  sec  0.00 Bytes  0.00 bits/sec    5   5.66 KBytes       
+[  4]  96.00-98.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  98.00-100.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 100.00-102.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 102.00-104.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 104.00-106.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 106.00-108.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 108.00-110.00 sec  63.6 KBytes   261 Kbits/sec    0   7.07 KBytes       
+[  4] 110.00-112.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 112.00-114.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 114.00-116.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 116.00-118.00 sec  0.00 Bytes  0.00 bits/sec    4   4.24 KBytes       
+[  4] 118.00-120.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 120.00-122.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 122.00-124.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 124.00-126.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 126.00-128.00 sec  0.00 Bytes  0.00 bits/sec    4   2.83 KBytes       
+[  4] 128.00-130.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 130.00-132.00 sec  0.00 Bytes  0.00 bits/sec    4   4.24 KBytes       
+[  4] 132.00-134.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 134.00-136.00 sec  63.6 KBytes   261 Kbits/sec    0   5.66 KBytes       
+[  4] 136.00-138.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 138.00-140.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 140.00-142.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 142.00-144.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 144.00-146.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 146.00-148.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 148.00-150.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 150.00-152.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 152.00-154.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 154.00-156.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 156.00-158.00 sec  67.9 KBytes   278 Kbits/sec    0   11.3 KBytes       
+[  4] 158.00-160.00 sec  0.00 Bytes  0.00 bits/sec    0   14.1 KBytes       
+[  4] 160.00-162.00 sec  0.00 Bytes  0.00 bits/sec    2   9.90 KBytes       
+[  4] 162.00-164.00 sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4] 164.00-166.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 166.00-168.00 sec  0.00 Bytes  0.00 bits/sec    3   7.07 KBytes       
+[  4] 168.00-170.00 sec  0.00 Bytes  0.00 bits/sec    2   7.07 KBytes       
+[  4] 170.00-172.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 172.00-174.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 174.00-176.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 176.00-178.00 sec  63.6 KBytes   261 Kbits/sec    0   4.24 KBytes       
+[  4] 178.00-180.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 180.00-182.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 182.00-184.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 184.00-186.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 186.00-188.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 188.00-190.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 190.00-192.00 sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4] 192.00-194.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 194.00-196.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 196.00-198.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 198.00-200.00 sec  63.6 KBytes   261 Kbits/sec    2   2.83 KBytes       
+[  4] 200.00-202.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 202.00-204.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 204.00-206.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 206.00-208.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 208.00-210.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 210.00-212.00 sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4] 212.00-214.00 sec  0.00 Bytes  0.00 bits/sec    2   8.48 KBytes       
+[  4] 214.00-216.00 sec  0.00 Bytes  0.00 bits/sec    4   7.07 KBytes       
+[  4] 216.00-218.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 218.00-220.00 sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4] 220.00-222.00 sec  0.00 Bytes  0.00 bits/sec    2   7.07 KBytes       
+[  4] 222.00-224.00 sec  63.6 KBytes   261 Kbits/sec    1   2.83 KBytes       
+[  4] 224.00-226.00 sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4] 226.00-228.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 228.00-230.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 230.00-232.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 232.00-234.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 234.00-236.00 sec  0.00 Bytes  0.00 bits/sec    4   5.66 KBytes       
+[  4] 236.00-238.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 238.00-240.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 240.00-242.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 242.00-244.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 244.00-246.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 246.00-248.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 248.00-250.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 250.00-252.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 252.00-254.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 254.00-256.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 256.00-258.00 sec  63.6 KBytes   261 Kbits/sec    0   8.48 KBytes       
+[  4] 258.00-260.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 260.00-262.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 262.00-264.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 264.00-266.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 266.00-268.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 268.00-270.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 270.00-272.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 272.00-274.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 274.00-276.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 276.00-278.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 278.00-280.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 280.00-282.00 sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4] 282.00-284.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 284.00-286.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 286.00-288.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 288.00-290.00 sec  63.6 KBytes   261 Kbits/sec    1   2.83 KBytes       
+[  4] 290.00-292.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 292.00-294.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 294.00-296.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 296.00-298.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 298.00-300.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 300.00-302.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 302.00-304.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 304.00-306.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 306.00-308.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 308.00-310.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 310.00-312.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 312.00-314.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 314.00-316.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 316.00-318.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 318.00-320.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 320.00-322.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 322.00-324.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 324.00-326.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 326.00-328.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 328.00-330.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 330.00-332.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 332.00-334.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 334.00-336.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 336.00-338.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 338.00-340.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 340.00-342.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 342.00-344.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 344.00-346.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 346.00-348.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 348.00-350.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 350.00-352.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 352.00-354.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 354.00-356.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 356.00-358.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 358.00-360.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 360.00-362.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 362.00-364.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 364.00-366.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 366.00-368.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 368.00-370.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 370.00-372.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 372.00-374.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 374.00-376.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 376.00-378.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 378.00-380.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 380.00-382.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 382.00-384.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 384.00-386.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 386.00-388.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 388.00-390.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 390.00-392.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 392.00-394.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 394.00-396.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 396.00-398.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 398.00-400.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 400.00-402.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 402.00-404.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 404.00-406.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 406.00-408.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 408.00-410.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 410.00-412.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 412.00-414.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 414.00-416.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 416.00-418.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 418.00-420.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 420.00-422.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 422.00-424.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 424.00-426.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 426.00-428.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 428.00-430.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 430.00-432.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 432.00-434.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 434.00-436.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 436.00-438.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 438.00-440.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 440.00-442.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 442.00-444.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 444.00-446.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 446.00-448.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 448.00-450.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 450.00-452.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 452.00-454.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 454.00-456.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 456.00-458.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 458.00-460.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 460.00-462.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 462.00-464.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 464.00-466.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 466.00-468.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 468.00-470.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 470.00-472.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 472.00-474.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 474.00-476.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 476.00-478.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 478.00-480.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 480.00-482.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 482.00-484.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 484.00-486.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 486.00-488.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 488.00-490.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 490.00-492.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 492.00-494.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 494.00-496.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 496.00-498.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 498.00-500.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 500.00-502.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 502.00-504.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 504.00-506.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 506.00-508.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 508.00-510.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 510.00-512.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 512.00-514.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 514.00-516.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 516.00-518.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 518.00-520.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 520.00-522.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 522.00-524.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 524.00-526.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 526.00-528.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 528.00-530.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 530.00-532.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 532.00-534.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 534.00-536.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 536.00-538.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 538.00-540.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 540.00-542.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 542.00-544.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 544.00-546.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 546.00-548.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 548.00-550.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 550.00-552.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 552.00-554.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 554.00-556.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 556.00-558.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 558.00-560.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 560.00-562.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 562.00-564.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 564.00-566.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 566.00-568.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 568.00-570.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 570.00-572.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 572.00-574.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 574.00-576.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 576.00-578.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 578.00-580.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 580.00-582.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 582.00-584.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 584.00-586.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 586.00-588.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 588.00-590.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 590.00-592.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 592.00-594.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 594.00-596.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 596.00-598.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 598.00-600.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 600.00-602.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 602.00-604.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 604.00-606.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 606.00-608.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 608.00-610.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 610.00-612.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 612.00-614.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 614.00-616.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 616.00-618.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 618.00-620.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 620.00-622.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 622.00-624.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 624.00-626.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 626.00-628.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 628.00-630.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 630.00-632.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 632.00-634.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 634.00-636.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 636.00-638.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 638.00-640.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 640.00-642.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 642.00-644.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 644.00-646.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 646.00-648.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 648.00-650.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 650.00-652.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 652.00-654.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 654.00-656.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 656.00-658.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 658.00-660.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 660.00-662.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 662.00-664.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 664.00-666.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 666.00-668.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 668.00-670.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 670.00-672.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 672.00-674.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 674.00-676.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 676.00-678.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 678.00-680.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 680.00-682.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 682.00-684.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 684.00-686.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 686.00-688.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 688.00-690.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 690.00-692.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 692.00-694.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 694.00-696.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 696.00-698.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 698.00-700.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 700.00-702.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 702.00-704.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 704.00-706.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 706.00-708.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 708.00-710.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 710.00-712.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 712.00-714.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 714.00-716.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 716.00-718.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 718.00-720.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 720.00-722.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 722.00-724.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 724.00-726.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 726.00-728.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 728.00-730.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 730.00-732.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 732.00-734.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 734.00-736.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 736.00-738.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 738.00-740.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 740.00-742.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 742.00-744.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 744.00-746.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 746.00-748.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 748.00-750.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 750.00-752.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 752.00-754.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 754.00-756.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 756.00-758.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 758.00-760.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 760.00-762.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 762.00-764.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 764.00-766.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 766.00-768.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 768.00-770.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 770.00-772.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 772.00-774.00 sec  63.6 KBytes   261 Kbits/sec    0   5.66 KBytes       
+[  4] 774.00-776.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 776.00-778.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 778.00-780.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 780.00-782.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 782.00-784.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 784.00-786.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 786.00-788.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 788.00-790.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 790.00-792.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 792.00-794.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 794.00-796.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 796.00-798.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 798.00-800.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 800.00-802.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 802.00-804.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 804.00-806.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 806.00-808.00 sec  63.6 KBytes   260 Kbits/sec    0   11.3 KBytes       
+[  4] 808.00-810.00 sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4] 810.00-812.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 812.00-814.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 814.00-816.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 816.00-818.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 818.00-820.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 820.00-822.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 822.00-824.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 824.00-826.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 826.00-828.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 828.00-830.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 830.00-832.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 832.00-834.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 834.00-836.00 sec  63.6 KBytes   261 Kbits/sec    0   5.66 KBytes       
+[  4] 836.00-838.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 838.00-840.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 840.00-842.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 842.00-844.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 844.00-846.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 846.00-848.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 848.00-850.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 850.00-852.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 852.00-854.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 854.00-856.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 856.00-858.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 858.00-860.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 860.00-862.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 862.00-864.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 864.00-866.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 866.00-868.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 868.00-870.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 870.00-872.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 872.00-874.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 874.00-876.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 876.00-878.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 878.00-880.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 880.00-882.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 882.00-884.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 884.00-886.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 886.00-888.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 888.00-890.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 890.00-892.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 892.00-894.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 894.00-896.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 896.00-898.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 898.00-900.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 900.00-902.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 902.00-904.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 904.00-906.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 906.00-908.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 908.00-910.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 910.00-912.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 912.00-914.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 914.00-916.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 916.00-918.00 sec  63.6 KBytes   261 Kbits/sec    0   9.90 KBytes       
+[  4] 918.00-918.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-918.00 sec  1.02 MBytes  9.29 Kbits/sec  176             sender
+[  4]   0.00-918.00 sec   895 KBytes  7.99 Kbits/sec                  receiver
+
+iperf Done.
+==================================
+09:49:41
+iperf3 -c 112.26.1.1 -i 2 -n 200K
+==================================
+Connecting to host 112.26.1.1, port 5201
+[  4] local 112.26.1.25 port 33524 connected to 112.26.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-2.00   sec  86.3 KBytes   353 Kbits/sec    0   15.6 KBytes       
+[  4]   2.00-4.00   sec  4.24 KBytes  17.4 Kbits/sec    2   9.90 KBytes       
+[  4]   4.00-6.00   sec  7.07 KBytes  29.0 Kbits/sec    5   9.90 KBytes       
+[  4]   6.00-8.00   sec  4.24 KBytes  17.4 Kbits/sec    0   11.3 KBytes       
+[  4]   8.00-10.00  sec  7.07 KBytes  29.0 Kbits/sec    2   8.48 KBytes       
+[  4]  10.00-12.00  sec  7.07 KBytes  29.0 Kbits/sec    2   5.66 KBytes       
+[  4]  12.00-14.00  sec  7.07 KBytes  29.0 Kbits/sec    0   7.07 KBytes       
+[  4]  14.00-16.00  sec  5.66 KBytes  23.2 Kbits/sec    0   8.48 KBytes       
+[  4]  16.00-18.00  sec  5.66 KBytes  23.2 Kbits/sec    1   5.66 KBytes       
+[  4]  18.00-20.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  20.00-22.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  22.00-24.00  sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4]  24.00-26.00  sec  66.5 KBytes   272 Kbits/sec    0   4.24 KBytes       
+[  4]  26.00-26.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-26.00  sec   201 KBytes  63.3 Kbits/sec   14             sender
+[  4]   0.00-26.00  sec  69.3 KBytes  21.8 Kbits/sec                  receiver
+
+iperf Done.
+==================================
+09:50:15
+iperf3 -c 112.26.1.1 -i 2 -n 400K
+==================================
+Connecting to host 112.26.1.1, port 5201
+[  4] local 112.26.1.25 port 34584 connected to 112.26.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-2.00   sec  87.7 KBytes   359 Kbits/sec    0   17.0 KBytes       
+[  4]   2.00-4.00   sec  5.66 KBytes  23.2 Kbits/sec    4   5.66 KBytes       
+[  4]   4.00-6.00   sec  2.83 KBytes  11.6 Kbits/sec    4   8.48 KBytes       
+[  4]   6.00-8.00   sec  8.48 KBytes  34.8 Kbits/sec    1   11.3 KBytes       
+[  4]   8.00-10.00  sec  4.24 KBytes  17.4 Kbits/sec    1   7.07 KBytes       
+[  4]  10.00-12.00  sec  2.83 KBytes  11.6 Kbits/sec    4   5.66 KBytes       
+[  4]  12.00-14.00  sec  5.66 KBytes  23.2 Kbits/sec    0   7.07 KBytes       
+[  4]  14.00-16.00  sec  5.66 KBytes  23.1 Kbits/sec    0   7.07 KBytes       
+[  4]  16.00-18.00  sec  7.07 KBytes  29.0 Kbits/sec    1   4.24 KBytes       
+[  4]  18.00-20.00  sec  4.24 KBytes  17.4 Kbits/sec    0   5.66 KBytes       
+[  4]  20.00-22.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  22.00-24.00  sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4]  24.00-26.00  sec  63.6 KBytes   261 Kbits/sec    1   5.66 KBytes       
+[  4]  26.00-28.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  28.00-30.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  30.00-32.00  sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4]  32.00-34.00  sec  0.00 Bytes  0.00 bits/sec    0   15.6 KBytes       
+[  4]  34.00-36.00  sec  0.00 Bytes  0.00 bits/sec    6   7.07 KBytes       
+[  4]  36.00-38.00  sec  0.00 Bytes  0.00 bits/sec    1   9.90 KBytes       
+[  4]  38.00-40.00  sec  0.00 Bytes  0.00 bits/sec    2   7.07 KBytes       
+[  4]  40.00-42.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  42.00-44.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  44.00-46.00  sec  63.6 KBytes   261 Kbits/sec    2   2.83 KBytes       
+[  4]  46.00-48.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  48.00-50.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  50.00-52.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  52.00-54.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  54.00-56.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  56.00-58.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  58.00-60.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  60.00-62.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  62.00-64.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  64.00-66.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  66.00-68.00  sec  63.6 KBytes   261 Kbits/sec    0   5.66 KBytes       
+[  4]  68.00-70.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  70.00-72.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  72.00-74.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  74.00-76.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  76.00-78.00  sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4]  78.00-80.00  sec  0.00 Bytes  0.00 bits/sec    2   9.90 KBytes       
+[  4]  80.00-82.00  sec  0.00 Bytes  0.00 bits/sec    3   8.48 KBytes       
+[  4]  82.00-84.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  84.00-86.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  86.00-88.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  88.00-90.00  sec  63.6 KBytes   261 Kbits/sec    0   8.48 KBytes       
+[  4]  90.00-92.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  92.00-94.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  94.00-96.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  96.00-98.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  98.00-100.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 100.00-102.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 102.00-104.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 104.00-106.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 106.00-108.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 108.00-110.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 110.00-112.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 112.00-114.00 sec  63.6 KBytes   261 Kbits/sec    0   2.83 KBytes       
+[  4] 114.00-114.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-114.00 sec   452 KBytes  32.5 Kbits/sec   50             sender
+[  4]   0.00-114.00 sec   304 KBytes  21.8 Kbits/sec                  receiver
+
+iperf Done.
+==================================
+09:52:16
+iperf3 -c 112.26.1.1 -i 2 -n 600K
+==================================
+Connecting to host 112.26.1.1, port 5201
+[  4] local 112.26.1.25 port 38460 connected to 112.26.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-2.00   sec  87.7 KBytes   359 Kbits/sec    0   14.1 KBytes       
+[  4]   2.00-4.00   sec  5.66 KBytes  23.2 Kbits/sec    3   4.24 KBytes       
+[  4]   4.00-6.00   sec  2.83 KBytes  11.6 Kbits/sec    4   7.07 KBytes       
+[  4]   6.00-8.00   sec  5.66 KBytes  23.2 Kbits/sec    1   7.07 KBytes       
+[  4]   8.00-10.00  sec  5.66 KBytes  23.2 Kbits/sec    0   11.3 KBytes       
+[  4]  10.00-12.00  sec  4.24 KBytes  17.4 Kbits/sec    1   9.90 KBytes       
+[  4]  12.00-14.00  sec  9.90 KBytes  40.5 Kbits/sec    5   4.24 KBytes       
+[  4]  14.00-16.00  sec  4.24 KBytes  17.4 Kbits/sec    0   7.07 KBytes       
+[  4]  16.00-18.00  sec  5.66 KBytes  23.2 Kbits/sec    2   2.83 KBytes       
+[  4]  18.00-20.00  sec  2.83 KBytes  11.6 Kbits/sec    0   5.66 KBytes       
+[  4]  20.00-22.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  22.00-24.00  sec  63.6 KBytes   261 Kbits/sec    1   2.83 KBytes       
+[  4]  24.00-26.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  26.00-28.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  28.00-30.00  sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4]  30.00-32.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  32.00-34.00  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4]  34.00-36.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  36.00-38.00  sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4]  38.00-40.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  40.00-42.00  sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4]  42.00-44.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  44.00-46.00  sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4]  46.00-48.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  48.00-50.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  50.00-52.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  52.00-54.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  54.00-56.00  sec  63.6 KBytes   261 Kbits/sec    2   2.83 KBytes       
+[  4]  56.00-58.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  58.00-60.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  60.00-62.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  62.00-64.00  sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4]  64.00-66.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  66.00-68.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  68.00-70.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  70.00-72.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  72.00-74.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  74.00-76.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  76.00-78.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  78.00-80.00  sec  63.6 KBytes   261 Kbits/sec    2   4.24 KBytes       
+[  4]  80.00-82.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  82.00-84.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  84.00-86.00  sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4]  86.00-88.00  sec  0.00 Bytes  0.00 bits/sec    2   7.07 KBytes       
+[  4]  88.00-90.00  sec  0.00 Bytes  0.00 bits/sec    3   7.07 KBytes       
+[  4]  90.00-92.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  92.00-94.00  sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4]  94.00-96.00  sec  0.00 Bytes  0.00 bits/sec    4   4.24 KBytes       
+[  4]  96.00-98.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  98.00-100.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 100.00-102.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 102.00-104.00 sec  63.6 KBytes   261 Kbits/sec    1   2.83 KBytes       
+[  4] 104.00-106.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 106.00-108.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 108.00-110.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 110.00-112.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 112.00-114.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 114.00-116.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 116.00-118.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 118.00-120.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 120.00-122.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 122.00-124.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 124.00-126.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 126.00-128.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 128.00-130.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 130.00-132.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 132.00-134.00 sec  63.6 KBytes   261 Kbits/sec    0   4.24 KBytes       
+[  4] 134.00-136.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 136.00-138.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 138.00-140.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 140.00-142.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 142.00-144.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 144.00-146.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 146.00-148.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 148.00-150.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 150.00-152.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 152.00-154.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 154.00-156.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 156.00-158.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 158.00-160.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 160.00-162.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 162.00-164.00 sec  67.9 KBytes   278 Kbits/sec    0   5.66 KBytes       
+[  4] 164.00-166.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 166.00-168.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 168.00-170.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 170.00-172.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 172.00-174.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 174.00-176.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 176.00-178.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 178.00-180.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 180.00-182.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 182.00-184.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 184.00-186.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 186.00-188.00 sec  63.6 KBytes   261 Kbits/sec    0   5.66 KBytes       
+[  4] 188.00-190.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 190.00-192.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 192.00-194.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 194.00-196.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 196.00-198.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 198.00-200.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 200.00-202.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 202.00-204.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 204.00-206.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 206.00-208.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 208.00-210.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 210.00-212.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 212.00-214.00 sec  7.07 KBytes  29.0 Kbits/sec    0   14.1 KBytes       
+[  4] 214.00-216.00 sec  0.00 Bytes  0.00 bits/sec    3   8.48 KBytes       
+[  4] 216.00-218.00 sec  4.24 KBytes  17.4 Kbits/sec    2   8.48 KBytes       
+[  4] 218.00-220.00 sec  69.3 KBytes   284 Kbits/sec    1   9.90 KBytes       
+[  4] 220.00-220.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-220.00 sec   665 KBytes  24.7 Kbits/sec   83             sender
+[  4]   0.00-220.00 sec   527 KBytes  19.6 Kbits/sec                  receiver
+
+iperf Done.
+==================================
+09:56:05
+iperf3 -c 112.26.1.1 -i 2 -n 800K
+==================================
+Connecting to host 112.26.1.1, port 5201
+[  4] local 112.26.1.25 port 45810 connected to 112.26.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-2.00   sec  89.1 KBytes   365 Kbits/sec    0   14.1 KBytes       
+[  4]   2.00-4.00   sec  5.66 KBytes  23.2 Kbits/sec    5   5.66 KBytes       
+[  4]   4.00-6.00   sec  7.07 KBytes  29.0 Kbits/sec    2   9.90 KBytes       
+[  4]   6.00-8.00   sec  7.07 KBytes  29.0 Kbits/sec    2   7.07 KBytes       
+[  4]   8.00-10.00  sec  9.90 KBytes  40.5 Kbits/sec    0   12.7 KBytes       
+[  4]  10.00-12.00  sec  5.66 KBytes  23.2 Kbits/sec    3   8.48 KBytes       
+[  4]  12.00-14.00  sec  9.90 KBytes  40.5 Kbits/sec    0   8.48 KBytes       
+[  4]  14.00-16.00  sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4]  16.00-18.00  sec  63.6 KBytes   261 Kbits/sec    0   5.66 KBytes       
+[  4]  18.00-20.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  20.00-22.00  sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4]  22.00-24.00  sec  0.00 Bytes  0.00 bits/sec    0   14.1 KBytes       
+[  4]  24.00-26.00  sec  0.00 Bytes  0.00 bits/sec    3   8.48 KBytes       
+[  4]  26.00-28.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  28.00-30.00  sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4]  30.00-32.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  32.00-34.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  34.00-36.00  sec  63.6 KBytes   261 Kbits/sec    0   4.24 KBytes       
+[  4]  36.00-38.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  38.00-40.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  40.00-42.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  42.00-44.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  44.00-46.00  sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4]  46.00-48.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  48.00-50.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  50.00-52.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  52.00-54.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  54.00-56.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  56.00-58.00  sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4]  58.00-60.00  sec  63.6 KBytes   261 Kbits/sec    0   5.66 KBytes       
+[  4]  60.00-62.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  62.00-64.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  64.00-66.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  66.00-68.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  68.00-70.00  sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4]  70.00-72.00  sec  0.00 Bytes  0.00 bits/sec    2   8.48 KBytes       
+[  4]  72.00-74.00  sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4]  74.00-76.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  76.00-78.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  78.00-80.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  80.00-82.00  sec  63.6 KBytes   261 Kbits/sec    0   9.90 KBytes       
+[  4]  82.00-84.00  sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4]  84.00-86.00  sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4]  86.00-88.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  88.00-90.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  90.00-92.00  sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4]  92.00-94.00  sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4]  94.00-96.00  sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4]  96.00-98.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  98.00-100.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 100.00-102.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 102.00-104.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 104.00-106.00 sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4] 106.00-108.00 sec  4.24 KBytes  17.4 Kbits/sec    4   8.48 KBytes       
+[  4] 108.00-110.00 sec  8.48 KBytes  34.8 Kbits/sec    0   11.3 KBytes       
+[  4] 110.00-112.00 sec  1.41 KBytes  5.79 Kbits/sec    3   4.24 KBytes       
+[  4] 112.00-114.00 sec  67.9 KBytes   278 Kbits/sec    2   7.07 KBytes       
+[  4] 114.00-116.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 116.00-118.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 118.00-120.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 120.00-122.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 122.00-124.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 124.00-126.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 126.00-128.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 128.00-130.00 sec  0.00 Bytes  0.00 bits/sec    2   7.07 KBytes       
+[  4] 130.00-132.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 132.00-134.00 sec  72.1 KBytes   295 Kbits/sec    0   9.90 KBytes       
+[  4] 134.00-136.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 136.00-138.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 138.00-140.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 140.00-142.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 142.00-144.00 sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4] 144.00-146.00 sec  0.00 Bytes  0.00 bits/sec    1   9.90 KBytes       
+[  4] 146.00-148.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 148.00-150.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 150.00-152.00 sec  63.6 KBytes   261 Kbits/sec    0   7.07 KBytes       
+[  4] 152.00-154.00 sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4] 154.00-156.00 sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4] 156.00-158.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 158.00-160.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 160.00-162.00 sec  0.00 Bytes  0.00 bits/sec    5   5.66 KBytes       
+[  4] 162.00-164.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 164.00-166.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 166.00-168.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 168.00-170.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 170.00-172.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 172.00-174.00 sec  0.00 Bytes  0.00 bits/sec    2   8.48 KBytes       
+[  4] 174.00-176.00 sec  70.7 KBytes   290 Kbits/sec    2   8.48 KBytes       
+[  4] 176.00-178.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 178.00-180.00 sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4] 180.00-182.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 182.00-184.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 184.00-186.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 186.00-188.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 188.00-190.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 190.00-192.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 192.00-194.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 194.00-196.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 196.00-198.00 sec  0.00 Bytes  0.00 bits/sec    2   8.48 KBytes       
+[  4] 198.00-200.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 200.00-202.00 sec  63.6 KBytes   261 Kbits/sec    2   5.66 KBytes       
+[  4] 202.00-204.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 204.00-206.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 206.00-208.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 208.00-210.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 210.00-212.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 212.00-214.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 214.00-216.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 216.00-218.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 218.00-220.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 220.00-222.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 222.00-224.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 224.00-226.00 sec  63.6 KBytes   261 Kbits/sec    0   9.90 KBytes       
+[  4] 226.00-226.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-226.00 sec   805 KBytes  29.2 Kbits/sec  106             sender
+[  4]   0.00-226.00 sec   673 KBytes  24.4 Kbits/sec                  receiver
+
+iperf Done.
+==================================
+10:00:03
+iperf3 -c 112.26.1.1 -i 2 -n 1000K
+==================================
+Connecting to host 112.26.1.1, port 5201
+[  4] local 112.26.1.25 port 53432 connected to 112.26.1.1 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-2.00   sec  86.3 KBytes   353 Kbits/sec    0   14.1 KBytes       
+[  4]   2.00-4.00   sec  2.83 KBytes  11.6 Kbits/sec    0   14.1 KBytes       
+[  4]   4.00-6.00   sec  4.24 KBytes  17.4 Kbits/sec    4   4.24 KBytes       
+[  4]   6.00-8.00   sec  4.24 KBytes  17.4 Kbits/sec    4   8.48 KBytes       
+[  4]   8.00-10.00  sec  2.83 KBytes  11.6 Kbits/sec    0   9.90 KBytes       
+[  4]  10.00-12.00  sec  7.07 KBytes  28.9 Kbits/sec    2   5.66 KBytes       
+[  4]  12.00-14.00  sec  7.07 KBytes  29.0 Kbits/sec    1   5.66 KBytes       
+[  4]  14.00-16.00  sec  5.66 KBytes  23.2 Kbits/sec    0   7.07 KBytes       
+[  4]  16.00-18.00  sec  2.83 KBytes  11.6 Kbits/sec    2   2.83 KBytes       
+[  4]  18.00-20.00  sec  4.24 KBytes  17.4 Kbits/sec    1   4.24 KBytes       
+[  4]  20.00-22.00  sec  7.07 KBytes  29.0 Kbits/sec    0   7.07 KBytes       
+[  4]  22.00-24.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  24.00-26.00  sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4]  26.00-28.00  sec  63.6 KBytes   261 Kbits/sec    0   5.66 KBytes       
+[  4]  28.00-30.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  30.00-32.00  sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4]  32.00-34.00  sec  0.00 Bytes  0.00 bits/sec    0   12.7 KBytes       
+[  4]  34.00-36.00  sec  0.00 Bytes  0.00 bits/sec    4   8.48 KBytes       
+[  4]  36.00-38.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  38.00-40.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  40.00-42.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  42.00-44.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  44.00-46.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  46.00-48.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  48.00-50.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  50.00-52.00  sec  63.6 KBytes   261 Kbits/sec    1   2.83 KBytes       
+[  4]  52.00-54.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  54.00-56.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  56.00-58.00  sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4]  58.00-60.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  60.00-62.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  62.00-64.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  64.00-66.00  sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4]  66.00-68.00  sec  0.00 Bytes  0.00 bits/sec    4   4.24 KBytes       
+[  4]  68.00-70.00  sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4]  70.00-72.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  72.00-74.00  sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4]  74.00-76.00  sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4]  76.00-78.00  sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4]  78.00-80.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  80.00-82.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  82.00-84.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  84.00-86.00  sec  63.6 KBytes   261 Kbits/sec    0   7.07 KBytes       
+[  4]  86.00-88.00  sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4]  88.00-90.00  sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4]  90.00-92.00  sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4]  92.00-94.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  94.00-96.00  sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4]  96.00-98.00  sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4]  98.00-100.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 100.00-102.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 102.00-104.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 104.00-106.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 106.00-108.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 108.00-110.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 110.00-112.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 112.00-114.00 sec  63.6 KBytes   261 Kbits/sec    1   4.24 KBytes       
+[  4] 114.00-116.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 116.00-118.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 118.00-120.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 120.00-122.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 122.00-124.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 124.00-126.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 126.00-128.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 128.00-130.00 sec  0.00 Bytes  0.00 bits/sec    4   7.07 KBytes       
+[  4] 130.00-132.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 132.00-134.00 sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4] 134.00-136.00 sec  0.00 Bytes  0.00 bits/sec    4   2.83 KBytes       
+[  4] 136.00-138.00 sec  66.5 KBytes   272 Kbits/sec    1   5.66 KBytes       
+[  4] 138.00-140.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 140.00-142.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 142.00-144.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 144.00-146.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 146.00-148.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 148.00-150.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 150.00-152.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 152.00-154.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 154.00-156.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 156.00-158.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 158.00-160.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 160.00-162.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 162.00-164.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 164.00-166.00 sec  63.6 KBytes   261 Kbits/sec    1   5.66 KBytes       
+[  4] 166.00-168.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 168.00-170.00 sec  0.00 Bytes  0.00 bits/sec    3   4.24 KBytes       
+[  4] 170.00-172.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 172.00-174.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 174.00-176.00 sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4] 176.00-178.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 178.00-180.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 180.00-182.00 sec  63.6 KBytes   261 Kbits/sec    5   5.66 KBytes       
+[  4] 182.00-184.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 184.00-186.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 186.00-188.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 188.00-190.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 190.00-192.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 192.00-194.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 194.00-196.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 196.00-198.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 198.00-200.00 sec  0.00 Bytes  0.00 bits/sec    0   11.3 KBytes       
+[  4] 200.00-202.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 202.00-204.00 sec  0.00 Bytes  0.00 bits/sec    1   7.07 KBytes       
+[  4] 204.00-206.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 206.00-208.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 208.00-210.00 sec  63.6 KBytes   260 Kbits/sec    0   5.66 KBytes       
+[  4] 210.00-212.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 212.00-214.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 214.00-216.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 216.00-218.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 218.00-220.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 220.00-222.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 222.00-224.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 224.00-226.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 226.00-228.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 228.00-230.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 230.00-232.00 sec  63.6 KBytes   261 Kbits/sec    0   9.90 KBytes       
+[  4] 232.00-234.00 sec  0.00 Bytes  0.00 bits/sec    3   5.66 KBytes       
+[  4] 234.00-236.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 236.00-238.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 238.00-240.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 240.00-242.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 242.00-244.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 244.00-246.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 246.00-248.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 248.00-250.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 250.00-252.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 252.00-254.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 254.00-256.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 256.00-258.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 258.00-260.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 260.00-262.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 262.00-264.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 264.00-266.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 266.00-268.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 268.00-270.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 270.00-272.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 272.00-274.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 274.00-276.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 276.00-278.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 278.00-280.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 280.00-282.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 282.00-284.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 284.00-286.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 286.00-288.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 288.00-290.00 sec  0.00 Bytes  0.00 bits/sec    0   9.90 KBytes       
+[  4] 290.00-292.00 sec  0.00 Bytes  0.00 bits/sec    4   5.66 KBytes       
+[  4] 292.00-294.00 sec  63.6 KBytes   261 Kbits/sec    0   7.07 KBytes       
+[  4] 294.00-296.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 296.00-298.00 sec  0.00 Bytes  0.00 bits/sec    2   5.66 KBytes       
+[  4] 298.00-300.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 300.00-302.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 302.00-304.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 304.00-306.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 306.00-308.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 308.00-310.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 310.00-312.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 312.00-314.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 314.00-316.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 316.00-318.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 318.00-320.00 sec  0.00 Bytes  0.00 bits/sec    1   8.48 KBytes       
+[  4] 320.00-322.00 sec  0.00 Bytes  0.00 bits/sec    3   2.83 KBytes       
+[  4] 322.00-324.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 324.00-326.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 326.00-328.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 328.00-330.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 330.00-332.00 sec  0.00 Bytes  0.00 bits/sec    0   8.48 KBytes       
+[  4] 332.00-334.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 334.00-336.00 sec  0.00 Bytes  0.00 bits/sec    4   5.66 KBytes       
+[  4] 336.00-338.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 338.00-340.00 sec  63.6 KBytes   261 Kbits/sec    1   2.83 KBytes       
+[  4] 340.00-342.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 342.00-344.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 344.00-346.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 346.00-348.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 348.00-350.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 350.00-352.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 352.00-354.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 354.00-356.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 356.00-358.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 358.00-360.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 360.00-362.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 362.00-364.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 364.00-366.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 366.00-368.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 368.00-370.00 sec  0.00 Bytes  0.00 bits/sec    0   1.41 KBytes       
+[  4] 370.00-372.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 372.00-374.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 374.00-376.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 376.00-378.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 378.00-380.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 380.00-382.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 382.00-384.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 384.00-386.00 sec  0.00 Bytes  0.00 bits/sec    2   1.41 KBytes       
+[  4] 386.00-388.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 388.00-390.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 390.00-392.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 392.00-394.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 394.00-396.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 396.00-398.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 398.00-400.00 sec  63.6 KBytes   260 Kbits/sec    0   4.24 KBytes       
+[  4] 400.00-402.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 402.00-404.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 404.00-406.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 406.00-408.00 sec  0.00 Bytes  0.00 bits/sec    2   4.24 KBytes       
+[  4] 408.00-410.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 410.00-412.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 412.00-414.00 sec  0.00 Bytes  0.00 bits/sec    1   1.41 KBytes       
+[  4] 414.00-416.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 416.00-418.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 418.00-420.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 420.00-422.00 sec  63.6 KBytes   261 Kbits/sec    3   2.83 KBytes       
+[  4] 422.00-424.00 sec  0.00 Bytes  0.00 bits/sec    1   4.24 KBytes       
+[  4] 424.00-426.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 426.00-428.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 428.00-430.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 430.00-432.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 432.00-434.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 434.00-436.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 436.00-438.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 438.00-440.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 440.00-442.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 442.00-444.00 sec  0.00 Bytes  0.00 bits/sec    1   5.66 KBytes       
+[  4] 444.00-446.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 446.00-448.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 448.00-450.00 sec  0.00 Bytes  0.00 bits/sec    0   2.83 KBytes       
+[  4] 450.00-452.00 sec  0.00 Bytes  0.00 bits/sec    1   2.83 KBytes       
+[  4] 452.00-454.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+[  4] 454.00-456.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 456.00-458.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 458.00-460.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 460.00-462.00 sec  0.00 Bytes  0.00 bits/sec    0   7.07 KBytes       
+[  4] 462.00-464.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 464.00-466.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 466.00-468.00 sec  0.00 Bytes  0.00 bits/sec    0   5.66 KBytes       
+[  4] 468.00-470.00 sec  0.00 Bytes  0.00 bits/sec    2   2.83 KBytes       
+[  4] 470.00-472.00 sec  63.6 KBytes   261 Kbits/sec    0   4.24 KBytes       
+[  4] 472.00-472.00 sec  0.00 Bytes  0.00 bits/sec    0   4.24 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-472.00 sec  1.00 MBytes  17.8 Kbits/sec  167             sender
+[  4]   0.00-472.00 sec   892 KBytes  15.5 Kbits/sec                  receiver
+
+iperf Done.
+[root@84e6ee811cce /]# 
+
