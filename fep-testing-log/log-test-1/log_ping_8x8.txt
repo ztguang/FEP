@@ -1,0 +1,30 @@
+[root@eedca38efa8c /]# route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+112.26.0.0      0.0.0.0         255.255.0.0     U     0      0        0 eth0
+112.26.1.63     0.0.0.0         255.255.255.255 UH    2      0        0 eth0
+[root@eedca38efa8c /]# ping 112.26.1.63
+PING 112.26.1.63 (112.26.1.63) 56(84) bytes of data.
+64 bytes from 112.26.1.63: icmp_seq=1 ttl=64 time=1599 ms
+64 bytes from 112.26.1.63: icmp_seq=4 ttl=64 time=4360 ms
+64 bytes from 112.26.1.63: icmp_seq=6 ttl=64 time=6554 ms
+64 bytes from 112.26.1.63: icmp_seq=7 ttl=64 time=7798 ms
+64 bytes from 112.26.1.63: icmp_seq=8 ttl=64 time=8198 ms
+64 bytes from 112.26.1.63: icmp_seq=9 ttl=64 time=8675 ms
+64 bytes from 112.26.1.63: icmp_seq=12 ttl=64 time=8806 ms
+64 bytes from 112.26.1.63: icmp_seq=13 ttl=64 time=8540 ms
+64 bytes from 112.26.1.63: icmp_seq=23 ttl=64 time=8393 ms
+64 bytes from 112.26.1.63: icmp_seq=24 ttl=64 time=8255 ms
+64 bytes from 112.26.1.63: icmp_seq=28 ttl=64 time=7196 ms
+64 bytes from 112.26.1.63: icmp_seq=29 ttl=64 time=6854 ms
+64 bytes from 112.26.1.63: icmp_seq=30 ttl=64 time=6418 ms
+From 112.26.1.64 icmp_seq=34 Destination Host Unreachable
+From 112.26.1.64 icmp_seq=35 Destination Host Unreachable
+64 bytes from 112.26.1.63: icmp_seq=32 ttl=64 time=9320 ms
+64 bytes from 112.26.1.63: icmp_seq=33 ttl=64 time=9108 ms
+64 bytes from 112.26.1.63: icmp_seq=42 ttl=64 time=5285 ms
+^C
+--- 112.26.1.63 ping statistics ---
+56 packets transmitted, 16 received, +2 errors, 71% packet loss, time 55992ms
+rtt min/avg/max/mdev = 1599.291/7210.505/9320.681/1981.585 ms, pipe 10
+[root@eedca38efa8c /]# 
