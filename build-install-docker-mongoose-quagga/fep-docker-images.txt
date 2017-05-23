@@ -1,0 +1,4 @@
+[root@localhost fep]# # docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+centos-fep-irp      latest              05af2e78aab5        7 hours ago         555.9 MB
+docker.io/centos    latest              a8493f5f50ff        3 weeks ago         192.5 MB
