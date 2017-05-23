@@ -1,0 +1,484 @@
+[root@85ca485b2606 quagga]# ./configure --enable-user=root --enable-group=root --enable-vtysh --with-cflags=-ggdb
+
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gawk... gawk
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking whether gcc and cc understand -c and -o together... yes
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking whether g++ understands -c and -o together... yes
+checking for sed... sed
+checking for pdflatex... /bin/false
+checking for latexmk... /bin/false
+configure: WARNING: Will not be able to make PDF versions of TeX documents
+checking whether we are using the Intel compiler... no
+checking whether to set a default CFLAGS... CFLAGS supplied by user
+checking whether to set a default CXXFLAGS... CXXFLAGS supplied by user
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for ar... ar
+checking if make is GNU make... yes
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+./configure: line 8222: /usr/bin/file: No such file or directory
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking if zebra should be configurable to send Route Advertisements... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for C/C++ restrict keyword... __restrict
+checking for working volatile... yes
+checking for ANSI C header files... (cached) yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for uid_t in sys/types.h... yes
+checking for mode_t... yes
+checking for size_t... yes
+checking return type of signal handlers... void
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking stropts.h usability... no
+checking stropts.h presence... no
+checking for stropts.h... no
+checking sys/ksym.h usability... no
+checking sys/ksym.h presence... no
+checking for sys/ksym.h... no
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking for sys/types.h... (cached) yes
+checking linux/version.h usability... yes
+checking linux/version.h presence... yes
+checking for linux/version.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking asm/types.h usability... yes
+checking asm/types.h presence... yes
+checking for asm/types.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for net/if.h... yes
+checking for net/if_var.h... no
+checking for sys/un.h... yes
+checking for netinet/in_systm.h... yes
+checking for netinet/in_var.h... no
+checking for net/if_dl.h... no
+checking for net/netopt.h... no
+checking for net/route.h... yes
+checking for inet/nd.h... no
+checking for arpa/inet.h... yes
+checking for netinet/ip_icmp.h... yes
+checking for fcntl.h... yes
+checking for stddef.h... yes
+checking for sys/ioctl.h... yes
+checking for syslog.h... yes
+checking for wchar.h... yes
+checking for wctype.h... yes
+checking for sys/sysctl.h... yes
+checking for sys/sockio.h... no
+checking for kvm.h... no
+checking for sys/conf.h... no
+checking for ucontext.h... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for perl... /usr/bin/perl
+checking for tputs in -ltermcap... yes
+checking for main in -lreadline... yes
+checking readline/history.h usability... yes
+checking readline/history.h presence... yes
+checking for readline/history.h... yes
+checking for rl_completion_matches in -lreadline... yes
+checking whether byte ordering is bigendian... no
+checking for unistd.h... (cached) yes
+checking for working chown... yes
+checking for working POSIX fnmatch... yes
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for working memcmp... yes
+checking for sys/time.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for alarm... yes
+checking for working mktime... yes
+checking for strftime... yes
+checking whether lstat correctly handles trailing slash... yes
+checking whether stat accepts an empty string... no
+checking for sys/select.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking types of arguments for select... int,fd_set *,struct timeval *
+checking for strftime... (cached) yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking for pow in -lm... yes
+checking for pow... yes
+checking for dup2... yes
+checking for ftruncate... yes
+checking for getcwd... yes
+checking for gethostbyname... yes
+checking for getpagesize... yes
+checking for gettimeofday... yes
+checking for inet_ntoa... yes
+checking for inet_aton... yes
+checking for strnlen... yes
+checking for memchr... yes
+checking for memmove... yes
+checking for memset... yes
+checking for select... yes
+checking for socket... yes
+checking for strcasecmp... yes
+checking for strchr... yes
+checking for strcspn... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strncasecmp... yes
+checking for strndup... yes
+checking for strrchr... yes
+checking for strspn... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for strtoul... yes
+checking for strlcat... no
+checking for strlcpy... no
+checking for daemon... yes
+checking for snprintf... yes
+checking for vsnprintf... yes
+checking for if_nametoindex... yes
+checking for if_indextoname... yes
+checking for getifaddrs... yes
+checking for uname... yes
+checking for fcntl... yes
+checking for setproctitle... no
+checking for setproctitle in -lutil... no
+checking zebra between kernel interface method... netlink
+checking net/bpf.h usability... no
+checking net/bpf.h presence... no
+checking for net/bpf.h... no
+checking sys/dlpi.h usability... no
+checking sys/dlpi.h presence... no
+checking for sys/dlpi.h... no
+checking zebra IS-IS I/O method... pfpacket
+checking for broken CMSG_FIRSTHDR... no
+checking route read method... netlink
+checking interface looking up method... netlink
+checking for struct ip_mreqn.imr_ifindex... yes
+checking for BSD struct ip_mreq hack... no
+checking for RFC3678 protocol-independed API... yes
+checking for net/if.h... (cached) yes
+checking for net/if_media.h... no
+checking for netinet/tcp.h... yes
+checking whether TCP_MD5SIG is declared... yes
+checking ipforward method... proc
+checking for getaddrinfo... yes
+checking whether does this OS have IPv6 stack... Linux IPv6
+checking whether libc has IPv6 support... yes
+checking for GNU libc >= 2.1... yes
+checking for netinet6/in6.h... no
+checking for netinet/in6_var.h... no
+checking for netinet/icmp6.h... yes
+checking for netinet6/in6_var.h... no
+checking for netinet6/nd6.h... no
+checking for inet_ntop in -lc... yes
+checking for inet_pton in -lc... yes
+checking for crypt in -lcrypt... yes
+./configure: line 21800: /anaconda-post.log: Permission denied
+checking for res_init in -lresolv... no
+checking for __inet_ntop... no
+checking for __inet_pton... no
+checking for __inet_aton... no
+checking whether system has GNU regex... checking for regexec in -lc... yes
+checking for struct sockaddr... yes
+checking for struct sockaddr_in... yes
+checking for struct sockaddr_in6... yes
+checking for struct sockaddr_un... yes
+checking for struct sockaddr_dl... no
+checking for socklen_t... yes
+checking for struct ifaliasreq... no
+checking for struct if6_aliasreq... no
+checking for struct in6_aliasreq... no
+checking for struct nd_opt_adv_interval... yes
+checking for struct rt_addrinfo... no
+checking for struct nd_opt_homeagent_info... no
+checking for struct nd_opt_adv_interval... (cached) yes
+checking for struct sockaddr.sa_len... no
+checking for struct sockaddr_in.sin_len... no
+checking for struct sockaddr_un.sun_len... no
+checking for struct sockaddr_in6.sin6_scope_id... yes
+checking for struct if6_aliasreq.ifra_lifetime... no
+checking for struct nd_opt_adv_interval.nd_opt_ai_type... no
+checking for struct in_pktinfo... yes
+checking for struct icmphdr... yes
+checking whether getrusage is available... yes
+checking whether CLOCK_MONOTONIC is declared... yes
+checking for clock_gettime in -lrt... yes
+checking whether prctl PR_SET_KEEPCAPS is available... yes
+checking sys/capability.h usability... no
+checking sys/capability.h presence... no
+checking for sys/capability.h... no
+checking priv.h usability... no
+checking priv.h presence... no
+checking for priv.h... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for GENL... no
+configure: WARNING: No package 'libnl-genl-3.0' found
+checking for genl_connect in -lnl-genl... no
+configure: WARNING: *** generic netlink library not found (used for link status/metrics messages) ***
+checking execinfo.h usability... yes
+checking execinfo.h presence... yes
+checking for execinfo.h... yes
+checking for backtrace... yes
+checking for malloc.h... yes
+checking whether mallinfo is available... yes
+checking for random... yes
+checking netinet/ip.h usability... yes
+checking netinet/ip.h presence... yes
+checking for netinet/ip.h... yes
+checking for netinet/tcp.h... (cached) yes
+checking for struct ip... yes
+checking for struct ip_mreq... yes
+checking for struct ip_mreqn... yes
+checking for struct ip_mreq_source... yes
+checking for net/if.h... (cached) yes
+checking for net/if_var.h... (cached) no
+checking for net/route.h... (cached) yes
+checking for netinet/in_var.h... (cached) no
+checking inet/ip.h usability... no
+checking inet/ip.h presence... no
+checking for inet/ip.h... no
+checking netinet/ip_mroute.h usability... no
+checking netinet/ip_mroute.h presence... no
+checking for netinet/ip_mroute.h... no
+checking net/ip_mroute/ip_mroute.h usability... no
+checking net/ip_mroute/ip_mroute.h presence... no
+checking for net/ip_mroute/ip_mroute.h... no
+checking for linux/mroute.h... yes
+checking whether VIFF_USE_IFINDEX is declared... yes
+checking whether the system IPv4 stack supports IPv4 multicast routing... yes
+checking for netinet6/in6_var.h... (cached) no
+checking for netinet6/nd6.h... (cached) no
+checking netinet/ip6.h usability... yes
+checking netinet/ip6.h presence... yes
+checking for netinet/ip6.h... yes
+checking for netinet/icmp6.h... (cached) yes
+checking netinet6/ip6_mroute.h usability... no
+checking netinet6/ip6_mroute.h presence... no
+checking for netinet6/ip6_mroute.h... no
+checking whether the system IPv6 stack implementation is reasonable... yes
+checking whether the system IPv6 stack supports IPv6 multicast... yes
+checking for net/if.h... (cached) yes
+checking for net/if_var.h... (cached) no
+checking for netinet/in_var.h... (cached) no
+checking for netinet6/ip6_mroute.h... (cached) no
+checking for linux/mroute6.h... yes
+checking whether the system IPv6 stack supports IPv6 multicast routing... yes
+checking for RFC 3542 IPv6 advanced API... yes
+checking IPv6 stack type... unknown
+checking for struct sockaddr_in6.sin6_len... no
+checking for struct sockaddr_in6.sin6_scope_id... (cached) yes
+checking for struct mld_hdr... yes
+checking netinet/igmp.h usability... yes
+checking netinet/igmp.h presence... yes
+checking for netinet/igmp.h... yes
+checking for netinet/ip_mroute.h... (cached) no
+checking netinet/pim.h usability... no
+checking netinet/pim.h presence... no
+checking for netinet/pim.h... no
+checking for net/ip_mroute/ip_mroute.h... (cached) no
+checking for inet/ip.h... (cached) no
+checking for inet/ip.h... (cached) no
+checking for netinet/ip_mroute.h... (cached) no
+checking for net/ip_mroute/ip_mroute.h... (cached) no
+checking for struct pim... no
+checking for struct pim.pim_vt... no
+checking for struct mfcctl2... no
+checking for struct mfcctl2.mfcc_flags... no
+checking for struct mfcctl2.mfcc_rp.s_addr... no
+checking for struct mf6cctl2... no
+checking for struct mf6cctl2.mf6cc_flags... no
+checking for struct mf6cctl2.mf6cc_rp.sin6_addr.s6_addr... no
+checking for struct timespec... yes
+checking whether gcc accepts PIE flags... yes
+checking directory to use for state file... /var/run
+checking for working htonl... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating zebra/Makefile
+config.status: creating ripd/Makefile
+config.status: creating ripngd/Makefile
+config.status: creating bgpd/Makefile
+config.status: creating ospfd/Makefile
+config.status: creating watchquagga/Makefile
+config.status: creating ospf6d/Makefile
+config.status: creating isisd/Makefile
+config.status: creating babeld/Makefile
+config.status: creating vtysh/Makefile
+config.status: creating doc/Makefile
+config.status: creating ospfclient/Makefile
+config.status: creating tests/Makefile
+config.status: creating m4/Makefile
+config.status: creating redhat/Makefile
+config.status: creating pkgsrc/Makefile
+config.status: creating xpimd/Makefile
+config.status: creating redhat/quagga.spec
+config.status: creating lib/version.h
+config.status: creating doc/defines.texi
+config.status: creating isisd/topology/Makefile
+config.status: creating pkgsrc/bgpd.sh
+config.status: creating pkgsrc/ospf6d.sh
+config.status: creating pkgsrc/ospfd.sh
+config.status: creating pkgsrc/ripd.sh
+config.status: creating pkgsrc/ripngd.sh
+config.status: creating pkgsrc/zebra.sh
+config.status: creating solaris/Makefile
+config.status: creating debian/Makefile
+config.status: creating vtysh/extract.pl
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+Quagga configuration
+--------------------
+quagga version          : 0.99.21mr2.2-dev
+host operating system   : linux-gnu
+source code location    : .
+compiler                : gcc
+compiler flags          : -ggdb
+C++ compiler            : g++
+C++ compiler flags      : -ggdb
+make                    : make
+includes                :  
+linker flags            :     -lrt   -ltermcap -lreadline -lm
+state file directory    : /var/run
+config file directory   : /usr/local/etc
+example directory       : /usr/local/etc
+user to run as		: root
+group to run as		: root
+group for vty sockets	: 
+config file mask        : 0600
+log file mask           : 0600
+generic netlink         : no
+  (support for RFC 4938 link metrics)
+
+The above user and group must have read/write access to the state file
+directory and to the config files in the config file directory.
+[root@85ca485b2606 quagga]# 
+
