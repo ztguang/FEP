@@ -1,0 +1,2521 @@
+
+[root@localhost tmp-iso-can-del]# adb shell
+kiwi:/ $ su
+kiwi:/ # cat /dev/kmsg                                                         
+3,1477,5300810,-;[COMMON][INFO]cyttsp5_get_platform_ttconfig 1309:0 0
+3,1478,5300817,-;[COMMON][INFO]cyttsp5_get_platform_ttconfig 1310:SCALE Kiwi
+3,1479,5300824,-;[COMMON][INFO]cyttsp5_get_platform_ttconfig 1309:5 0
+3,1480,5300831,-;[COMMON][INFO]cyttsp5_get_platform_ttconfig 1310:SCALE Kiwi
+3,1481,5300838,-;[COMMON][INFO]cyttsp5_get_platform_ttconfig 1309:2 0
+3,1482,5300845,-;[COMMON][INFO]cyttsp5_get_platform_ttconfig 1310:SCALE Kiwi
+3,1483,5300852,-;[COMMON][INFO]cyttsp5_get_platform_ttconfig 1309:2 0
+3,1484,5300860,-;[COMMON][INFO]cyttsp5_get_platform_ttconfig 1310:Y538 Kiwi
+3,1485,5300867,-;[COMMON][INFO]cyttsp5_get_platform_ttconfig 1309:0 0
+3,1486,5300874,-;[COMMON][INFO]cyttsp5_get_platform_ttconfig 1310:Y538 Kiwi
+3,1487,5300881,-;[COMMON][INFO]cyttsp5_get_platform_ttconfig 1309:0 0
+3,1488,5300888,-;[COMMON][INFO]cyttsp5_get_platform_ttconfig 1310:Kiwi Kiwi
+3,1489,5300897,-;[COMMON][INFO]cyttsp5_get_platform_ttconfig: Found matching ttconfig:ffffffc0014052e8 with Panel ID: 0x00
+3,1490,5300905,-;[COMMON][INFO]cyttsp5_check_firmware_version: img vers:0x0100 new vers:0x0100
+3,1491,5300912,-;[COMMON][INFO]cyttsp5_check_firmware_version: Firmware Configuration Version in iC:0x000C
+3,1492,5300919,-;[COMMON][INFO]cyttsp5_check_firmware_version: update logic is update when image ver different with IC
+3,1493,5300926,-;[COMMON][INFO]cyttsp5_check_firmware_version: img revctrl:0xCFF80 new revctrl:0xCFF80
+3,1494,5300933,-;[COMMON][INFO]cyttsp5_check_firmware_version: Image has same version
+3,1495,5300941,-;[COMMON][INFO]cyttsp5_check_ttconfig_version: img_crc:0x326B new_crc:0x326B
+3,1496,5300948,-;[COMMON][INFO]cyttsp5_check_ttconfig_version: Config CRC equal, will NOT upgrade
+3,1497,5300955,-;[COMMON][INFO]upgrade_ttconfig_from_platform, will not upgrade ttconfig
+3,1498,5300963,-;[COMMON][WARNING]cyttsp5_fw_and_config_upgrade 1636:ttconfig haven't upgrade, rc = -38
+3,1499,5300971,-;[COMMON][INFO]cyttsp5_get_panel_name 249:Panel name is Ofilm
+14,1500,5303000,-;fs_mgr: check_fs(): unmount(/data) succeeded
+14,1501,5304131,-;fs_mgr: Running /system/bin/e2fsck on /dev/block/bootdevice/by-name/userdata
+3,1502,5625396,-;[I/bq24296_charger]  ---->START USB CHARGING,battery current = 512 mA,battery voltage = 4350 mV,cin_limit_current = 500 mA
+3,1503,5635214,-;[I/bq24296_charger] battery temp status changed
+14,1504,5923325,-;e2fsck: e2fsck 1.42.9 (28-Dec-2013)\x0a
+14,1505,5923362,-;e2fsck: Pass 1: Checking inodes, blocks, and sizes\x0a
+14,1506,5923375,-;e2fsck: Pass 2: Checking directory structure\x0a
+14,1507,5923387,-;e2fsck: Pass 3: Checking directory connectivity\x0a
+14,1508,5923399,-;e2fsck: Pass 4: Checking reference counts\x0a
+14,1509,5923411,-;e2fsck: Pass 5: Checking group summary information\x0a
+14,1510,5923424,-;e2fsck: /dev/block/bootdevice/by-name/userdata: 3052/709920 files (1.9% non-contiguous), 469313/2836471 blocks\x0a
+6,1511,5927828,-;EXT4-fs (mmcblk0p26): mounted filesystem with ordered data mode. Opts: barrier=1,noauto_da_alloc
+7,1512,5927852,-;SELinux: initialized (dev mmcblk0p26, type ext4), uses xattr
+14,1513,5927922,-;fs_mgr: __mount(source=/dev/block/bootdevice/by-name/userdata,target=/data,type=ext4)=0
+6,1514,5932563,-;EXT4-fs (mmcblk0p23): mounted filesystem with ordered data mode. Opts: barrier=1,noauto_da_alloc
+7,1515,5932584,-;SELinux: initialized (dev mmcblk0p23, type ext4), uses xattr
+14,1516,5932626,-;fs_mgr: __mount(source=/dev/block/bootdevice/by-name/cust,target=/cust,type=ext4)=0
+4,1517,5936047,-;EXT4-fs (mmcblk0p22): Ignoring removed nomblk_io_submit option
+6,1518,5946739,-;EXT4-fs (mmcblk0p22): recovery complete
+6,1519,5947787,-;EXT4-fs (mmcblk0p22): mounted filesystem with ordered data mode. Opts: errors=remount-ro,nomblk_io_submit
+7,1520,5947810,-;SELinux: initialized (dev mmcblk0p22, type ext4), uses xattr
+14,1521,5947902,-;fs_mgr: check_fs(): mount(/dev/block/bootdevice/by-name/cache,/cache,ext4)=0: Success
+14,1522,5948827,-;fs_mgr: check_fs(): unmount(/cache) succeeded
+14,1523,5948859,-;fs_mgr: Running /system/bin/e2fsck on /dev/block/bootdevice/by-name/cache
+14,1524,6002719,-;e2fsck: e2fsck 1.42.9 (28-Dec-2013)\x0a
+14,1525,6002756,-;e2fsck: Pass 1: Checking inodes, blocks, and sizes\x0a
+14,1526,6002772,-;e2fsck: Pass 2: Checking directory structure\x0a
+14,1527,6002787,-;e2fsck: Pass 3: Checking directory connectivity\x0a
+14,1528,6002801,-;e2fsck: Pass 4: Checking reference counts\x0a
+14,1529,6002816,-;e2fsck: Pass 5: Checking group summary information\x0a
+14,1530,6002831,-;e2fsck: /dev/block/bootdevice/by-name/cache: 18/16384 files (0.0% non-contiguous), 2176/65536 blocks\x0a
+6,1531,6005003,-;EXT4-fs (mmcblk0p22): mounted filesystem with ordered data mode. Opts: barrier=1
+7,1532,6005029,-;SELinux: initialized (dev mmcblk0p22, type ext4), uses xattr
+14,1533,6005108,-;fs_mgr: __mount(source=/dev/block/bootdevice/by-name/cache,target=/cache,type=ext4)=0
+4,1534,6009021,-;EXT4-fs (mmcblk0p18): Ignoring removed nomblk_io_submit option
+6,1535,6010649,-;EXT4-fs (mmcblk0p18): mounted filesystem with ordered data mode. Opts: errors=remount-ro,nomblk_io_submit
+7,1536,6010673,-;SELinux: initialized (dev mmcblk0p18, type ext4), uses xattr
+14,1537,6010749,-;fs_mgr: check_fs(): mount(/dev/block/bootdevice/by-name/persist,/persist,ext4)=0: Success
+14,1538,6011393,-;fs_mgr: check_fs(): unmount(/persist) succeeded
+14,1539,6011423,-;fs_mgr: Running /system/bin/e2fsck on /dev/block/bootdevice/by-name/persist
+14,1540,6042079,-;e2fsck: e2fsck 1.42.9 (28-Dec-2013)\x0a
+14,1541,6042116,-;e2fsck: Pass 1: Checking inodes, blocks, and sizes\x0a
+14,1542,6042131,-;e2fsck: Pass 2: Checking directory structure\x0a
+14,1543,6042146,-;e2fsck: Pass 3: Checking directory connectivity\x0a
+14,1544,6042160,-;e2fsck: Pass 4: Checking reference counts\x0a
+14,1545,6042175,-;e2fsck: Pass 5: Checking group summary information\x0a
+14,1546,6042190,-;e2fsck: /dev/block/bootdevice/by-name/persist: 36/4096 files (0.0% non-contiguous), 1368/16384 blocks\x0a
+6,1547,6044344,-;EXT4-fs (mmcblk0p18): mounted filesystem with ordered data mode. Opts: barrier=1
+7,1548,6044369,-;SELinux: initialized (dev mmcblk0p18, type ext4), uses xattr
+14,1549,6044446,-;fs_mgr: __mount(source=/dev/block/bootdevice/by-name/persist,target=/persist,type=ext4)=0
+13,1550,6046856,-;init: (Parsing /system/etc/init/atrace.rc took 0.00s.)
+13,1551,6047227,-;init: (Parsing /system/etc/init/audioserver.rc took 0.00s.)
+13,1552,6047566,-;init: (Parsing /system/etc/init/bootanim.rc took 0.00s.)
+13,1553,6047969,-;init: (Parsing /system/etc/init/bootstat.rc took 0.00s.)
+13,1554,6048287,-;init: (Parsing /system/etc/init/debuggerd.rc took 0.00s.)
+13,1555,6048610,-;init: (Parsing /system/etc/init/debuggerd64.rc took 0.00s.)
+11,1556,6048930,-;init: ignored duplicate definition of service 'drm'init: (Parsing /system/etc/init/drmserver.rc took 0.00s.)
+13,1557,6049365,-;init: (Parsing /system/etc/init/dumpstate.rc took 0.00s.)
+13,1558,6049683,-;init: (Parsing /system/etc/init/gatekeeperd.rc took 0.00s.)
+13,1559,6050062,-;init: (Parsing /system/etc/init/init-debug.rc took 0.00s.)
+13,1560,6050392,-;init: (Parsing /system/etc/init/installd.rc took 0.00s.)
+13,1561,6050712,-;init: (Parsing /system/etc/init/keystore.rc took 0.00s.)
+13,1562,6051034,-;init: (Parsing /system/etc/init/lmkd.rc took 0.00s.)
+13,1563,6051583,-;init: (Parsing /system/etc/init/logcatd.rc took 0.00s.)
+13,1564,6051930,-;init: (Parsing /system/etc/init/logd.rc took 0.00s.)
+13,1565,6052251,-;init: (Parsing /system/etc/init/mdnsd.rc took 0.00s.)
+13,1566,6052570,-;init: (Parsing /system/etc/init/mediacodec.rc took 0.00s.)
+13,1567,6052879,-;init: (Parsing /system/etc/init/mediadrmserver.rc took 0.00s.)
+13,1568,6053193,-;init: (Parsing /system/etc/init/mediaextractor.rc took 0.00s.)
+13,1569,6053522,-;init: (Parsing /system/etc/init/mediaserver.rc took 0.00s.)
+13,1570,6053873,-;init: (Parsing /system/etc/init/mtpd.rc took 0.00s.)
+13,1571,6054197,-;init: (Parsing /system/etc/init/netd.rc took 0.00s.)
+13,1572,6054508,-;init: (Parsing /system/etc/init/perfprofd.rc took 0.00s.)
+13,1573,6054821,-;init: (Parsing /system/etc/init/racoon.rc took 0.00s.)
+13,1574,6055154,-;init: (Parsing /system/etc/init/rild.rc took 0.00s.)
+13,1575,6055504,-;init: (Parsing /system/etc/init/servicemanager.rc took 0.00s.)
+13,1576,6055910,-;init: (Parsing /system/etc/init/superuser.rc took 0.00s.)
+13,1577,6056232,-;init: (Parsing /system/etc/init/surfaceflinger.rc took 0.00s.)
+13,1578,6056579,-;init: (Parsing /system/etc/init/uncrypt.rc took 0.00s.)
+13,1579,6056918,-;init: (Parsing /system/etc/init/vdc.rc took 0.00s.)
+13,1580,6057242,-;init: (Parsing /system/etc/init/vold.rc took 0.00s.)
+7,1581,6064017,-;SELinux: initialized (dev mmcblk0p14, type vfat), uses mountpoint labeling
+13,1582,6066657,-;init: write_file: Unable to open '/sys/kernel/debug/tracing/tracing_on': No such file or directory
+13,1583,6067824,-;init: Starting service 'logd'...
+13,1584,6077834,-;init: (Loading properties from /system/build.prop took 0.00s.)
+13,1585,6077901,-;init: (Loading properties from /vendor/build.prop took 0.00s.)
+13,1586,6077934,-;init: (Loading properties from /factory/factory.prop took 0.00s.)
+13,1587,6079906,-;init: Starting service 'debuggerd'...
+13,1588,6080698,-;init: Starting service 'debuggerd64'...
+13,1589,6082067,-;init: Starting service 'vold'...
+13,1590,6084449,-;init: Not bootcharting.
+38,1591,6103182,-;logd.auditd: start
+46,1592,6103472,-;logd.klogd: 6100370570
+13,1593,6484151,-;init: Starting service 'exec 1 (/system/bin/tzdatacheck)'...
+13,1594,6498472,-;init: Service 'exec 1 (/system/bin/tzdatacheck)' (pid 271) exited with status 0
+4,1595,6499889,-;mmc1: Starting deferred resume
+11,1596,6522417,-;init: do_start: Service goldeneye not found
+11,1597,6522442,-;init: do_start: Service goldeneye_test not found
+11,1598,6526056,-;init: mkdir: invalid mode system
+13,1599,6528049,-;init: Starting service 'sysinit'...
+13,1600,6529327,-;init: (Loading properties from /data/local.prop took 0.00s.)
+13,1601,6529624,-;init: Starting service 'logd-reinit'...
+30,1602,6548263,-;logd.daemon: reinit
+6,1603,6562547,-;pil-q6v5-mss 4080000.qcom,mss: modem: loading from 0x0000000086800000 to 0x000000008bd00000
+ SUBSYSTEM=platform
+ DEVICE=+platform:4080000.qcom,mss
+6,1604,6588477,-;pil-q6v5-mss 4080000.qcom,mss: MBA: loading from 0x00000000f7500000 to 0x00000000f7600000
+ SUBSYSTEM=platform
+ DEVICE=+platform:4080000.qcom,mss
+6,1605,6634150,-;pil-q6v5-mss 4080000.qcom,mss: MBA boot done
+ SUBSYSTEM=platform
+ DEVICE=+platform:4080000.qcom,mss
+3,1606,6686088,-;[EMMC_SD_INFO] mmc1: this sd support SDHC or later 
+3,1607,6814826,-;[EMMC_SD_INFO] mmc1:send acmd41 with ocr:0x41040000,get rocr:0xc1ff8000
+3,1608,6814841,-;[EMMC_SD_INFO] mmc1:support uhs-1,and accept 1.8V switching request
+3,1609,6828201,-;[EMMC_SD_INFO] mmc1:host and card voltage have changed into 1.8v success!
+3,1610,6830440,-;[EMMC_SD_INFO] mmc1:host support SDR12 SDR25 SDR50  DDR50
+4,1611,6837821,-;mmc1: Deferred resume completed
+6,1612,7441335,-;pil-q6v5-mss 4080000.qcom,mss: modem: Brought out of reset
+ SUBSYSTEM=platform
+ DEVICE=+platform:4080000.qcom,mss
+6,1613,7536122,-;pil-q6v5-mss 4080000.qcom,mss: modem: Power/Clock ready interrupt received
+ SUBSYSTEM=platform
+ DEVICE=+platform:4080000.qcom,mss
+6,1614,7536142,-;pil-q6v5-mss 4080000.qcom,mss: Subsystem error monitoring/handling services are up
+ SUBSYSTEM=platform
+ DEVICE=+platform:4080000.qcom,mss
+3,1615,7536179,-;memshare: Modem Restart has happened
+13,1616,7536468,-;init: Service 'sysinit' (pid 273) exited with status 0
+13,1617,7536645,-;init: Service 'logd-reinit' (pid 274) exited with status 0
+3,1618,7536943,-;wcd-spmi-core msm8x16_wcd_codec-ffffffc0ae03e400: Looking up qcom,cdc-micbias-cfilt-mv property in node /soc/qcom,spmi@200f000/qcom,pm8916@1/msm8x16_wcd_codec@f000 failed
+ SUBSYSTEM=spmi
+ DEVICE=+spmi:msm8x16_wcd_codec-ffffffc0ae03e400
+3,1619,7537342,-;M-Notify: General: 7
+3,1620,7539048,-;msm8x16-asoc-wcd sound.65: msm8x16_asoc_machine_probe: missing qcom,msm-snd-card-id in dt node
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1621,7539066,-;msm8x16-asoc-wcd sound.65: default codec configured
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+13,1622,7539842,-;init: Starting service 'healthd'...
+3,1623,7540482,-;wcd-spmi-core msm8x16_wcd_codec-ffffffc0ae03e400: Error: regulator not found
+ SUBSYSTEM=spmi
+ DEVICE=+spmi:msm8x16_wcd_codec-ffffffc0ae03e400
+5,1624,7540518,-;msm8x16_wcd_codec_probe :msm_cable_en: 0
+13,1625,7540527,-;init: Starting service 'rmt_storage'...
+5,1626,7540682,-;wcd_mbhc_init: enter
+5,1627,7541015,-;wcd_mbhc_init: det_extn_cable_en = 0
+13,1628,7541372,-;init: Starting service 'config_bluetooth'...
+5,1629,7542186,-;wcd_mbhc_init: leave ret 0
+13,1630,7542537,-;init: Starting service 'qseecomd'...
+13,1631,7543748,-;init: Starting service 'rmt_oeminfo'...
+13,1632,7544683,-;init: Starting service 'teecd'...
+13,1633,7545827,-;init: Starting service 'signinfolistener'...
+13,1634,7546834,-;init: Starting service 'huawei_version'...
+13,1635,7548548,-;init: Starting service 'lmkd'...
+13,1636,7549611,-;init: Starting service 'servicemanager'...
+13,1637,7550759,-;init: Starting service 'surfaceflinger'...
+4,1638,7553321,-;msm-pcm-routing qcom,msm-pcm-routing.21: ASoC: no dapm match for VOICE2_STUB_DL --> Voice2 Stub --> INTERNAL_BT_SCO_RX_Voice Mixer
+ SUBSYSTEM=platform
+ DEVICE=+platform:qcom,msm-pcm-routing.21
+3,1639,7553344,-;msm-pcm-routing qcom,msm-pcm-routing.21: ASoC: Failed to add route VOICE2_STUB_DL -> Voice2 Stub -> INTERNAL_BT_SCO_RX_Voice Mixer
+ SUBSYSTEM=platform
+ DEVICE=+platform:qcom,msm-pcm-routing.21
+4,1640,7553635,-;msm-pcm-routing qcom,msm-pcm-routing.21: ASoC: no dapm match for SEC_MI2S_TX --> SEC_MI2S_TX --> QUAT_MI2S_RX Port Mixer
+ SUBSYSTEM=platform
+ DEVICE=+platform:qcom,msm-pcm-routing.21
+3,1641,7553649,-;msm-pcm-routing qcom,msm-pcm-routing.21: ASoC: Failed to add route SEC_MI2S_TX -> SEC_MI2S_TX -> QUAT_MI2S_RX Port Mixer
+ SUBSYSTEM=platform
+ DEVICE=+platform:qcom,msm-pcm-routing.21
+4,1642,7553681,-;msm-pcm-routing qcom,msm-pcm-routing.21: ASoC: no dapm match for INT_BT_SCO_TX --> INTERNAL_BT_SCO_TX --> QUAT_MI2S_RX Port Mixer
+ SUBSYSTEM=platform
+ DEVICE=+platform:qcom,msm-pcm-routing.21
+3,1643,7553691,-;msm-pcm-routing qcom,msm-pcm-routing.21: ASoC: Failed to add route INT_BT_SCO_TX -> INTERNAL_BT_SCO_TX -> QUAT_MI2S_RX Port Mixer
+ SUBSYSTEM=platform
+ DEVICE=+platform:qcom,msm-pcm-routing.21
+13,1644,7555455,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet0/accept_ra': No such file or directory
+13,1645,7555508,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet1/accept_ra': No such file or directory
+13,1646,7555546,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet2/accept_ra': No such file or directory
+13,1647,7555605,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet3/accept_ra': No such file or directory
+13,1648,7555676,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet4/accept_ra': No such file or directory
+13,1649,7555712,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet5/accept_ra': No such file or directory
+13,1650,7555748,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet6/accept_ra': No such file or directory
+13,1651,7555785,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet7/accept_ra': No such file or directory
+13,1652,7555821,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio0/accept_ra': No such file or directory
+13,1653,7555859,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio1/accept_ra': No such file or directory
+13,1654,7555896,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio2/accept_ra': No such file or directory
+13,1655,7555935,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio3/accept_ra': No such file or directory
+13,1656,7555973,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio4/accept_ra': No such file or directory
+13,1657,7556016,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio5/accept_ra': No such file or directory
+13,1658,7556053,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio6/accept_ra': No such file or directory
+13,1659,7556090,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_sdio7/accept_ra': No such file or directory
+13,1660,7556128,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_usb0/accept_ra': No such file or directory
+13,1661,7556164,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_usb1/accept_ra': No such file or directory
+13,1662,7556202,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_usb2/accept_ra': No such file or directory
+13,1663,7556241,-;init: write_file: Unable to open '/proc/sys/net/ipv6/conf/rmnet_usb3/accept_ra': No such file or directory
+11,1664,7559125,-;init: SELinux: Could not get canonical path for /sys/block/sda/queue/scheduler restorecon: No such file or directory.
+11,1665,7559210,-;init: SELinux: Could not get canonical path for /sys/block/sde/queue/scheduler restorecon: No such file or directory.
+11,1666,7559279,-;init: SELinux: Could not get canonical path for /sys/block/dm-0/queue/scheduler restorecon: No such file or directory.
+11,1667,7561655,-;init: service 'console' requires console
+3,1668,7561807,-;enable_store: USB_LOGS_ERR:enable_store():android_usb: already disabled
+13,1669,7562320,-;init: Starting service 'ppd'...
+6,1670,7578014,-;warning: `qseecomd' uses 32-bit capabilities (legacy support in use)
+3,1671,7585296,-;msm-pcm-routing qcom,msm-pcm-routing.21: ASoC: mux SLIM_0_RX AANC MUX has no paths
+ SUBSYSTEM=platform
+ DEVICE=+platform:qcom,msm-pcm-routing.21
+3,1672,7587781,-;wcd-spmi-core msm8x16_wcd_codec-ffffffc0ae03e400: ASoC: mux RX3 MIX1 INP3 has no paths
+ SUBSYSTEM=spmi
+ DEVICE=+spmi:msm8x16_wcd_codec-ffffffc0ae03e400
+3,1673,7587912,-;wcd-spmi-core msm8x16_wcd_codec-ffffffc0ae03e400: ASoC: mux RX2 MIX1 INP3 has no paths
+ SUBSYSTEM=spmi
+ DEVICE=+spmi:msm8x16_wcd_codec-ffffffc0ae03e400
+12,1674,7600724,-;healthd: BatteryFullChargePath not found
+12,1675,7600747,-;healthd: BatteryCycleCountPath not found
+6,1676,7692340,-;apr_tal:Modem Is Up
+13,1677,7726139,-;init: write_file: Unable to open '/sys/block/sda/queue/scheduler': No such file or directory
+13,1678,7726426,-;init: write_file: Unable to open '/sys/block/sde/queue/scheduler': No such file or directory
+13,1679,7726486,-;init: write_file: Unable to open '/sys/block/dm-0/queue/scheduler': No such file or directory
+11,1680,7727233,-;init: cannot find '/system/bin/update_verifier' (No such file or directory), disabling 'exec 2 (/system/bin/update_verifier)'
+13,1681,7727536,-;init: Starting service 'qcom-c_main-sh'...
+13,1682,7728544,-;init: Starting service 'irsc_util'...
+13,1683,7729569,-;init: Starting service 'vm_bms'...
+13,1684,7730595,-;init: Starting service 'thermal-engine'...
+13,1685,7731643,-;init: Starting service 'wcnss-service'...
+13,1686,7732641,-;init: Starting service 'imsqmidaemon'...
+13,1687,7733788,-;init: Starting service 'drm'...
+13,1688,7735495,-;init: Starting service 'libqmi_oem_main'...
+13,1689,7736824,-;init: Starting service 'zygote'...
+13,1690,7737883,-;init: Starting service 'zygote_secondary'...
+13,1691,7738927,-;init: Starting service 'audioserver'...
+13,1692,7740065,-;init: Starting service 'installd'...
+13,1693,7741892,-;init: Starting service 'keystore'...
+13,1694,7742926,-;init: Starting service 'mediacodec'...
+13,1695,7744134,-;init: Starting service 'mediadrm'...
+13,1696,7745327,-;init: Starting service 'mediaextractor'...
+13,1697,7746633,-;init: Starting service 'media'...
+13,1698,7747993,-;init: Starting service 'netd'...
+13,1699,7749278,-;init: Starting service 'ril-daemon'...
+13,1700,7750710,-;init: Starting service 'fingerprintd'...
+13,1701,7751999,-;init: Starting service 'qcamerasvr'...
+13,1702,7754824,-;init: Starting service 'time_daemon'...
+13,1703,7756110,-;init: Starting service 'audiod'...
+13,1704,7757218,-;init: Starting service 'gatekeeperd'...
+13,1705,7789223,-;init: Starting service 'perfprofd'...
+13,1706,7882983,-;init: Service 'irsc_util' (pid 355) exited with status 0
+13,1707,7884408,-;init: Starting service 'qmuxd'...
+6,1708,7886970,-;wcnss_wlan triggered by userspace
+6,1709,7887677,-;wcnss_pm_qos_add_request: add request
+6,1710,7887699,-;wcnss_pm_qos_update_request: update request 100
+6,1711,7888224,-;snoc_qosgen configured successfully
+6,1712,7888403,-;wcnss_notif_cb: wcnss notification event: 2
+5,1713,7901253,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> MultiMedia1 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1714,7901950,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> MultiMedia2 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1715,7902528,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> CS-VOICE mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1716,7903268,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> VoIP mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1717,7903833,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> MultiMedia3 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1718,7904264,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> PRI_MI2S_RX_HOSTLESS mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1719,7905202,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> INT_FM_HOSTLESS mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1720,7905915,-;msm8x16-asoc-wcd sound.65:  msm-stub-rx <-> qcom,msm-dai-q6-afe-proxy-rx.15 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+6,1721,7906133,-;subsys-pil-tz a21b000.qcom,pronto: wcnss: loading from 0x000000008bd00000 to 0x000000008c2e1000
+ SUBSYSTEM=platform
+ DEVICE=+platform:a21b000.qcom,pronto
+6,1722,7906177,-;wcnss_notif_cb: wcnss notification event: 6
+5,1723,7906911,-;msm8x16-asoc-wcd sound.65:  msm-stub-tx <-> qcom,msm-dai-q6-afe-proxy-tx.15 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+6,1724,7907633,-;compress asoc: snd-soc-dummy-dai <-> MultiMedia4 mapping ok
+6,1725,7911408,-;wcnss: IRIS Reg: 51120004
+5,1726,7913490,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> AUXPCM_HOSTLESS mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1727,7913861,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> TERT_MI2S_TX_HOSTLESS mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1728,7914312,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> MultiMedia5 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1729,7914635,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> Voice2 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1730,7915032,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> MultiMedia9 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1731,7915384,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> VoLTE mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1732,7915653,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> VoWLAN mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1733,7915929,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> INT_HFP_BT_HOSTLESS mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1734,7916312,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> MultiMedia6 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1735,7916658,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> LSM1 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1736,7916906,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> LSM2 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1737,7917146,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> LSM3 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1738,7917378,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> LSM4 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1739,7917634,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> LSM5 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+6,1740,7918067,-;compress asoc: snd-soc-dummy-dai <-> MultiMedia7 mapping ok
+5,1741,7918415,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> QUAT_MI2S_RX_HOSTLESS mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1742,7919483,-;wcd_mbhc_start: enter
+5,1743,7919497,-;wcd_mbhc_initialise: enter
+7,1744,7919578,-;msm8x16-asoc-wcd sound.65: wcd_program_hs_vref: reg_val  = 1
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+7,1745,7919593,-;wcd_program_btn_threshold: course: 0 fine: 7 reg_addr: 153 reg_val: 1c
+7,1746,7919606,-;wcd_program_btn_threshold: course: 2 fine: 1 reg_addr: 154 reg_val: 44
+7,1747,7919619,-;wcd_program_btn_threshold: course: 3 fine: 4 reg_addr: 155 reg_val: 70
+7,1748,7919632,-;wcd_program_btn_threshold: course: 4 fine: 4 reg_addr: 156 reg_val: 90
+7,1749,7919645,-;wcd_program_btn_threshold: course: 5 fine: 3 reg_addr: 157 reg_val: ac
+5,1750,7919649,-;wcd_mbhc_initialise: det_extn_cable_en = 0
+5,1751,7919696,-;wcd_mbhc_initialise: leave
+5,1752,7919702,-;wcd_mbhc_start: leave 0
+5,1753,7919707,-;wcd_mbhc_start: enter
+5,1754,7919712,-;wcd_mbhc_initialise: enter
+7,1755,7919765,-;msm8x16-asoc-wcd sound.65: wcd_program_hs_vref: reg_val  = 1
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+7,1756,7919771,-;wcd_program_btn_threshold: course: 0 fine: 7 reg_addr: 153 reg_val: 1c
+7,1757,7919776,-;wcd_program_btn_threshold: course: 2 fine: 1 reg_addr: 154 reg_val: 44
+7,1758,7919782,-;wcd_program_btn_threshold: course: 3 fine: 4 reg_addr: 155 reg_val: 70
+7,1759,7919787,-;wcd_program_btn_threshold: course: 4 fine: 4 reg_addr: 156 reg_val: 90
+7,1760,7919792,-;wcd_program_btn_threshold: course: 5 fine: 3 reg_addr: 157 reg_val: ac
+5,1761,7919797,-;wcd_mbhc_initialise: det_extn_cable_en = 0
+5,1762,7919803,-;wcd_mbhc_initialise: leave
+5,1763,7919809,-;wcd_mbhc_start: leave 0
+5,1764,7919860,-;msm8x16-asoc-wcd sound.65:  msm8x16_wcd_i2s_rx1 <-> qcom,msm-dai-q6-mi2s-prim.160 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1765,7920167,-;msm8x16-asoc-wcd sound.65:  msm-stub-rx <-> qcom,msm-dai-q6-mi2s-sec.161 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1766,7920432,-;msm8x16-asoc-wcd sound.65:  msm8x16_wcd_i2s_tx1 <-> qcom,msm-dai-q6-mi2s-tert.162 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1767,7921354,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> qcom,msm-dai-q6-mi2s-quat.163 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1768,7921570,-;msm8x16-asoc-wcd sound.65:  snd-soc-dummy-dai <-> qcom,msm-dai-q6-mi2s-quat.163 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1769,7921800,-;msm8x16-asoc-wcd sound.65:  msm-stub-rx <-> qcom,msm-dai-q6-bt-sco-rx.148 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1770,7922006,-;msm8x16-asoc-wcd sound.65:  msm-stub-tx <-> qcom,msm-dai-q6-bt-sco-tx.149 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1771,7922193,-;msm8x16-asoc-wcd sound.65:  msm-stub-rx <-> qcom,msm-dai-q6-int-fm-rx.150 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1772,7922389,-;msm8x16-asoc-wcd sound.65:  msm-stub-tx <-> qcom,msm-dai-q6-int-fm-tx.151 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1773,7922596,-;msm8x16-asoc-wcd sound.65:  msm-stub-rx <-> qcom,msm-dai-q6-be-afe-pcm-rx.1 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1774,7922835,-;msm8x16-asoc-wcd sound.65:  msm-stub-tx <-> qcom,msm-dai-q6-be-afe-pcm-tx.1 mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1775,7923076,-;msm8x16-asoc-wcd sound.65:  msm-stub-tx <-> qcom,msm-dai-q6-incall-record-t mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+13,1776,7923292,-;init: Starting service 'ril-daemon2'...
+5,1777,7923364,-;msm8x16-asoc-wcd sound.65:  msm-stub-tx <-> qcom,msm-dai-q6-incall-record-r mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1778,7923587,-;msm8x16-asoc-wcd sound.65:  msm-stub-rx <-> qcom,msm-dai-q6-incall-music-rx mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+5,1779,7923854,-;msm8x16-asoc-wcd sound.65:  msm-stub-rx <-> qcom,msm-dai-q6-incall-music-2- mapping ok
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+6,1780,7934768,-;input: msm8939-snd-card-skuk Button Jack as /devices/soc.0/sound.65/sound/card0/input12
+6,1781,7934905,-;keychord: using input dev msm8939-snd-card-skuk Button Jack for fevent
+6,1782,7935064,-;input: msm8939-snd-card-skuk Headset Jack as /devices/soc.0/sound.65/sound/card0/input13
+3,1783,7937058,-;msm8x16_asoc_machine_probe: missing qcom,spk-ext-pa-boost-gpio in dt node
+3,1784,7937076,-;msm8x16_asoc_machine_probe: missing qcom,spk-ext-pa-enable-gpio in dt node
+3,1785,7937083,-;msm8x16_asoc_machine_probe: missing qcom,spk-ext-pa-switch-vdd-gpio in dt node
+3,1786,7937090,-;msm8x16_asoc_machine_probe: missing qcom,spk-ext-pa-switch-in-gpio in dt node
+3,1787,7937098,-;msm8x16_asoc_machine_probe: missing qcom,pa-enable-gpio-on-delayms in dt node, then delay 0ms
+3,1788,7937110,-;msm8x16-asoc-wcd sound.65: Unable to read gpio pin number
+ SUBSYSTEM=platform
+ DEVICE=+platform:sound.65
+3,1789,7937119,-;msm8x16_asoc_machine_probe: Failed to configure hac enable gpio 0
+3,1790,7937125,-;msm8x16_asoc_machine_probe: failed to get spk_en_gpio
+13,1791,7950476,-;init: Starting service 'netmgrd'...
+13,1792,7984546,-;init: Service 'qcom-c_main-sh' (pid 354) exited with status 0
+4,1793,8010908,-;QSEECOM: qseecom_load_app: App (keymaste) does'nt exist, loading apps for first time
+4,1794,8019600,-;QSEECOM: qseecom_load_app: App with id 3 (keymaste) now loaded
+6,1795,8024681,-;msm_thermal:set_enabled enabled = 0
+13,1796,8098526,-;init: Service 'config_bluetooth' (pid 319) exited with status 0
+6,1797,8275860,-;sps:BAM 0x0000000004044000 is registered.
+6,1798,8275921,-;sps:BAM 0x0000000004044000 (va:0xffffff80050a0000) enabled: ver:0x25, number of pipes:6
+6,1799,8319031,-;subsys-pil-tz a21b000.qcom,pronto: wcnss: Brought out of reset
+ SUBSYSTEM=platform
+ DEVICE=+platform:a21b000.qcom,pronto
+3,1800,8374637,-;cam_dump_reg: 0x5
+3,1801,8374656,-;cam_dump_reg: 0x100
+3,1802,8374662,-;cam_dump_reg: 0x34C
+3,1803,8374667,-;cam_dump_reg: 0x34D
+3,1804,8374672,-;cam_dump_reg: 0x34E
+3,1805,8374677,-;cam_dump_reg: 0x34F
+3,1806,8374683,-;sensor need  probe otp vendor id:00000000f73193bc
+3,1807,8374692,-;msm_camera_fill_vreg_params:87 i 8 j 0 cam_vaf
+3,1808,8374699,-;msm_camera_fill_vreg_params:87 i 6 j 0 cam_vaf
+3,1809,8445968,-; msm_cci_init: Failed in getting TOP gdscr regulator handle
+6,1810,8446187,-;msm_cci_init:765: hw_version = 0x10020000
+3,1811,8453508,-;msm_sensor_check_otp_vendor_id, probe vendor_id success.
+3,1812,8453527,-;imx214_foxconn_kiw probe succeeded
+3,1813,8497812,-;slot0: sensor id532 already probed
+3,1814,8503303,-;slot0: sensor id532 already probed
+3,1815,8510813,-;slot 0 has some other sensor
+3,1816,8513830,-;cam_dump_reg: 0x4869
+3,1817,8513849,-;cam_dump_reg: 0x100
+3,1818,8513855,-;cam_dump_reg: 0x3808
+3,1819,8513861,-;cam_dump_reg: 0x3809
+3,1820,8513868,-;cam_dump_reg: 0x380A
+3,1821,8513874,-;cam_dump_reg: 0x380B
+3,1822,8572193,-; msm_cci_init: Failed in getting TOP gdscr regulator handle
+6,1823,8572454,-;msm_cci_init:765: hw_version = 0x10020000
+3,1824,8572538,-;msm_sensor_check_mcam_id:ov5648_ofilm_ohw5f03_kiw gpio 954 value:0 not match
+3,1825,8601822,c;ov5648_ofilm_ohw5f03_kiw power up failed
+3,1826,8601851,-;MSM-SENSOR-INIT msm_sensor_driver_cmd:122 failed: msm_sensor_driver_probe rc -1
+3,1827,8601861,-;MSM-SENSOR-INIT msm_sensor_init_subdev_do_ioctl:199 msm_sensor_init_subdev_do_ioctl:199 VIDIOC_MSM_SENSOR_INIT_CFG failed
+3,1828,8603772,-;cam_dump_reg: 0x4869
+3,1829,8603790,-;cam_dump_reg: 0x100
+3,1830,8603797,-;cam_dump_reg: 0x3808
+3,1831,8603803,-;cam_dump_reg: 0x3809
+3,1832,8603810,-;cam_dump_reg: 0x380A
+3,1833,8603816,-;cam_dump_reg: 0x380B
+6,1834,8644856,-;subsys-pil-tz a21b000.qcom,pronto: wcnss: Power/Clock ready interrupt received
+ SUBSYSTEM=platform
+ DEVICE=+platform:a21b000.qcom,pronto
+6,1835,8644885,-;wcnss_notif_cb: wcnss notification event: 7
+3,1836,8664426,-; msm_cci_init: Failed in getting TOP gdscr regulator handle
+6,1837,8664709,-;msm_cci_init:765: hw_version = 0x10020000
+3,1838,8664946,-;not support otp id probe, return success
+6,1839,8665421,-;subsys-pil-tz a21b000.qcom,pronto: Subsystem error monitoring/handling services are up
+ SUBSYSTEM=platform
+ DEVICE=+platform:a21b000.qcom,pronto
+6,1840,8668098,-;wcnss_notif_cb: wcnss notification event: 3
+6,1841,8668129,-;wcnss_pm_qos_update_request: update request -1
+6,1842,8668139,-;wcnss_pm_qos_remove_request: remove request
+3,1843,8664958,-;ov5648_foxconn_kivi probe succeeded
+3,1844,8704503,-;slot 1 has some other sensor
+3,1845,8705120,-;msm_cci_release invalid ref count 0 / cci state 1
+3,1846,8705135,-;msm_sensor_cci_i2c_util line 514 rc = -22
+3,1847,8705143,-;msm_actuator_close:991 cci_release failed
+6,1848,8705290,-;msm_csid_init: CSID_VERSION = 0x30010000
+4,1849,8708610,-;huawei_cam_is_factory_mode run mode is 2
+3,1850,8708211,-; msm_csid_init: Failed in getting TOP gdscr regulator handle
+6,1851,8714465,-;msm_csid_init: CSID_VERSION = 0x30010000
+3,1852,8715575,-; msm_csid_init: Failed in getting TOP gdscr regulator handle
+3,1853,8721372,-;msm_vfe40_reset_hardware: 
+4,1854,8721502,-;devbw qcom,gpubw.58: Governor already resumed!
+ SUBSYSTEM=platform
+ DEVICE=+platform:qcom,gpubw.58
+3,1855,8721514,-;devbw qcom,gpubw.58: Unable to resume BW HW mon governor (-16)
+ SUBSYSTEM=platform
+ DEVICE=+platform:qcom,gpubw.58
+6,1856,8740126,-;MSM-CPP cpp_init_hardware:955 CPP HW Version: 0x40020000
+3,1857,8740144,-;MSM-CPP cpp_init_hardware:976 stream_cnt:0
+6,1858,8777222,-;MSM-CPP cpp_load_fw:1113 MC Bootloader Version: 0x312e3176
+6,1859,8783176,-;MSM-CPP cpp_load_fw:1126 CPP FW Version: 0x10040005
+6,1860,8789947,-;wcnss_wlan_ctrl_probe: SMD ctrl channel up
+6,1861,8790287,-;wcnss: version 01050102
+6,1862,8790296,-;wcnss: schedule dnld work for pronto
+6,1863,8790469,-;wcnss: build version CNSS-PR-2-0-1-1-c1-00153
+3,1864,8795922,-;msm_qti_pp_get_rms_value_control, back not active to query rms be_idx:3
+3,1865,8797661,-;msm_pcm_volume_ctl_get substream runtime not found
+3,1866,8797803,-;msm_pcm_volume_ctl_get substream runtime not found
+3,1867,8798096,-;msm_pcm_volume_ctl_get substream runtime not found
+3,1868,8798220,-;msm_pcm_volume_ctl_get substream runtime not found
+3,1869,8798373,-;msm_pcm_volume_ctl_get substream runtime not found
+3,1870,8798633,-;msm_external_pa_get: msm_quat_mi2s_clk = 0
+6,1871,8790304,-;wcnss: NV download
+6,1872,8807823,-;wcnss: NV bin size: 31719, total_fragments: 11
+3,1873,8807856,-;wcnss: no space available for smd frame
+3,1874,8833169,-;wcnss: no space available for smd frame
+3,1875,8863202,-;wcnss: no space available for smd frame
+3,1876,8882224,-;wcdcal_hwdep_ioctl_shared: incorrect firmware size -158137525 for mad
+3,1877,8884133,-;wcdcal_hwdep_ioctl_shared: incorrect firmware size -158137525 for mad
+3,1878,8893183,-;wcnss: no space available for smd frame
+3,1879,8904097,-;msm_external_pa_get: msm_quat_mi2s_clk = 0
+3,1880,8908862,-;i2c-msm-v2 78b5000.i2c: msm_bus_scale_register_client(mstr-id:86):0x16 (ok)
+ SUBSYSTEM=platform
+ DEVICE=+platform:78b5000.i2c
+3,1881,8946842,-;[LCD_INFO]  mdss_fb_blank_sub:blank_mode is FB_BLANK_UNBLANK when panel on
+3,1882,8946986,-;[LCD_INFO] start mdss_mdp_overlay_on
+3,1883,8947137,-;[LCD_INFO] Enter fb_blank, blank_mode = [0].
+3,1884,8947150,-;[LCD_INFO]  mdss_fb_blank_sub:blank_mode is FB_BLANK_UNBLANK when panel on
+3,1885,8947154,-;[LCD_INFO] fb_blank: fb blank time = 0
+3,1886,8947158,-;[I/FPC] fb_notifier_callback 449: FB_EVENT_BLANK resume: fpc1020->taskstate:0
+3,1887,8947160,-;[LCD_INFO] Exit fb_blank, blank_mode = [0].
+3,1888,9174244,-;msm_external_pa_get: msm_quat_mi2s_clk = 1
+3,1889,9175635,-;afe_callback: cmd = 0x100e6 returned error = 0x1
+3,1890,9175743,-;afe_set_lpass_clock: config cmd failed
+3,1891,9175755,-;msm_external_pa_put: afe_set_lpass_clock QUATERNARY_MI2S_RX failed
+3,1892,9188558,-;msm_external_pa_get: msm_quat_mi2s_clk = 0
+3,1893,9291597,-;q6asm_callback: cmd = 0x10bcd returned error = 0x5
+3,1894,9291639,-;__q6asm_cmd: DSP returned error[-5] opcode 68557
+13,1895,9311277,-;init: Starting service 'bootanim'...
+3,1896,9313491,-;[LCD_INFO] Enter fb_blank, blank_mode = [0].
+3,1897,9313505,-;[LCD_INFO]  mdss_fb_blank_sub:blank_mode is FB_BLANK_UNBLANK when panel on
+3,1898,9313529,-;[LCD_INFO] fb_blank: fb blank time = 0
+3,1899,9313533,-;[I/FPC] fb_notifier_callback 449: FB_EVENT_BLANK resume: fpc1020->taskstate:0
+3,1900,9313535,-;[LCD_INFO] Exit fb_blank, blank_mode = [0].
+3,1901,9336138,-;[LCD_INFO] __mdss_fb_perform_commit:begin to display the first frame.
+3,1902,9352135,-;msm_external_pa_get: msm_quat_mi2s_clk = 1
+3,1903,9353427,-;afe_callback: cmd = 0x100e6 returned error = 0x1
+3,1904,9353527,-;afe_set_lpass_clock: config cmd failed
+3,1905,9353539,-;msm_external_pa_put: afe_set_lpass_clock QUATERNARY_MI2S_RX failed
+3,1906,9365631,-;msm_external_pa_get: msm_quat_mi2s_clk = 0
+3,1907,9459983,-;q6asm_callback: cmd = 0x10bcd returned error = 0x5
+3,1908,9460025,-;__q6asm_cmd: DSP returned error[-5] opcode 68557
+3,1909,9521667,-;msm_external_pa_get: msm_quat_mi2s_clk = 1
+3,1910,9522893,-;afe_callback: cmd = 0x100e6 returned error = 0x1
+3,1911,9522992,-;afe_set_lpass_clock: config cmd failed
+3,1912,9523002,-;msm_external_pa_put: afe_set_lpass_clock QUATERNARY_MI2S_RX failed
+3,1913,9526253,-;q6asm_callback: cmd = 0x10bcd returned error = 0x5
+3,1914,9526291,-;__q6asm_cmd: DSP returned error[-5] opcode 68557
+3,1915,9530104,-;q6asm_callback: cmd = 0x10bcd returned error = 0x5
+3,1916,9533597,-;__q6asm_cmd: DSP returned error[-5] opcode 68557
+3,1917,9706849,-;msm_qti_pp_get_rms_value_control, back not active to query rms be_idx:3
+3,1918,9708211,-;msm_pcm_volume_ctl_get substream runtime not found
+3,1919,9708301,-;msm_pcm_volume_ctl_get substream runtime not found
+3,1920,9708536,-;msm_pcm_volume_ctl_get substream runtime not found
+3,1921,9708626,-;msm_pcm_volume_ctl_get substream runtime not found
+3,1922,9708747,-;msm_pcm_volume_ctl_get substream runtime not found
+3,1923,9708945,-;msm_external_pa_get: msm_quat_mi2s_clk = 0
+13,1924,9759310,-;init: Service 'huawei_version' (pid 326) exited with status 0
+11,1925,10049075,-;init: property_set("ro.ril.svlte1x", "false") failed
+11,1926,10051997,-;init: property_set("ro.ril.svdo", "false") failed
+3,1927,10389544,-;mdss_dsi_on: panel already on
+6,1928,10570652,-;wcnss: received WCNSS_CBC_COMPLETE_IND from FW
+6,1929,16857107,-;mmc1:add delay for sd vdd power off
+3,1930,52198907,-;BMS: hw_protect_voltage_check: [I/qpnp-vm-bms] set power_up flag true 
+3,1931,52216295,-;BMS: set_batt_status_property: [I/qpnp-vm-bms] Report EOC to charger 
+3,1932,70848959,-;[COMMON][INFO]cyttsp5_easy_wakeup_gesture_show 5404:easy_wakeup_gesture:0x0
+3,1933,70849042,-;[COMMON][INFO]cyttsp5_easy_wakeup_gesture_store 5434:Input value: 0
+3,1934,70867142,-;[LCD_INFO] mdss_fb_set_backlight: set backlight to 102
+3,1935,70867162,-;[LCD_INFO] mdss_fb_set_backlight:first panel on do not read 0x0A
+6,1936,70948881,-;name\x09\x09active_count\x09event_count\x09wakeup_count\x09expire_count\x09active_since\x09total_time\x09max_time\x09last_change\x09prevent_suspend_time
+6,1937,70948904,-;Active resource: PowerManagerService.Display\x091\x09\x091\x09\x090\x09\x090\x09\x09103\x09\x09103\x09\x09103\x09\x0970842\x09\x090
+6,1938,70948931,-;Active resource: charge_wakelock\x091\x09\x091\x09\x090\x09\x090\x09\x0966768\x09\x0966768\x09\x0966768\x09\x094177\x09\x090
+6,1939,70948942,-;Active resource: bq24296m_chrg_wakelock\x092\x09\x092\x09\x090\x09\x090\x09\x0965835\x09\x0966847\x09\x0965835\x09\x095110\x09\x090
+6,1940,70948963,-;Active resource: msm_otg     \x091\x09\x091\x09\x090\x09\x090\x09\x0969788\x09\x0969788\x09\x0969788\x09\x091157\x09\x090
+3,1941,96425686,-;lis3dh_acc_enable: acc->enabled=0
+3,1942,96453314,-;i2c-msm-v2 78b6000.i2c: msm_bus_scale_register_client(mstr-id:86):0x17 (ok)
+ SUBSYSTEM=platform
+ DEVICE=+platform:78b6000.i2c
+3,1943,96457683,-;lis3dh_acc_enable,lis3dh enable in hrtimer mode, poll_interval = 200
+3,1944,96457899,-;lis3dh_acc_enable: acc->enabled=1
+3,1945,96463474,-;start akm_enable_set!
+3,1946,96553633,-;power on the device!
+6,1947,96554360,-;lcd id is 21 from read tp color
+3,1948,96554436,-;[COMMON][WARNING]hw_cyttsp5_tp_color_info_show: begin 
+3,1949,96554447,-;[COMMON][WARNING]cyttsp5_tp_check_device_info: begin 
+3,1950,96578783,-;[COMMON][WARNING]cyttsp5_read_mfg_val0_: tp_color_data = 0x0
+3,1951,96579373,-;[COMMON][WARNING]hw_cyttsp5_tp_color_info_show: tp color info is invalid 
+3,1952,96579392,-;[COMMON][WARNING]hw_cyttsp5_tp_color_info_show: tp color : fail 
+3,1953,96658607,-;lis3dh_acc_report_values,xyz[0]=153, xyz[1]=67, xyz[2]=874
+3,1954,96717996,-;apds993x_set_pilt,line 940:set apds993x pilt =549
+3,1955,96718424,-;apds993x_set_piht,line 957:set apds993x piht =550
+3,1956,96719079,-;apds993x_enable_als_sensor: line:1656 enable als sensor,data->enable=0x3
+3,1957,96719092,-;apds993x_sensor_parse_parameter:tp_type = 0
+3,1958,96719102,-; apds993x_enable_als_sensor:Need to distinguish the tp type,and parse als parameter succesed.
+3,1959,96732842,-;[enable]
+3,1960,96732853,c; reg_buf= 
+3,1961,96732863,+;0x 3  
+3,1962,96732867,c;0xdb  
+3,1963,96732874,+;0xff  
+3,1964,96732877,c;0xb6  
+3,1965,96732884,+;0x 0  
+3,1966,96732887,c;0x 0  
+3,1967,96732894,+;0x 0  
+3,1968,96732897,c;0x 0  
+3,1969,96732904,+;0x25  
+3,1970,96732906,c;0x 2  
+3,1971,96732913,+;0x26  
+3,1972,96732916,c;0x 2  
+3,1973,96732923,+;0x12  
+3,1974,96732926,c;0x 0  
+3,1975,96732932,+;0x c  
+3,1976,96732935,c;0x60  
+3,1977,96732941,+;0x 0  
+3,1978,96732944,c;0x 2  
+3,1979,96732951,+;0x39  
+3,1980,96732955,c;0x 0  
+3,1981,96732962,+;0x 0  
+3,1982,96732965,c;0x 0  
+3,1983,96732972,+;0x 0  
+3,1984,96732975,c;0x 0  
+3,1985,96732981,+;0x 0  
+3,1986,96732985,c;0x 0  
+3,1987,96732992,-;
+3,1988,96733000,-;parameters: a=180, c=545, d=152,e=220,f=43
+3,1989,96734455,-;lis3dh_acc_disable: acc->enabled=1
+3,1990,96734467,c;lis3dh_acc_disable:lis3dh diable with hrtimer mode , acc->enabled=0
+3,1991,96736209,-;start akm_enable_set!
+3,1992,96736689,-;power off the device!
+3,1993,96749201,-;[disable]
+3,1994,96749213,c; reg_buf= 
+3,1995,96749223,+;0x 3  
+3,1996,96749226,c;0xdb  
+3,1997,96749233,+;0xff  
+3,1998,96749236,c;0xb6  
+3,1999,96749243,+;0x 0  
+3,2000,96749246,c;0x 0  
+3,2001,96749253,+;0x 0  
+3,2002,96749256,c;0x 0  
+3,2003,96749262,+;0x25  
+3,2004,96749265,c;0x 2  
+3,2005,96749272,+;0x26  
+3,2006,96749275,c;0x 2  
+3,2007,96749282,+;0x12  
+3,2008,96749285,c;0x 0  
+3,2009,96749291,+;0x c  
+3,2010,96749294,c;0x60  
+3,2011,96749301,+;0x 0  
+3,2012,96749304,c;0x 2  
+3,2013,96749311,+;0x39  
+3,2014,96749315,c;0x 0  
+3,2015,96749322,+;0x 0  
+3,2016,96749326,c;0x 0  
+3,2017,96749332,+;0x 0  
+3,2018,96749335,c;0x 0  
+3,2019,96749342,+;0x 0  
+3,2020,96749345,c;0x 0  
+3,2021,96749352,-;
+3,2022,96749360,-;parameters: a=180, c=545, d=152,e=220,f=43
+3,2023,96749703,-;apds993x_enable_als_sensor: line:1701,disable als sensor,data->enable = 0x0
+3,2024,96791732,-;diag: In diag_dci_write_proc, invalid data 0xffffffc0ad7eb000, peripheral: 0, len: 527
+3,2025,96870031,-;msm_flash_lm3642_led_init:248 called
+3,2026,96870048,-;msm_flash_clear_err_and_unlock entry
+3,2027,96870549,-;clear err and unlock success:00
+6,2028,96871398,-;msm_csid_init: CSID_VERSION = 0x30010000
+6,2029,96884878,-;MSM-CPP cpp_init_hardware:955 CPP HW Version: 0x40020000
+3,2030,96884899,-;MSM-CPP cpp_init_hardware:976 stream_cnt:0
+6,2031,96905776,-;MSM-CPP cpp_load_fw:1113 MC Bootloader Version: 0x312e3176
+6,2032,96911859,-;MSM-CPP cpp_load_fw:1126 CPP FW Version: 0x10040005
+3,2033,96872442,-; msm_csid_init: Failed in getting TOP gdscr regulator handle
+3,2034,96954756,c; msm_cci_init: Failed in getting TOP gdscr regulator handle
+6,2035,96955016,-;msm_cci_init:765: hw_version = 0x10020000
+3,2036,96955333,-;msm_sensor_check_otp_vendor_id, probe vendor_id success.
+4,2037,96985080,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0xac.
+4,2038,96985204,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0x34.
+4,2039,96985212,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0xa0.
+4,2040,96985783,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0x34.
+4,2041,96985793,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_get_module_id module info year 2016 month 9 day 3. huawei_id 0x9c,  vendor id&version 0x24
+4,2042,96985799,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_get_module_id foxconn_module
+4,2043,96985806,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0xa0.
+4,2044,96986750,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0x34.
+4,2045,96986758,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_get_awb OTP data are rgain=0xccd, ggain=0x69f, bgain=0x9fe
+4,2046,96986783,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0xa0.
+3,2047,97005046,-;qpnp_vib_enable,value=0
+4,2048,97020375,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0x34.
+4,2049,97020395,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0xa4.
+4,2050,97069861,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0x34.
+4,2051,97069881,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0xa6.
+4,2052,97106017,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0x34.
+4,2053,97106035,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0xa8.
+4,2054,97141718,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0x34.
+4,2055,97141737,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0xaa.
+4,2056,97169523,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0x34.
+4,2057,97169543,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0xac.
+4,2058,97170043,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_i2c_address enter! i2c_addr = 0x34.
+4,2059,97170053,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_get_af vcm_start=0x131, vcm_end=0x2a9 
+4,2060,97170063,-;W/[HWCamera] sensor_otp_imx214: imx214_get_otp_from_sensor success, OTPSUMVAL: 107862, otpCheckSumVal: 254 ,sum:107608, imx214_otp_flag=0x5f
+4,2061,97171018,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_awb set sensor digital complete. r_gain: 0x108, b_gain: 0x106, g_gain: 0x100
+4,2062,97171028,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_af: starting_dac = 0x87,  infinity_dac = 0x87, macro_dac = 0x353
+6,2063,97171037,-;msm_sensor_config32,1521 s_ctrl->hw_otp_check_flag.mmi_otp_check_flag = 0x0
+3,2064,97236101,-;[hw_camera_log_info] camera_v4l2_close: start camera wake_lock_timeout!
+3,2065,97237605,-;msm_flash_lm3642_led_release:279 called
+6,2066,97276284,-;msm_csid_init: CSID_VERSION = 0x30010000
+6,2067,97291881,-;MSM-CPP cpp_init_hardware:955 CPP HW Version: 0x40020000
+3,2068,97291897,-;MSM-CPP cpp_init_hardware:976 stream_cnt:0
+6,2069,97312890,-;MSM-CPP cpp_load_fw:1113 MC Bootloader Version: 0x312e3176
+6,2070,97318981,-;MSM-CPP cpp_load_fw:1126 CPP FW Version: 0x10040005
+3,2071,97276911,-; msm_csid_init: Failed in getting TOP gdscr regulator handle
+3,2072,97337623,c; msm_cci_init: Failed in getting TOP gdscr regulator handle
+6,2073,97337885,-;msm_cci_init:765: hw_version = 0x10020000
+3,2074,97338182,-;not support otp id probe, return success
+4,2075,97369926,-;W/[HWCamera] sensor_otp_ov5648: ov5648_otp_read_module_info,group 2 otp_ptr.product_year:0
+4,2076,97369944,-;W/[HWCamera] sensor_otp_ov5648: ov5648_otp_read_module_info,group 2 otp_ptr.product_month:0
+4,2077,97369951,-;W/[HWCamera] sensor_otp_ov5648: ov5648_otp_read_module_info,group 2 otp_ptr.product_date:0
+4,2078,97369958,-;W/[HWCamera] sensor_otp_ov5648: ov5648_otp_read_module_info,group 2 otp_ptr.camera_id:0
+4,2079,97369965,-;W/[HWCamera] sensor_otp_ov5648: ov5648_otp_read_module_info,group 2 otp_ptr.supplier_version_id:0
+4,2080,97376268,-;W/[HWCamera] sensor_otp_ov5648: ov5648_otp_read_module_info,group 2 otp_ptr.product_year:80
+4,2081,97376286,-;W/[HWCamera] sensor_otp_ov5648: ov5648_otp_read_module_info,group 2 otp_ptr.product_month:8
+4,2082,97376294,-;W/[HWCamera] sensor_otp_ov5648: ov5648_otp_read_module_info,group 2 otp_ptr.product_date:20
+4,2083,97376301,-;W/[HWCamera] sensor_otp_ov5648: ov5648_otp_read_module_info,group 2 otp_ptr.camera_id:132
+4,2084,97376308,-;W/[HWCamera] sensor_otp_ov5648: ov5648_otp_read_module_info,group 2 otp_ptr.supplier_version_id:33
+4,2085,97378343,-;W/[HWCamera] sensor_otp_ov5648: ov5648_otp_read_module_info, Module info lays in group 1
+4,2086,97393757,-;W/[HWCamera] sensor_otp_ov5648: ov5648_otp_read_awb, AWB info lays in group 1
+6,2087,97394252,-;msm_sensor_config32,1521 s_ctrl->hw_otp_check_flag.mmi_otp_check_flag = 0x0
+3,2088,97420880,-;[hw_camera_log_info] camera_v4l2_close: do not need wake_lock now, cam_wakelock_init = 1
+3,2089,97991421,-;diag: In diag_process_smd_read_data, diag_device_write error: -19
+4,2090,123598445,-;enable_store: 2 callbacks suppressed
+3,2091,123598464,-;enable_store: USB_LOGS_ERR:enable_store():android_usb: already disabled
+3,2092,123599508,-;functions_store: USB_LOGS_INFO:functions_store():mtp
+3,2093,123599519,-;alloc_android_config: USB_LOGS_INFO:alloc_android_config():conf->usb_config.setup = android_setup_config
+6,2094,123599571,-;mtp_bind_config
+3,2095,123599636,-;msm_hsusb msm_hsusb: USB_LOGS_INFO:ci13xxx_msm_notify_event():CI13XXX_CONTROLLER_CONNECT_EVENT received
+ SUBSYSTEM=platform
+ DEVICE=+platform:msm_hsusb
+6,2096,123649787,-;acc_open
+6,2097,123649810,-;acc_release
+3,2098,123704558,-;USB_LOGS_INFO:msm_otg_notify_chg_type():setting usb power supply type 4
+3,2099,123704924,-;android_work: USB_LOGS_INFO:android_work():did not send uevent (0 0           (null))
+3,2100,123706829,-;USB_LOGS_INFO:msm_otg_irq():portsc = 88000a05
+3,2101,123856317,-;android_work: USB_LOGS_INFO:android_work():sent uevent USB_STATE=CONNECTED
+3,2102,123859685,-;USB_LOGS_INFO:msm_otg_notify_chg_type():setting usb power supply type 4
+3,2103,123859990,-;android_work: USB_LOGS_INFO:android_work():sent uevent USB_STATE=DISCONNECTED
+3,2104,123861940,-;USB_LOGS_INFO:msm_otg_irq():portsc = 88000a05
+3,2105,124020143,-;android_work: USB_LOGS_INFO:android_work():sent uevent USB_STATE=CONNECTED
+6,2106,124021572,-;android_usb gadget: high-speed config #1: 86000c8.android_usb
+3,2107,124021589,-;USB_LOGS_INFO:msm_otg_notify_chg_type():setting usb power supply type 4
+3,2108,124063692,-;[I/FPC] fpc1020_open 875: fpc1020_open fpc1020->taskstate=11
+3,2109,124063714,-;[I/FPC] fpc1020_ioctl 1189: fpc1020_ioctl FPC1020_IOC_CMD_GET_SENSORID = 4
+3,2110,124073240,-;android_work: USB_LOGS_INFO:android_work():sent uevent USB_STATE=CONFIGURED
+4,2111,124093894,-;QSEECOM: qseecom_load_app: App (fingerpr) does'nt exist, loading apps for first time
+4,2112,124173553,-;QSEECOM: qseecom_load_app: App with id 4 (fingerpr) now loaded
+6,2113,124177151,-;QSEECOM: __qseecom_send_cmd: get a cmd form pid:324
+6,2114,124180914,-;QSEECOM: __qseecom_send_cmd: get a cmd form pid:324
+6,2115,124267338,-;fpc1020 spi6.0: msm_spi_ctl_for_tz: clk enable_count = 1
+ SUBSYSTEM=spi
+ DEVICE=+spi:spi6.0
+6,2116,124270415,-;QSEECOM: __qseecom_send_cmd: get a cmd form pid:324
+6,2117,124275857,-;QSEECOM: __qseecom_send_cmd: get a cmd form pid:324
+6,2118,125426022,-;QSEECOM: __qseecom_send_cmd: get a cmd form pid:324
+6,2119,125433051,-;fpc1020 spi6.0: msm_spi_ctl_for_tz: clk enable_count = 0
+ SUBSYSTEM=spi
+ DEVICE=+spi:spi6.0
+6,2120,125434040,-;QSEECOM: __qseecom_send_cmd: get a cmd form pid:324
+6,2121,125438684,-;QSEECOM: __qseecom_send_cmd: get a cmd form pid:324
+3,2122,125450026,-;[I/FPC] fpc1020_ioctl 1207: fpc1020_ioctl FPC1020_IOC_CMD_WORKER_IDLE end status=50 taskstate set to:11
+6,2123,125455101,-;QSEECOM: __qseecom_send_cmd: get a cmd form pid:324
+6,2124,125459318,-;QSEECOM: __qseecom_send_cmd: get a cmd form pid:324
+6,2125,125467598,-;QSEECOM: __qseecom_send_cmd: get a cmd form pid:324
+6,2126,125472123,-;QSEECOM: __qseecom_send_cmd: get a cmd form pid:324
+6,2127,125491373,-;QSEECOM: __qseecom_send_cmd: get a cmd form pid:324
+3,2128,125883602,-;qpnp_vib_enable,value=0
+3,2129,125885523,-;qpnp_vib_enable,value=1
+3,2130,125906882,-;qpnp_vib_enable,value=21
+3,2131,125967369,-;qpnp_vib_enable,value=0
+3,2132,126529117,-;[COMMON][INFO]cyttsp5_easy_wakeup_gesture_show 5404:easy_wakeup_gesture:0x0
+3,2133,126529260,-;[COMMON][INFO]cyttsp5_easy_wakeup_gesture_store 5434:Input value: 1
+3,2134,126967083,-;[COMMON][INFO]hw_cyttsp5_glove_func_store:set glove_mode  = 0.
+3,2135,126967104,-;[COMMON][INFO]hw_cyttsp5_glove_func_store:TP is already in glove_mode  = 0.
+6,2136,127072652,-;mmc1: Starting deferred resume
+3,2137,127258290,-;[EMMC_SD_INFO] mmc1: this sd support SDHC or later 
+3,2138,127391026,-;[EMMC_SD_INFO] mmc1:send acmd41 with ocr:0x41040000,get rocr:0xc1ff8000
+3,2139,127391043,-;[EMMC_SD_INFO] mmc1:support uhs-1,and accept 1.8V switching request
+3,2140,127404514,-;[EMMC_SD_INFO] mmc1:host and card voltage have changed into 1.8v success!
+3,2141,127406676,-;[EMMC_SD_INFO] mmc1:host support SDR12 SDR25 SDR50  DDR50
+6,2142,127408517,-;msm_vidc: info: Opening video instance: 0000000000000000, 0
+6,2143,127412216,-;mmc1: Deferred resume completed
+6,2144,127412233,-;mmcqd/1 rw time:0 ms,write time:0 ms,read time:0 ms
+6,2145,127412241,-;mmcqd/1 workload < 1%, duty 0, period 125186512569, req_cnt=0
+6,2146,127432598,-;subsys-pil-tz 1de0000.qcom,venus: venus: loading from 0x000000008f800000 to 0x000000008fd00000
+ SUBSYSTEM=platform
+ DEVICE=+platform:1de0000.qcom,venus
+6,2147,127445983,-;sdcardfs version 2.0
+6,2148,127445998,-;sdcardfs: dev_name -> /data/media
+6,2149,127446003,-;sdcardfs: options -> fsuid=1023,fsgid=1023,multiuser,mask=6,userid=0,gid=1015
+6,2150,127446008,-;sdcardfs: mnt -> ffffffc0ac3042a0
+6,2151,127446061,-;sdcardfs: mounted on top of /data/media type ext4
+7,2152,127446278,-;SELinux: initialized (dev sdcardfs, type sdcardfs), uses genfs_contexts
+6,2153,127446533,-;sdcardfs version 2.0
+6,2154,127446541,-;sdcardfs: dev_name -> /data/media
+6,2155,127446546,-;sdcardfs: options -> fsuid=1023,fsgid=1023,multiuser,mask=23,userid=0,gid=9997
+6,2156,127446550,-;sdcardfs: mnt -> ffffffc0ac305060
+6,2157,127446579,-;sdcardfs: mounted on top of /data/media type ext4
+7,2158,127446594,-;SELinux: initialized (dev sdcardfs, type sdcardfs), uses genfs_contexts
+6,2159,127446743,-;sdcardfs version 2.0
+6,2160,127446748,-;sdcardfs: dev_name -> /data/media
+6,2161,127446753,-;sdcardfs: options -> fsuid=1023,fsgid=1023,multiuser,mask=7,userid=0,gid=9997
+6,2162,127446757,-;sdcardfs: mnt -> ffffffc0ac305920
+6,2163,127446777,-;sdcardfs: mounted on top of /data/media type ext4
+7,2164,127446786,-;SELinux: initialized (dev sdcardfs, type sdcardfs), uses genfs_contexts
+6,2165,127481849,-;subsys-pil-tz 1de0000.qcom,venus: venus: Brought out of reset
+ SUBSYSTEM=platform
+ DEVICE=+platform:1de0000.qcom,venus
+6,2166,127529875,-;msm_vidc: info: Closed video instance: 0000000000000000
+6,2167,127532191,-;msm_vidc: info: Opening video instance: 0000000000000000, 0
+6,2168,127543200,-;msm_vidc: info: Closed video instance: 0000000000000000
+6,2169,127547797,-;msm_vidc: info: Opening video instance: 0000000000000000, 0
+6,2170,127559443,-;msm_vidc: info: Closed video instance: 0000000000000000
+6,2171,127565416,-;msm_vidc: info: Opening video instance: 0000000000000000, 0
+6,2172,127574869,-;msm_vidc: info: Closed video instance: 0000000000000000
+6,2173,127585700,-;msm_vidc: info: Opening video instance: 0000000000000000, 1
+6,2174,127616834,-;msm_vidc: info: Closed video instance: 0000000000000000
+6,2175,127626236,-;msm_vidc: info: Opening video instance: 0000000000000000, 1
+6,2176,127649118,-;msm_vidc: info: Closed video instance: 0000000000000000
+6,2177,127652585,-;msm_vidc: info: Opening video instance: 0000000000000000, 1
+6,2178,127671075,-;msm_vidc: info: Closed video instance: 0000000000000000
+6,2179,127677216,-;msm_vidc: info: Opening video instance: 0000000000000000, 1
+6,2180,127686831,-;msm_vidc: info: Closed video instance: 0000000000000000
+6,2181,127689727,-;msm_vidc: info: Opening video instance: 0000000000000000, 1
+6,2182,127703429,-;msm_vidc: info: Closed video instance: 0000000000000000
+6,2183,127707228,-;msm_vidc: info: Opening video instance: 0000000000000000, 1
+6,2184,127721387,-;msm_vidc: info: Closed video instance: 0000000000000000
+6,2185,127725331,-;msm_vidc: info: Opening video instance: 0000000000000000, 1
+6,2186,127741963,-;msm_vidc: info: Closed video instance: 0000000000000000
+6,2187,127748497,-;msm_vidc: info: Opening video instance: 0000000000000000, 1
+6,2188,127763010,-;msm_vidc: info: Closed video instance: 0000000000000000
+6,2189,127766092,-;msm_vidc: info: Opening video instance: 0000000000000000, 1
+6,2190,127785566,-;msm_vidc: info: Closed video instance: 0000000000000000
+6,2191,127791421,-;msm_vidc: info: Opening video instance: 0000000000000000, 1
+6,2192,127807781,-;msm_vidc: info: Closed video instance: 0000000000000000
+6,2193,127811453,-;msm_vidc: info: Opening video instance: 0000000000000000, 1
+6,2194,127826026,-;msm_vidc: info: Closed video instance: 0000000000000000
+3,2195,127830434,-;msm_flash_lm3642_led_init:248 called
+3,2196,127830452,-;msm_flash_clear_err_and_unlock entry
+3,2197,127831320,-;clear err and unlock success:00
+6,2198,127831788,-;msm_vidc: info: Opening video instance: 0000000000000000, 1
+6,2199,127832595,-;msm_csid_init: CSID_VERSION = 0x30010000
+6,2200,127848684,-;msm_vidc: info: Closed video instance: 0000000000000000
+6,2201,127851322,-;MSM-CPP cpp_init_hardware:955 CPP HW Version: 0x40020000
+3,2202,127851341,-;MSM-CPP cpp_init_hardware:976 stream_cnt:0
+6,2203,127880987,-;MSM-CPP cpp_load_fw:1113 MC Bootloader Version: 0x312e3176
+6,2204,127887200,-;MSM-CPP cpp_load_fw:1126 CPP FW Version: 0x10040005
+3,2205,127833252,-; msm_csid_init: Failed in getting TOP gdscr regulator handle
+3,2206,127913904,c; msm_cci_init: Failed in getting TOP gdscr regulator handle
+6,2207,127914242,-;msm_cci_init:765: hw_version = 0x10020000
+3,2208,127915439,-;msm_sensor_check_otp_vendor_id, probe vendor_id success.
+4,2209,127945305,-;W/[HWCamera] sensor_otp_imx214: imx214_get_otp_from_sensor, IMX214_OTP_COMPLETE
+4,2210,127947943,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_awb set sensor digital complete. r_gain: 0x108, b_gain: 0x106, g_gain: 0x100
+4,2211,127947970,-;W/[HWCamera] sensor_otp_imx214: imx214_otp_set_af: starting_dac = 0x87,  infinity_dac = 0x87, macro_dac = 0x353
+6,2212,127947980,-;msm_sensor_config32,1521 s_ctrl->hw_otp_check_flag.mmi_otp_check_flag = 0x0
+3,2213,128001682,-;[hw_camera_log_info] camera_v4l2_close: start camera wake_lock_timeout!
+3,2214,128002930,-;msm_flash_lm3642_led_release:279 called
+6,2215,128070275,-;msm_csid_init: CSID_VERSION = 0x30010000
+6,2216,128091278,-;MSM-CPP cpp_init_hardware:955 CPP HW Version: 0x40020000
+3,2217,128091304,-;MSM-CPP cpp_init_hardware:976 stream_cnt:0
+6,2218,128113345,-;MSM-CPP cpp_load_fw:1113 MC Bootloader Version: 0x312e3176
+6,2219,128119527,-;MSM-CPP cpp_load_fw:1126 CPP FW Version: 0x10040005
+3,2220,128071057,-; msm_csid_init: Failed in getting TOP gdscr regulator handle
+3,2221,128134657,c; msm_cci_init: Failed in getting TOP gdscr regulator handle
+6,2222,128134935,-;msm_cci_init:765: hw_version = 0x10020000
+3,2223,128135156,-;not support otp id probe, return success
+6,2224,128163499,-;msm_sensor_config32,1521 s_ctrl->hw_otp_check_flag.mmi_otp_check_flag = 0x0
+3,2225,128210058,-;[hw_camera_log_info] camera_v4l2_close: do not need wake_lock now, cam_wakelock_init = 1
+4,2226,128448040,-;FAT-fs (mmcblk1p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+7,2227,128448078,-;SELinux: initialized (dev mmcblk1p1, type vfat), uses genfs_contexts
+6,2228,128474514,-;sdcardfs version 2.0
+6,2229,128474530,-;sdcardfs: dev_name -> /mnt/media_rw/6266-3234
+6,2230,128474535,-;sdcardfs: options -> fsuid=1023,fsgid=1023,mask=6,userid=0,gid=1015
+6,2231,128474541,-;sdcardfs: mnt -> ffffffc0506f8520
+6,2232,128474645,-;sdcardfs: mounted on top of /mnt/media_rw/6266-3234 type vfat
+7,2233,128474685,-;SELinux: initialized (dev sdcardfs, type sdcardfs), uses genfs_contexts
+6,2234,128475237,-;sdcardfs version 2.0
+6,2235,128475258,-;sdcardfs: dev_name -> /mnt/media_rw/6266-3234
+6,2236,128475264,-;sdcardfs: options -> fsuid=1023,fsgid=1023,mask=18,userid=0,gid=9997
+6,2237,128475271,-;sdcardfs: mnt -> ffffffc0506f9ba0
+6,2238,128475331,-;sdcardfs: mounted on top of /mnt/media_rw/6266-3234 type vfat
+7,2239,128475353,-;SELinux: initialized (dev sdcardfs, type sdcardfs), uses genfs_contexts
+6,2240,128475712,-;sdcardfs version 2.0
+6,2241,128475721,-;sdcardfs: dev_name -> /mnt/media_rw/6266-3234
+6,2242,128475726,-;sdcardfs: options -> fsuid=1023,fsgid=1023,mask=18,userid=0,gid=9997
+6,2243,128475732,-;sdcardfs: mnt -> ffffffc050f0ca20
+6,2244,128475779,-;sdcardfs: mounted on top of /mnt/media_rw/6266-3234 type vfat
+7,2245,128475800,-;SELinux: initialized (dev sdcardfs, type sdcardfs), uses genfs_contexts
+3,2246,128896846,-;lis3dh_acc_enable: acc->enabled=0
+3,2247,128927346,-;lis3dh_acc_enable,lis3dh enable in hrtimer mode, poll_interval = 200
+3,2248,128928115,-;lis3dh_acc_poll_delay_set,set poll delay =66
+3,2249,129128468,-;lis3dh_acc_report_values,xyz[0]=172, xyz[1]=84, xyz[2]=993
+3,2250,129434428,-;qpnp_vib_enable,value=0
+13,2251,133968409,-;init: Service 'bootanim' (pid 581) exited with status 0
+14,2252,134119265,-;Boot completed init: cannot find '/system/bin/qrngp' (No such file or directory), disabling 'qrngp'
+13,2253,134122186,-;init: Starting service 'lp-helper'...
+6,2254,134123775,-;msm_thermal:store_cc_enabled Core control disabled
+6,2255,134126179,-;mdss_set_rgb: mdss_set_rgb: r=32768 g=32768 b=32768
+6,2256,134129331,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=32768 b=32768
+6,2257,134131406,+;CPU1: Booted secondary processor
+6,2258,134134480,-;CPU3: Booted secondary processor
+6,2259,134135521,-;cluster_plug: 2 big cpus enabled
+6,2260,134135529,-;cluster_plug: 0 little cpus enabled
+13,2261,134135749,-;init: write_file: Unable to write to '/sys/devices/system/cpu/cpu0/online': Invalid argument
+13,2262,134136487,-;init: write_file: Unable to write to '/sys/devices/system/cpu/cpu4/online': Invalid argument
+6,2263,134137198,-;msm_thermal:store_cc_enabled Core control enabled
+6,2264,134138207,-;cluster_plug: 0 big cpus enabled
+4,2265,134138965,-;IRQ32 no longer affine to CPU4
+4,2266,134138985,-;IRQ33 no longer affine to CPU4
+4,2267,134138994,-;IRQ34 no longer affine to CPU4
+4,2268,134139003,-;IRQ35 no longer affine to CPU4
+4,2269,134139012,-;IRQ36 no longer affine to CPU4
+4,2270,134139020,-;IRQ37 no longer affine to CPU4
+4,2271,134139028,-;IRQ38 no longer affine to CPU4
+4,2272,134139038,-;IRQ40 no longer affine to CPU4
+4,2273,134139047,-;IRQ41 no longer affine to CPU4
+4,2274,134139055,-;IRQ42 no longer affine to CPU4
+5,2275,134143204,-;CPU4: shutdown
+5,2276,134149492,-;CPU5: shutdown
+5,2277,134152819,-;CPU6: shutdown
+6,2278,134131095,-;mdss_set_rgb: mdss_set_rgb: r=32768 g=32768 b=32768
+6,2279,134152872,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=32768 b=32768
+5,2280,134157710,-;CPU7: shutdown
+6,2281,134161518,-;cluster_plug: 4 little cpus disabled
+13,2282,134161805,-;init: Service 'lp-helper' (pid 3346) exited with status 0
+13,2283,134162135,-;init: write_file: Unable to write to '/sys/devices/system/cpu/cpu1/online': Invalid argument
+13,2284,134162217,-;init: write_file: Unable to write to '/sys/devices/system/cpu/cpu2/online': Invalid argument
+13,2285,134162270,-;init: write_file: Unable to write to '/sys/devices/system/cpu/cpu3/online': Invalid argument
+6,2286,134164519,-;CPU5: Booted secondary processor
+6,2287,134166561,-;CPU6: Booted secondary processor
+6,2288,134167680,-;CPU7: Booted secondary processor
+13,2289,134168671,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu0/sched_mostly_idle_load': No such file or directory
+13,2290,134168726,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu1/sched_mostly_idle_load': No such file or directory
+13,2291,134168772,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu2/sched_mostly_idle_load': No such file or directory
+13,2292,134168811,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu3/sched_mostly_idle_load': No such file or directory
+13,2293,134168850,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu4/sched_mostly_idle_load': No such file or directory
+13,2294,134168889,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu5/sched_mostly_idle_load': No such file or directory
+13,2295,134168927,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu6/sched_mostly_idle_load': No such file or directory
+13,2296,134168967,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu7/sched_mostly_idle_load': No such file or directory
+13,2297,134169003,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu0/sched_mostly_idle_nr_run': No such file or directory
+13,2298,134169040,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu1/sched_mostly_idle_nr_run': No such file or directory
+13,2299,134169079,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu2/sched_mostly_idle_nr_run': No such file or directory
+13,2300,134169116,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu3/sched_mostly_idle_nr_run': No such file or directory
+13,2301,134169154,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu4/sched_mostly_idle_nr_run': No such file or directory
+13,2302,134169199,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu5/sched_mostly_idle_nr_run': No such file or directory
+13,2303,134169239,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu6/sched_mostly_idle_nr_run': No such file or directory
+13,2304,134169277,-;init: write_file: Unable to open '/sys/devices/system/cpu/cpu7/sched_mostly_idle_nr_run': No such file or directory
+13,2305,134170131,-;init: Starting service 'perfd'...
+6,2306,134165354,-;mdss_set_rgb: mdss_set_rgb: r=32768 g=32768 b=32768
+6,2307,134183596,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=32024 b=31322
+3,2308,134186214,-;apds993x_set_pilt,line 940:set apds993x pilt =549
+3,2309,134186654,-;apds993x_set_piht,line 957:set apds993x piht =550
+3,2310,134187426,-;apds993x_enable_als_sensor: line:1656 enable als sensor,data->enable=0x3
+6,2311,134203300,-;cluster_plug: ignoring old ts 134200
+6,2312,134200340,-;mdss_set_rgb: mdss_set_rgb: r=32768 g=31641 b=30577
+3,2313,134204452,c;[enable]
+3,2314,134204468,+; reg_buf= 
+3,2315,134204471,c;0x 3  
+3,2316,134204477,+;0xdb  
+3,2317,134204480,c;0xff  
+3,2318,134204486,+;0xb6  
+3,2319,134204488,c;0x 0  
+3,2320,134204494,+;0x 0  
+3,2321,134204496,c;0x 0  
+3,2322,134204502,+;0x 0  
+3,2323,134204504,c;0x25  
+3,2324,134204509,+;0x 2  
+3,2325,134204512,c;0x26  
+3,2326,134204517,+;0x 2  
+3,2327,134204520,c;0x12  
+3,2328,134204525,+;0x 0  
+3,2329,134204528,c;0x c  
+3,2330,134204533,+;0x60  
+3,2331,134204536,c;0x 0  
+3,2332,134204541,+;0x 2  
+3,2333,134204544,c;0x39  
+3,2334,134204550,+;0x 0  
+3,2335,134204552,c;0x 0  
+3,2336,134204558,+;0x 0  
+3,2337,134204560,c;0x 0  
+3,2338,134204566,+;0x 0  
+3,2339,134204568,c;0x 0  
+3,2340,134204574,+;0x 0  
+3,2341,134204576,-;
+3,2342,134204583,-;parameters: a=180, c=545, d=152,e=220,f=43
+3,2343,134205287,-;apds993x_set_als_poll_delay,line 1909:poll delay 200, atime_index 219
+6,2344,134217593,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=31258 b=29832
+6,2345,134234346,+;mdss_set_rgb: mdss_set_rgb: r=32768 g=30876 b=29088
+6,2346,134250482,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=30493 b=28343
+13,2347,134283622,+;init: write_file: Unable to open '/sys/block/sda/queue/scheduler': No such file or directory
+13,2348,134283676,-;init: write_file: Unable to open '/sys/block/sde/queue/scheduler': No such file or directory
+13,2349,134283711,-;init: write_file: Unable to open '/sys/block/dm-0/queue/scheduler': No such file or directory
+13,2350,134283910,-;init: write_file: Unable to open '/sys/block/sda/queue/iosched/slice_idle': No such file or directory
+13,2351,134283939,-;init: write_file: Unable to open '/sys/block/sde/queue/iosched/slice_idle': No such file or directory
+13,2352,134283965,-;init: write_file: Unable to open '/sys/block/dm-0/queue/iosched/slice_idle': No such file or directory
+6,2353,134267359,-;mdss_set_rgb: mdss_set_rgb: r=32768 g=30132 b=27642
+6,2354,134284369,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=29749 b=26897
+6,2355,134300795,+;mdss_set_rgb: mdss_set_rgb: r=32768 g=29366 b=26152
+6,2356,134317240,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=29141 b=25714
+3,2357,134390123,-;[ALS_PS]: the cycle luxValue = 70,ch0data = 30,ch1data = 3
+5,2358,134408390,-;CPU5: shutdown
+5,2359,134412989,-;CPU6: shutdown
+5,2360,134415352,-;CPU7: shutdown
+6,2361,134416071,-;cluster_plug: 3 little cpus disabled
+3,2362,134591883,-;[ALS_PS]: the skip  luxValue = 65,ch0data = 30,ch1data = 4,als_print = 1
+6,2363,134913491,-;CPU4: Booted secondary processor
+6,2364,134914592,-;CPU5: Booted secondary processor
+6,2365,134915941,-;CPU6: Booted secondary processor
+6,2366,134917439,-;CPU7: Booted secondary processor
+6,2367,134918773,-;cluster_plug: 4 little cpus enabled
+6,2368,134991282,-;wlan: loading driver v3.0.10.085
+3,2369,135009902,-;wlan: [E :VOS] INFO: NV version = 3 is loaded, driver supports NV version = 2
+3,2370,135009925,-;wlan: [E :VOS] INFO: NV loaded doesn't match with driver default NV, driver default NV will be used, may impact performance.
+3,2371,135069581,-;qpnp_vib_enable,value=0
+6,2372,135239271,-;wlan: WCNSS WLAN version 1.5.1.2
+6,2373,135239283,-;wlan: WCNSS software version CNSS-PR-2-0-1-1-c1-00153
+6,2374,135239289,-;wlan: WCNSS hardware version WCN v2.0 RadioPhy vRhea_GF_1.12 with 19.2MHz XO
+6,2375,135239319,-;DefaultCountry is US
+6,2376,135239972,-;cfg80211: Calling CRDA for country: US
+6,2377,135240094,-;cfg80211: Regulatory domain changed to country: US
+6,2378,135240100,-;cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+6,2379,135240107,-;cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 3000 mBm)
+6,2380,135240112,-;cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz), (600 mBi, 2400 mBm)
+6,2381,135240118,-;cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz), (600 mBi, 2400 mBm)
+6,2382,135240124,-;cfg80211:   (5490000 KHz - 5730000 KHz @ 80000 KHz), (600 mBi, 2400 mBm)
+6,2383,135240129,-;cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (600 mBi, 3000 mBm)
+6,2384,135240135,-;cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 4000 mBm)
+3,2385,135258434,-;[00:02:07.587570] [000000009FD61EA3] [Binde]  wlan: [E :HDD] Ptt Socket error sending message to the app!!
+6,2386,135258657,-;send_filled_buffers_to_user: Send Failed -3 drop_count = 0
+6,2387,135258816,-;wlan: driver loaded
+3,2388,135270287,-;[00:02:07.599421] [000000009FD9977E] [WifiS]  wlan: [E :HDD] Ptt Socket error sending message to the app!!
+6,2389,135270411,-;IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+13,2390,135277340,-;init: Starting service 'p2p_supplicant'...
+5,2391,135517190,-;CPU4: shutdown
+5,2392,135521441,-;CPU5: shutdown
+5,2393,135524667,-;CPU6: shutdown
+5,2394,135528120,-;CPU7: shutdown
+6,2395,135530212,-;cluster_plug: 4 little cpus disabled
+6,2396,135598979,-;IPv6: ADDRCONF(NETDEV_UP): p2p0: link is not ready
+3,2397,135760412,-;[00:02:08.089550] [00000000A0692F28] [WifiS]  wlan: [E :HDD] __wlan_hdd_cfg80211_ll_stats_get: 1855: Link Layer Statistics not supported by Firmware
+3,2398,135772227,-;[00:02:08.101366] [00000000A06CA559] [WifiS]  wlan: [E :HDD] __wlan_hdd_cfg80211_ll_stats_set: 1714: Link Layer Statistics not supported by Firmware
+3,2399,135793515,-;[00:02:08.122655] [00000000A072E1FA] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,2400,135795810,-;[00:02:08.124948] [00000000A0738E03] [WifiS]  wlan: [E :HDD] __wlan_hdd_cfg80211_ll_stats_get: 1855: Link Layer Statistics not supported by Firmware
+3,2401,135809533,-;[00:02:08.138670] [00000000A077932B] [WifiS]  wlan: [E :HDD] __wlan_hdd_cfg80211_ll_stats_get: 1855: Link Layer Statistics not supported by Firmware
+3,2402,135813182,-;wlan: [3595:E :CTL] Error returned WDI_ProcessInitScanRspi:0 BMPS0
+6,2403,135925047,-;CPU4: Booted secondary processor
+6,2404,135926997,-;CPU5: Booted secondary processor
+6,2405,135928156,-;CPU6: Booted secondary processor
+6,2406,135929270,-;CPU7: Booted secondary processor
+6,2407,135930652,-;cluster_plug: 4 little cpus enabled
+5,2408,136225388,-;CPU4: shutdown
+5,2409,136228053,-;CPU5: shutdown
+5,2410,136230704,-;CPU6: shutdown
+5,2411,136233285,-;CPU7: shutdown
+6,2412,136234349,-;cluster_plug: 4 little cpus disabled
+3,2413,136315695,-;[00:02:08.644834] [00000000A10BDD6E] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+3,2414,136986693,-;[COMMON][INFO]cyttsp5_easy_wakeup_gesture_show 5404:easy_wakeup_gesture:0x1
+3,2415,136989615,-;[COMMON][INFO]cyttsp5_easy_wakeup_gesture_store 5434:Input value: 129
+3,2416,136992893,-;[COMMON][INFO]cyttsp5_easy_wakeup_gesture_show 5404:easy_wakeup_gesture:0x81
+3,2417,136995765,-;[COMMON][INFO]cyttsp5_easy_wakeup_gesture_store 5434:Input value: 385
+3,2418,136999247,-;[COMMON][INFO]cyttsp5_easy_wakeup_gesture_show 5404:easy_wakeup_gesture:0x181
+3,2419,137001950,-;[COMMON][INFO]cyttsp5_easy_wakeup_gesture_store 5434:Input value: 897
+3,2420,137005291,-;[COMMON][INFO]cyttsp5_easy_wakeup_gesture_show 5404:easy_wakeup_gesture:0x381
+3,2421,137007719,-;[COMMON][INFO]cyttsp5_easy_wakeup_gesture_store 5434:Input value: 1921
+6,2422,138010658,-;mtp_open
+6,2423,138479018,-;mmc1:add delay for sd vdd power off
+6,2424,154238735,-;BMS: report_vm_bms_soc: prevent SOC down,soc = 100,charge_time = 33,current = -12495
+3,2425,155784078,-;[00:02:28.113217] [00000000B7537E2D] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,2426,155797217,-;wlan: [3595:E :CTL] Error returned WDI_ProcessInitScanRspi:0 BMPS0
+3,2427,156345240,-;[00:02:28.674379] [00000000B7F7E54C] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+6,2428,158955411,-;mmc1: Starting deferred resume
+3,2429,159138117,-;[EMMC_SD_INFO] mmc1: this sd support SDHC or later 
+3,2430,159270021,-;[EMMC_SD_INFO] mmc1:send acmd41 with ocr:0x41040000,get rocr:0xc1ff8000
+3,2431,159270082,-;[EMMC_SD_INFO] mmc1:support uhs-1,and accept 1.8V switching request
+3,2432,159283964,-;[EMMC_SD_INFO] mmc1:host and card voltage have changed into 1.8v success!
+3,2433,159286392,-;[EMMC_SD_INFO] mmc1:host support SDR12 SDR25 SDR50  DDR50
+6,2434,159295421,-;mmc1: Deferred resume completed
+6,2435,159295474,-;mmcqd/1 rw time:259239897 ms,write time:0 ms,read time:259239897 ms
+6,2436,159295515,-;mmcqd/1 workload < 1%, duty 259239897, period 31883230410, req_cnt=23
+6,2437,159295553,-;mmcqd/1 Read Throughput=31629 kB/s, size: 8192000 bytes, time:259 ms
+6,2438,159344959,-;sdcardfs_lookup: need to check the caller's gid in packages.list\x0a\x09dentry: .android_secure, task:MediaScannerSer
+6,2439,159345002,-;sdcardfs_lookup: need to check the caller's gid in packages.list\x0a\x09dentry: .android_secure, task:MediaScannerSer
+6,2440,159345032,-;sdcardfs_lookup: need to check the caller's gid in packages.list\x0a\x09dentry: .android_secure, task:MediaScannerSer
+3,2441,159396914,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,2442,159401589,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,2443,159408546,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,2444,159462484,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,2445,159467355,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,2446,159486886,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,2447,159491455,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,2448,159498063,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,2449,159503628,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,2450,159506131,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,2451,164497669,-;[ALS_PS]: the cycle luxValue = 65,ch0data = 30,ch1data = 4
+6,2452,166710808,-;sdcardfs_lookup: need to check the caller's gid in packages.list\x0a\x09dentry: .android_secure, task:MediaScannerSer
+6,2453,166710833,-;sdcardfs_lookup: need to check the caller's gid in packages.list\x0a\x09dentry: .android_secure, task:MediaScannerSer
+6,2454,166710850,-;sdcardfs_lookup: need to check the caller's gid in packages.list\x0a\x09dentry: .android_secure, task:MediaScannerSer
+6,2455,170177090,-;mmc1:add delay for sd vdd power off
+6,2456,177841078,-;sdcardfs_lookup: need to check the caller's gid in packages.list\x0a\x09dentry: .android_secure, task:MediaScannerSer
+6,2457,177841103,-;sdcardfs_lookup: need to check the caller's gid in packages.list\x0a\x09dentry: .android_secure, task:MediaScannerSer
+6,2458,177841120,-;sdcardfs_lookup: need to check the caller's gid in packages.list\x0a\x09dentry: .android_secure, task:MediaScannerSer
+6,2459,194198628,-;mdss_set_rgb: mdss_set_rgb: r=32768 g=29141 b=25714
+6,2460,194207726,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=29141 b=25714
+3,2461,194498652,-;[ALS_PS]: the cycle luxValue = 65,ch0data = 30,ch1data = 4
+3,2462,195462874,-;lis3dh_acc_poll_delay_set,set poll delay =66
+3,2463,195463271,-;lis3dh_acc_disable: acc->enabled=1
+3,2464,195463285,c;lis3dh_acc_disable:lis3dh diable with hrtimer mode , acc->enabled=0
+3,2465,195470826,+;apds993x_set_als_poll_delay,line 1909:poll delay 200, atime_index 219
+3,2466,195486174,c;[disable]
+3,2467,195486206,+; reg_buf= 
+3,2468,195486211,c;0x 3  
+3,2469,195486223,+;0xdb  
+3,2470,195486227,c;0xff  
+3,2471,195486238,+;0xb6  
+3,2472,195486243,c;0x 0  
+3,2473,195486253,+;0x 0  
+3,2474,195486257,c;0x 0  
+3,2475,195486269,+;0x 0  
+3,2476,195486274,c;0x25  
+3,2477,195486284,+;0x 2  
+3,2478,195486288,c;0x26  
+3,2479,195486298,+;0x 2  
+3,2480,195486302,c;0x12  
+3,2481,195486312,+;0x 0  
+3,2482,195486317,c;0x c  
+3,2483,195486327,+;0x60  
+3,2484,195486330,c;0x 0  
+3,2485,195486340,+;0x 2  
+3,2486,195486344,c;0x39  
+3,2487,195486354,+;0x11  
+3,2488,195486359,c;0x1e  
+3,2489,195486369,+;0x 0  
+3,2490,195486373,c;0x 4  
+3,2491,195486383,+;0x 0  
+3,2492,195486387,c;0x 0  
+3,2493,195486398,+;0x 0  
+3,2494,195486402,-;
+3,2495,195486415,-;parameters: a=180, c=545, d=152,e=220,f=43
+3,2496,195486924,-;apds993x_enable_als_sensor: line:1701,disable als sensor,data->enable = 0x0
+3,2497,195492822,-;[LCD_INFO] Enter fb_blank, blank_mode = [4].
+4,2498,195732633,-;huawei_lcd_is_factory_mode lcd run mode is 2
+3,2499,195743446,-;[LCD_INFO] mdss_dsi_panel_reset: panel reset time = 10
+3,2500,195746281,-;[LCD_INFO] exit mdss_mdp_video_stop
+3,2501,195750627,-;[LCD_INFO] exit mdss_mdp_overlay_off
+3,2502,195754017,-;[LCD_INFO] fb_blank: fb blank time = 270
+3,2503,195754032,-;[I/FPC] fb_notifier_callback 472: FB_EVENT_BLANK suspend: fpc1020->taskstate:11
+3,2504,195754039,-;[COMMON][INFO]fb_notifier_callback: POWERDOWN!
+3,2505,195754094,-;[COMMON][WARNING]cyttsp5_core_rt_suspend 4970:Enter rt suspend.
+3,2506,195754109,-;[COMMON][INFO]cyttsp5_core_sleep_: put device into sleep
+3,2507,195754115,-;[COMMON][INFO]cyttsp5_put_device_into_sleep_:put_device into easy wakeup
+3,2508,195754777,-;[LCD_INFO] Exit fb_blank, blank_mode = [4].
+6,2509,195767645,-;CPU4: Booted secondary processor
+3,2510,195770471,-;[COMMON][INFO]cyttsp5_put_device_into_easy_wakeup_ Device may wakeup
+3,2511,195770515,-;[COMMON][INFO]cyttsp5_put_device_into_easy_wakeup_:rc = 0, gesture = 1921, status = 0
+3,2512,195770536,-;[COMMON][INFO]cyttsp5_core_sleep: pass release exclusive
+3,2513,195770568,-;[COMMON][INFO]cyttsp5_core_rt_suspend 4980:Exit runtime suspend:success.
+6,2514,195770659,-;CPU5: Booted secondary processor
+6,2515,195776183,-;CPU6: Booted secondary processor
+6,2516,195779750,-;CPU7: Booted secondary processor
+6,2517,195782398,-;cluster_plug: 4 little cpus enabled
+4,2518,195785469,-;migrate_irqs: 4770 callbacks suppressed
+4,2519,195785508,-;IRQ32 no longer affine to CPU0
+4,2520,195785535,-;IRQ33 no longer affine to CPU0
+4,2521,195785562,-;IRQ34 no longer affine to CPU0
+4,2522,195785587,-;IRQ35 no longer affine to CPU0
+4,2523,195785612,-;IRQ36 no longer affine to CPU0
+4,2524,195785638,-;IRQ37 no longer affine to CPU0
+4,2525,195785663,-;IRQ38 no longer affine to CPU0
+4,2526,195785687,-;IRQ39 no longer affine to CPU0
+4,2527,195785713,-;IRQ40 no longer affine to CPU0
+4,2528,195785738,-;IRQ41 no longer affine to CPU0
+5,2529,195787619,-;CPU0: shutdown
+5,2530,195793934,-;CPU1: shutdown
+5,2531,195799237,-;CPU2: shutdown
+5,2532,195804407,-;CPU3: shutdown
+6,2533,195807154,-;cluster_plug: 4 big cpus disabled
+3,2534,195813345,-;[00:03:08.142481] [00000000E522D0FD] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,2535,195826894,-;wlan: [3595:E :CTL] Error returned WDI_ProcessInitScanRspi:0 BMPS0
+3,2536,195865664,-;[00:03:08.194800] [00000000E53224E3] [WifiS]  wlan: [E :HDD] __wlan_hdd_cfg80211_ll_stats_get: 1855: Link Layer Statistics not supported by Firmware
+3,2537,196350344,-;[00:03:08.679479] [00000000E5C023D0] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+6,2538,204317694,-;BMS: report_vm_bms_soc: prevent SOC down,soc = 100,charge_time = 84,current = -184615
+3,2539,219698460,-;PMIC input: code=116, sts=0x5
+6,2540,219698557,-;Exit qpnp_kpdpwr_irq : [2009-1-1]0:3:32:694
+6,2541,219710201,-;CPU0: Booted secondary processor
+6,2542,219714976,-;CPU1: Booted secondary processor
+6,2543,219723851,-;CPU2: Booted secondary processor
+6,2544,219727759,-;CPU3: Booted secondary processor
+6,2545,219732080,-;cluster_plug: 4 big cpus enabled
+4,2546,219736042,-;migrate_irqs: 1085 callbacks suppressed
+4,2547,219736066,-;IRQ32 no longer affine to CPU4
+4,2548,219736079,-;IRQ33 no longer affine to CPU4
+4,2549,219736092,-;IRQ34 no longer affine to CPU4
+4,2550,219736104,-;IRQ35 no longer affine to CPU4
+4,2551,219736116,-;IRQ36 no longer affine to CPU4
+4,2552,219736128,-;IRQ37 no longer affine to CPU4
+4,2553,219736141,-;IRQ38 no longer affine to CPU4
+4,2554,219736153,-;IRQ39 no longer affine to CPU4
+4,2555,219736165,-;IRQ40 no longer affine to CPU4
+4,2556,219736178,-;IRQ41 no longer affine to CPU4
+5,2557,219737297,-;CPU4: shutdown
+5,2558,219742259,-;CPU5: shutdown
+5,2559,219748075,-;CPU6: shutdown
+5,2560,219751806,-;CPU7: shutdown
+6,2561,219752662,-;cluster_plug: 4 little cpus disabled
+3,2562,219771947,-;[00:03:32.101082] [00000001008DF005] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,2563,219787705,-;wlan: [3595:E :CTL] Error returned WDI_ProcessInitScanRspi:0 BMPS0
+6,2564,219793319,-;cluster_plug: ignoring old ts 24049
+3,2565,219848938,-;PMIC input: code=116, sts=0x4
+6,2566,219848989,-;Exit qpnp_kpdpwr_irq : [2009-1-1]0:3:32:128
+3,2567,219917522,-;apds993x_set_pilt,line 940:set apds993x pilt =549
+3,2568,219918398,-;apds993x_set_piht,line 957:set apds993x piht =550
+3,2569,219919795,-;apds993x_enable_als_sensor: line:1656 enable als sensor,data->enable=0x3
+3,2570,219935059,-;[enable]
+3,2571,219935075,c; reg_buf= 
+3,2572,219935087,+;0x 3  
+3,2573,219935089,c;0xdb  
+3,2574,219935096,+;0xff  
+3,2575,219935099,c;0xb6  
+3,2576,219935105,+;0x 0  
+3,2577,219935108,c;0x 0  
+3,2578,219935114,+;0x 0  
+3,2579,219935117,c;0x 0  
+3,2580,219935123,+;0x25  
+3,2581,219935125,c;0x 2  
+3,2582,219935132,+;0x26  
+3,2583,219935134,c;0x 2  
+3,2584,219935141,+;0x12  
+3,2585,219935143,c;0x 0  
+3,2586,219935149,+;0x c  
+3,2587,219935152,c;0x60  
+3,2588,219935158,+;0x 0  
+3,2589,219935161,c;0x 2  
+3,2590,219935167,+;0x39  
+3,2591,219935170,c;0x10  
+3,2592,219935176,+;0x1e  
+3,2593,219935179,c;0x 0  
+3,2594,219935185,+;0x 4  
+3,2595,219935188,c;0x 0  
+3,2596,219935194,+;0x 0  
+3,2597,219935197,c;0x 0  
+3,2598,219935203,-;
+3,2599,219935211,-;parameters: a=180, c=545, d=152,e=220,f=43
+3,2600,219937320,-;[LCD_INFO] Enter fb_blank, blank_mode = [0].
+3,2601,219935987,-;apds993x_set_als_poll_delay,line 1909:poll delay 200, atime_index 219
+3,2602,219937331,c;lis3dh_acc_enable: acc->enabled=0
+3,2603,219937335,-;[LCD_INFO]  mdss_fb_blank_sub:blank_mode is FB_BLANK_UNBLANK when panel on
+3,2604,219939611,-;[LCD_INFO] start mdss_mdp_overlay_on
+3,2605,219943005,-;[LCD_INFO] start mdss_mdp_video_start
+3,2606,219943008,-;[LCD_INFO] start mdss_mdp_video_intfs_setup
+6,2607,219954331,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=29141 b=25714
+3,2608,219957791,-;[LCD_INFO] mdss_dsi_on: dsi_on_time = 10
+6,2609,219961470,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=29141 b=25714
+3,2610,219968525,-;lis3dh_acc_enable,lis3dh enable in hrtimer mode, poll_interval = 66
+3,2611,219969456,-;lis3dh_acc_poll_delay_set,set poll delay =66
+6,2612,219988380,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=29141 b=25714
+3,2613,219993246,-;[LCD_INFO] mdss_dsi_panel_reset: panel reset time = 40
+3,2614,220035493,-;lis3dh_acc_report_values,xyz[0]=339, xyz[1]=506, xyz[2]=792
+3,2615,220121688,-;[ALS_PS]: the skip  luxValue = 39,ch0data = 15,ch1data = 1,als_print = 1
+3,2616,220147602,-;[LCD_INFO] exit mdss_dsi_panel_on
+3,2617,220147617,-;[LCD_INFO] mdss_dsi_panel_on: panel_on_time = 150
+3,2618,220149679,-;[LCD_INFO] fb_blank: fb blank time = 210
+3,2619,220149699,-;[I/FPC] fb_notifier_callback 449: FB_EVENT_BLANK resume: fpc1020->taskstate:11
+3,2620,220149710,-;[COMMON][INFO]fb_notifier_callback: UNBLANK!
+3,2621,220149734,-;[COMMON][WARNING]cyttsp5_core_rt_resume 4989:Enter rt resume.
+3,2622,220149749,-;[COMMON][INFO]cyttsp5_core_wake_ 4459:Wake deivce
+3,2623,220173626,-;[COMMON][INFO]cyttsp5_core_wake_device_:wake device from easy wakeup
+3,2624,220202279,-;[COMMON][INFO]cyttsp5_core_wake_device_from_easy_wakeup_ Device may wakeup
+3,2625,220202300,-;[COMMON][INFO]cyttsp5_core_wake: pass release exclusive
+3,2626,220202318,-;[COMMON][INFO]cyttsp5_core_rt_resume 4997:Exit runtime resume:success.
+3,2627,220202342,-;[LCD_INFO] Exit fb_blank, blank_mode = [0].
+3,2628,220206878,-;[LCD_INFO] mdss_fb_set_backlight: set backlight to 50
+3,2629,220233510,-;[LCD_INFO] __mdss_fb_perform_commit:begin to display the first frame.
+3,2630,220251554,-;[LCD_INFO] exit mdss_dsi_check_panel_status_n ,0x0A = 0x9c 
+3,2631,220324556,-;[00:03:32.653648] [00000001012FD28B] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+3,2632,221307861,-;msm_external_pa_get: msm_quat_mi2s_clk = 0
+3,2633,221344494,-;[ALS_PS]: the skip  luxValue = 28,ch0data = 13,ch1data = 2,als_print = 0
+3,2634,221437154,-;afe_callback: cmd = 0x100e5 returned error = 0x9
+3,2635,221749234,-;[ALS_PS]: the skip  luxValue = 31,ch0data = 14,ch1data = 2,als_print = 0
+3,2636,224597659,-;[ALS_PS]: the cycle luxValue = 31,ch0data = 14,ch1data = 2
+3,2637,224675339,-;msm_external_pa_get: msm_quat_mi2s_clk = 1
+3,2638,224678149,-;afe_callback: cmd = 0x100e6 returned error = 0x1
+3,2639,224678770,-;afe_set_lpass_clock: config cmd failed
+3,2640,224678788,-;msm_external_pa_put: afe_set_lpass_clock QUATERNARY_MI2S_RX failed
+6,2641,230043516,-;CPU4: Booted secondary processor
+6,2642,230044886,-;CPU5: Booted secondary processor
+6,2643,230045829,-;CPU6: Booted secondary processor
+6,2644,230047049,-;CPU7: Booted secondary processor
+6,2645,230048182,-;cluster_plug: 4 little cpus enabled
+4,2646,230445020,-;migrate_irqs: 1268 callbacks suppressed
+4,2647,230445041,-;IRQ32 no longer affine to CPU4
+4,2648,230445054,-;IRQ33 no longer affine to CPU4
+4,2649,230445066,-;IRQ34 no longer affine to CPU4
+4,2650,230445078,-;IRQ35 no longer affine to CPU4
+4,2651,230445089,-;IRQ36 no longer affine to CPU4
+4,2652,230445101,-;IRQ37 no longer affine to CPU4
+4,2653,230445113,-;IRQ38 no longer affine to CPU4
+4,2654,230445125,-;IRQ40 no longer affine to CPU4
+4,2655,230445137,-;IRQ41 no longer affine to CPU4
+4,2656,230445149,-;IRQ42 no longer affine to CPU4
+5,2657,230446192,-;CPU4: shutdown
+5,2658,230448645,-;CPU5: shutdown
+5,2659,230452788,-;CPU6: shutdown
+5,2660,230458157,-;CPU7: shutdown
+6,2661,230459826,-;cluster_plug: 4 little cpus disabled
+3,2662,230600049,-;msm_external_pa_get: msm_quat_mi2s_clk = 0
+3,2663,230725200,-;afe_callback: cmd = 0x100e5 returned error = 0x9
+6,2664,231151907,-;mdss_set_rgb: mdss_set_rgb: r=32768 g=29141 b=25714
+6,2665,231177238,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=29141 b=25714
+3,2666,233712085,-;[13:03:46.041214] [000000011081F5F8] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,2667,233728158,-;wlan: [3595:E :CTL] Error returned WDI_ProcessInitScanRspi:0 BMPS0
+3,2668,234239549,-;[13:03:46.568677] [00000001111C7DB4] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+3,2669,235615332,-;msm_external_pa_get: msm_quat_mi2s_clk = 1
+3,2670,235618095,-;afe_callback: cmd = 0x100e6 returned error = 0x1
+3,2671,235620257,-;afe_set_lpass_clock: config cmd failed
+3,2672,235620290,-;msm_external_pa_put: afe_set_lpass_clock QUATERNARY_MI2S_RX failed
+3,2673,236668112,-;msm_external_pa_get: msm_quat_mi2s_clk = 0
+3,2674,236784630,-;afe_callback: cmd = 0x100e5 returned error = 0x9
+3,2675,239055002,-;qpnp_vib_enable,value=0
+3,2676,239061234,-;qpnp_vib_enable,value=10
+3,2677,239092908,-;qpnp_vib_enable,value=30
+3,2678,239780011,-;[13:03:52.109122] [000000011773AB3B] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,2679,239795282,-;wlan: [3595:E :CTL] Error returned WDI_ProcessInitScanRspi:0 BMPS0
+3,2680,240042863,-;qpnp_vib_enable,value=0
+3,2681,240051059,-;qpnp_vib_enable,value=10
+3,2682,240081909,-;qpnp_vib_enable,value=30
+3,2683,240362098,-;[13:03:52.691231] [00000001181E3549] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+3,2684,254723013,-;[ALS_PS]: the cycle luxValue = 34,ch0data = 15,ch1data = 2
+3,2685,259433861,-;msm_external_pa_get: msm_quat_mi2s_clk = 1
+3,2686,259436397,-;afe_callback: cmd = 0x100e6 returned error = 0x1
+3,2687,259436944,-;afe_set_lpass_clock: config cmd failed
+3,2688,259436962,-;msm_external_pa_put: afe_set_lpass_clock QUATERNARY_MI2S_RX failed
+3,2689,259984240,-;msm_external_pa_get: msm_quat_mi2s_clk = 0
+3,2690,260117474,-;afe_callback: cmd = 0x100e5 returned error = 0x9
+3,2691,266349310,-;msm_external_pa_get: msm_quat_mi2s_clk = 1
+3,2692,266351901,-;afe_callback: cmd = 0x100e6 returned error = 0x1
+3,2693,266352502,-;afe_set_lpass_clock: config cmd failed
+3,2694,266352517,-;msm_external_pa_put: afe_set_lpass_clock QUATERNARY_MI2S_RX failed
+3,2695,266866625,-;msm_external_pa_get: msm_quat_mi2s_clk = 0
+3,2696,267000253,-;afe_callback: cmd = 0x100e5 returned error = 0x9
+3,2697,275280121,-;msm_external_pa_get: msm_quat_mi2s_clk = 1
+3,2698,275282697,-;afe_callback: cmd = 0x100e6 returned error = 0x1
+3,2699,275283067,-;afe_set_lpass_clock: config cmd failed
+3,2700,275283080,-;msm_external_pa_put: afe_set_lpass_clock QUATERNARY_MI2S_RX failed
+3,2701,279785211,-;[13:04:32.114336] [00000001453BF234] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,2702,279800933,-;wlan: [3595:E :CTL] Error returned WDI_ProcessInitScanRspi:0 BMPS0
+3,2703,280320781,-;[13:04:32.649915] [0000000145D8DA86] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+3,2704,284786509,-;[ALS_PS]: the cycle luxValue = 34,ch0data = 15,ch1data = 2
+13,2705,284948016,-;init: Starting service 'exec 3 (/system/bin/logcat)'...
+13,2706,285005515,-;init: Service 'exec 3 (/system/bin/logcat)' (pid 4406) exited with status 1
+36,2707,285451284,-;type=1400 audit(1230768277.769:4): avc: denied { call } for pid=4166 comm=4173796E635461736B202332 scontext=u:r:system_app:s0 tcontext=u:r:fingerprintd:s0 tclass=binder permissive=0
+6,2708,285451936,-;binder: 4148:4166 transaction failed 29201, size 0-0
+13,2709,289901154,-;init: Starting service 'su_daemon'...
+6,2710,293281860,-;fsg_close_all_file
+6,2711,293286389,-;mtp_release
+4,2712,293331754,-;enable_store: 1 callbacks suppressed
+3,2713,293331781,-;enable_store: USB_LOGS_ERR:enable_store():android_usb: already disabled
+3,2714,293331970,-;functions_store: USB_LOGS_INFO:functions_store():mtp,adb
+13,2715,293332132,-;init: Starting service 'adbd'...
+6,2716,293351730,-;read descriptors
+6,2717,293352331,-;read descriptors
+6,2718,293352370,-;read strings
+6,2719,293352612,-;mtp_bind_config
+3,2720,293352808,-;msm_hsusb msm_hsusb: USB_LOGS_INFO:ci13xxx_msm_notify_event():CI13XXX_CONTROLLER_CONNECT_EVENT received
+ SUBSYSTEM=platform
+ DEVICE=+platform:msm_hsusb
+3,2721,293355885,-;USB_LOGS_INFO:msm_otg_notify_chg_type():setting usb power supply type 4
+3,2722,293355930,-;msm_otg 78d9000.usb: USB_LOGS_INFO:msm_otg_notify_charger():Avail curr from USB = 2
+ SUBSYSTEM=platform
+ DEVICE=+platform:78d9000.usb
+3,2723,293355948,-;msm_hsusb msm_hsusb: USB_LOGS_INFO:ci13xxx_msm_notify_event():CI13XXX_CONTROLLER_SUSPEND_EVENT received
+ SUBSYSTEM=platform
+ DEVICE=+platform:msm_hsusb
+3,2724,293355960,-;USB_LOGS_INFO:msm_otg_set_suspend():(1) in b_peripheral state
+3,2725,293355968,-;USB_LOGS_INFO:msm_otg_set_suspend():peripheral bus suspend
+3,2726,293361797,-;android_work: USB_LOGS_INFO:android_work():did not send uevent (1 1           (null))
+3,2727,293467226,-;msm_hsusb msm_hsusb: USB_LOGS_INFO:ci13xxx_msm_notify_event():CI13XXX_CONTROLLER_RESUME_EVENT received
+ SUBSYSTEM=platform
+ DEVICE=+platform:msm_hsusb
+3,2728,293467246,-;USB_LOGS_INFO:msm_otg_set_suspend():(0) in b_peripheral state
+3,2729,293467253,-;USB_LOGS_INFO:msm_otg_set_suspend():peripheral bus resume
+3,2730,293467275,-;USB_LOGS_INFO:msm_otg_notify_chg_type():setting usb power supply type 4
+3,2731,293467290,-;msm_otg 78d9000.usb: USB_LOGS_INFO:msm_otg_notify_charger():Avail curr from USB = 500
+ SUBSYSTEM=platform
+ DEVICE=+platform:78d9000.usb
+3,2732,293467454,-;android_work: USB_LOGS_INFO:android_work():sent uevent USB_STATE=DISCONNECTED
+6,2733,293468193,-;case = CHARGER_TYPE_USB-> 
+3,2734,293469498,-;USB_LOGS_INFO:msm_otg_irq():portsc = 88000a05
+3,2735,293622383,-;USB_LOGS_INFO:msm_otg_notify_chg_type():setting usb power supply type 4
+3,2736,293624621,-;USB_LOGS_INFO:msm_otg_irq():portsc = 88000a05
+3,2737,293632069,-;android_work: USB_LOGS_INFO:android_work():sent uevent USB_STATE=CONNECTED
+3,2738,293632758,-;android_work: USB_LOGS_INFO:android_work():sent uevent USB_STATE=DISCONNECTED
+3,2739,293786055,-;android_work: USB_LOGS_INFO:android_work():sent uevent USB_STATE=CONNECTED
+6,2740,293786098,-;android_usb gadget: high-speed config #1: 86000c8.android_usb
+3,2741,293786140,-;USB_LOGS_INFO:msm_otg_notify_chg_type():setting usb power supply type 4
+3,2742,293843383,-;android_work: USB_LOGS_INFO:android_work():sent uevent USB_STATE=CONFIGURED
+6,2743,293928351,-;mtp_open
+3,2744,293975439,-;[I/bq24296_charger]  ---->START USB CHARGING,battery current = 512 mA,battery voltage = 4350 mV,cin_limit_current = 500 mA
+3,2745,303281851,-;[ALS_PS]: the skip  luxValue = 51,ch0data = 25,ch1data = 4,als_print = 0
+3,2746,306751030,-;[ALS_PS]: the skip  luxValue = 42,ch0data = 18,ch1data = 2,als_print = 0
+3,2747,307363690,-;[ALS_PS]: the skip  luxValue = 59,ch0data = 26,ch1data = 3,als_print = 0
+3,2748,307567557,-;[ALS_PS]: the skip  luxValue = 172,ch0data = 81,ch1data = 11,als_print = 0
+3,2749,311242477,-;[ALS_PS]: the skip  luxValue = 62,ch0data = 27,ch1data = 3,als_print = 0
+3,2750,311852978,-;[ALS_PS]: the skip  luxValue = 48,ch0data = 22,ch1data = 3,als_print = 0
+3,2751,312057338,-;[ALS_PS]: the skip  luxValue = 51,ch0data = 23,ch1data = 3,als_print = 0
+3,2752,312667074,-;[ALS_PS]: the skip  luxValue = 45,ch0data = 21,ch1data = 3,als_print = 0
+3,2753,313278232,-;[ALS_PS]: the skip  luxValue = 51,ch0data = 23,ch1data = 3,als_print = 0
+3,2754,313606689,-;[I/bq24296_charger] battery temp status changed
+3,2755,314931858,-;[ALS_PS]: the cycle luxValue = 59,ch0data = 28,ch1data = 4
+3,2756,322532009,-;[ALS_PS]: the skip  luxValue = 79,ch0data = 37,ch1data = 5,als_print = 0
+3,2757,323139052,-;[ALS_PS]: the skip  luxValue = 73,ch0data = 35,ch1data = 5,als_print = 0
+3,2758,325364386,-;[ALS_PS]: the skip  luxValue = 79,ch0data = 37,ch1data = 5,als_print = 0
+3,2759,326175223,-;[ALS_PS]: the skip  luxValue = 34,ch0data = 15,ch1data = 2,als_print = 0
+3,2760,326579716,-;[ALS_PS]: the skip  luxValue = 215,ch0data = 100,ch1data = 13,als_print = 0
+3,2761,327190859,-;[ALS_PS]: the skip  luxValue = 144,ch0data = 65,ch1data = 8,als_print = 0
+3,2762,327394909,-;[ALS_PS]: the skip  luxValue = 42,ch0data = 20,ch1data = 3,als_print = 0
+3,2763,344962499,-;[ALS_PS]: the cycle luxValue = 45,ch0data = 19,ch1data = 2
+3,2764,359796811,-;[13:05:52.125921] [00000001A0CCD729] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,2765,359811963,-;wlan: [3595:E :CTL] Error returned WDI_ProcessInitScanRspi:0 BMPS0
+3,2766,360376074,-;[13:05:52.705208] [00000001A1768D85] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+3,2767,362304900,-;lis3dh_acc_poll_delay_set,set poll delay =66
+3,2768,362305205,-;lis3dh_acc_disable: acc->enabled=1
+3,2769,362305217,c;lis3dh_acc_disable:lis3dh diable with hrtimer mode , acc->enabled=0
+3,2770,362312528,+;apds993x_set_als_poll_delay,line 1909:poll delay 200, atime_index 219
+3,2771,362329506,c;[disable]
+3,2772,362329536,+; reg_buf= 
+3,2773,362329541,c;0x 3  
+3,2774,362329552,+;0xdb  
+3,2775,362329556,c;0xff  
+3,2776,362329567,+;0xb6  
+3,2777,362329571,c;0x 0  
+3,2778,362329581,+;0x 0  
+3,2779,362329585,c;0x 0  
+3,2780,362329595,+;0x 0  
+3,2781,362329599,c;0x25  
+3,2782,362329609,+;0x 2  
+3,2783,362329614,c;0x26  
+3,2784,362329623,+;0x 2  
+3,2785,362329628,c;0x12  
+3,2786,362329637,+;0x 0  
+3,2787,362329642,c;0x c  
+3,2788,362329652,+;0x60  
+3,2789,362329656,c;0x 0  
+3,2790,362329666,+;0x 2  
+3,2791,362329670,c;0x39  
+3,2792,362329680,+;0x11  
+3,2793,362329685,c;0x13  
+3,2794,362329695,+;0x 0  
+3,2795,362329699,c;0x 2  
+3,2796,362329709,+;0x 0  
+3,2797,362329713,c;0x 0  
+3,2798,362329723,+;0x 0  
+3,2799,362329727,-;
+3,2800,362329740,-;parameters: a=180, c=545, d=152,e=220,f=43
+3,2801,362330248,-;apds993x_enable_als_sensor: line:1701,disable als sensor,data->enable = 0x0
+3,2802,362336824,-;[LCD_INFO] Enter fb_blank, blank_mode = [4].
+3,2803,362582796,-;[LCD_INFO] mdss_dsi_panel_reset: panel reset time = 10
+3,2804,362585525,-;[LCD_INFO] exit mdss_mdp_video_stop
+3,2805,362589862,-;[LCD_INFO] exit mdss_mdp_overlay_off
+3,2806,362592140,-;[LCD_INFO] fb_blank: fb blank time = 250
+3,2807,362592166,-;[I/FPC] fb_notifier_callback 472: FB_EVENT_BLANK suspend: fpc1020->taskstate:11
+3,2808,362592177,-;[COMMON][INFO]fb_notifier_callback: POWERDOWN!
+3,2809,362592261,-;[COMMON][WARNING]cyttsp5_core_rt_suspend 4970:Enter rt suspend.
+3,2810,362592286,-;[COMMON][INFO]cyttsp5_core_sleep_: put device into sleep
+3,2811,362592296,-;[COMMON][INFO]cyttsp5_put_device_into_sleep_:put_device into easy wakeup
+3,2812,362592428,-;[LCD_INFO] Exit fb_blank, blank_mode = [4].
+6,2813,362607391,-;CPU4: Booted secondary processor
+6,2814,362610812,-;CPU5: Booted secondary processor
+6,2815,362616883,-;CPU6: Booted secondary processor
+6,2816,362619573,-;CPU7: Booted secondary processor
+6,2817,362621575,-;cluster_plug: 4 little cpus enabled
+3,2818,362622744,-;[COMMON][INFO]cyttsp5_put_device_into_easy_wakeup_ Device may wakeup
+3,2819,362622774,-;[COMMON][INFO]cyttsp5_put_device_into_easy_wakeup_:rc = 0, gesture = 1921, status = 0
+3,2820,362622789,-;[COMMON][INFO]cyttsp5_core_sleep: pass release exclusive
+3,2821,362622811,-;[COMMON][INFO]cyttsp5_core_rt_suspend 4980:Exit runtime suspend:success.
+4,2822,362623431,-;migrate_irqs: 1253 callbacks suppressed
+4,2823,362623452,-;IRQ32 no longer affine to CPU0
+4,2824,362623471,-;IRQ33 no longer affine to CPU0
+4,2825,362623488,-;IRQ34 no longer affine to CPU0
+4,2826,362623506,-;IRQ35 no longer affine to CPU0
+4,2827,362623523,-;IRQ36 no longer affine to CPU0
+4,2828,362623541,-;IRQ37 no longer affine to CPU0
+4,2829,362623558,-;IRQ38 no longer affine to CPU0
+4,2830,362623576,-;IRQ40 no longer affine to CPU0
+4,2831,362623593,-;IRQ41 no longer affine to CPU0
+4,2832,362623610,-;IRQ42 no longer affine to CPU0
+5,2833,362625040,-;CPU0: shutdown
+5,2834,362629707,-;CPU1: shutdown
+5,2835,362633885,-;CPU2: shutdown
+5,2836,362637899,-;CPU3: shutdown
+6,2837,362639120,-;cluster_plug: 4 big cpus disabled
+3,2838,366847803,-;qpnp_vib_enable,value=0
+6,2839,366910588,-;mmc1: Starting deferred resume
+3,2840,367100799,-;[EMMC_SD_INFO] mmc1: this sd support SDHC or later 
+3,2841,367235277,-;[EMMC_SD_INFO] mmc1:send acmd41 with ocr:0x41040000,get rocr:0xc1ff8000
+3,2842,367235303,-;[EMMC_SD_INFO] mmc1:support uhs-1,and accept 1.8V switching request
+3,2843,367250031,-;[EMMC_SD_INFO] mmc1:host and card voltage have changed into 1.8v success!
+3,2844,367254248,-;[EMMC_SD_INFO] mmc1:host support SDR12 SDR25 SDR50  DDR50
+6,2845,367267528,-;mmc1: Deferred resume completed
+3,2846,367269996,-;mmc1:report sd abnormal to userspace,status = SD_STATUS=3
+6,2847,367270028,-;mmcqd/1 rw time:140398025 ms,write time:0 ms,read time:140398025 ms
+6,2848,367270039,-;mmcqd/1 workload < 1%, duty 140398025, period 207974560166, req_cnt=204
+6,2849,367270049,-;mmcqd/1 Read Throughput=28631 kB/s, size: 4008448 bytes, time:140 ms
+3,2850,375951162,-;PMIC input: code=116, sts=0x5
+6,2851,375951234,-;Exit qpnp_kpdpwr_irq : [2009-1-1]0:6:8:370
+6,2852,375964786,-;CPU0: Booted secondary processor
+6,2853,375968452,-;CPU1: Booted secondary processor
+6,2854,375970310,-;CPU2: Booted secondary processor
+6,2855,375972589,-;CPU3: Booted secondary processor
+6,2856,375974754,-;cluster_plug: 4 big cpus enabled
+4,2857,375979106,-;migrate_irqs: 1082 callbacks suppressed
+4,2858,375979131,-;IRQ32 no longer affine to CPU4
+4,2859,375979144,-;IRQ33 no longer affine to CPU4
+4,2860,375979157,-;IRQ34 no longer affine to CPU4
+4,2861,375979169,-;IRQ35 no longer affine to CPU4
+4,2862,375979181,-;IRQ36 no longer affine to CPU4
+4,2863,375979194,-;IRQ37 no longer affine to CPU4
+4,2864,375979206,-;IRQ38 no longer affine to CPU4
+4,2865,375979219,-;IRQ39 no longer affine to CPU4
+4,2866,375979231,-;IRQ40 no longer affine to CPU4
+4,2867,375979243,-;IRQ41 no longer affine to CPU4
+5,2868,375980648,-;CPU4: shutdown
+5,2869,375985874,-;CPU5: shutdown
+5,2870,375989891,-;CPU6: shutdown
+5,2871,375994656,-;CPU7: shutdown
+6,2872,375995704,-;cluster_plug: 4 little cpus disabled
+3,2873,376002420,-;[13:06:08.331554] [00000001B3589572] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2874,376002476,-;[13:06:08.331614] [00000001B35899F4] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2875,376002543,-;[13:06:08.331680] [00000001B3589EE5] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2876,376002585,-;[13:06:08.331723] [00000001B358A21F] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2877,376002628,-;[13:06:08.331766] [00000001B358A55A] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2878,376002670,-;[13:06:08.331807] [00000001B358A872] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2879,376002711,-;[13:06:08.331848] [00000001B358AB8B] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2880,376002752,-;[13:06:08.331889] [00000001B358AE9C] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2881,376002793,-;[13:06:08.331930] [00000001B358B1B3] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2882,376002835,-;[13:06:08.331972] [00000001B358B4CB] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2883,376002876,-;[13:06:08.332013] [00000001B358B7E5] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2884,376002917,-;[13:06:08.332055] [00000001B358BB05] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2885,376002959,-;[13:06:08.332096] [00000001B358BE1F] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2886,376003000,-;[13:06:08.332138] [00000001B358C143] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2887,376003042,-;[13:06:08.332179] [00000001B358C45E] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2888,376003084,-;[13:06:08.332222] [00000001B358C78C] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2889,376003233,-;[13:06:08.332369] [00000001B358D28F] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2890,376003278,-;[13:06:08.332415] [00000001B358D60C] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+3,2891,376003327,-;[13:06:08.332465] [00000001B358D9C8] [VosMC]  wlan: [E :WDA] Failure in host offload REQ WDI API, free all the memory 3
+6,2892,376053607,-;cluster_plug: ignoring old ts 13479
+3,2893,376110573,-;apds993x_set_pilt,line 940:set apds993x pilt =549
+3,2894,376111173,-;apds993x_set_piht,line 957:set apds993x piht =550
+3,2895,376112161,-;apds993x_enable_als_sensor: line:1656 enable als sensor,data->enable=0x3
+3,2896,376117194,-;PMIC input: code=116, sts=0x4
+6,2897,376117370,-;Exit qpnp_kpdpwr_irq : [2009-1-1]0:6:8:486
+3,2898,376138539,-;[enable]
+3,2899,376138560,c; reg_buf= 
+3,2900,376138578,+;0x 3  
+3,2901,376138583,c;0xdb  
+3,2902,376138593,+;0xff  
+3,2903,376138598,c;0xb6  
+3,2904,376138608,+;0x 0  
+3,2905,376138613,c;0x 0  
+3,2906,376138623,+;0x 0  
+3,2907,376138628,c;0x 0  
+3,2908,376138638,+;0x25  
+3,2909,376138642,c;0x 2  
+3,2910,376138653,+;0x26  
+3,2911,376138657,c;0x 2  
+3,2912,376138667,+;0x12  
+3,2913,376138672,c;0x 0  
+3,2914,376138682,+;0x c  
+3,2915,376138686,c;0x60  
+3,2916,376138696,+;0x 0  
+3,2917,376138700,c;0x 2  
+3,2918,376138711,+;0x39  
+3,2919,376138715,c;0x10  
+3,2920,376138725,+;0x13  
+3,2921,376138729,c;0x 0  
+3,2922,376138740,+;0x 2  
+3,2923,376138744,c;0x 0  
+3,2924,376138754,+;0x 0  
+3,2925,376138758,c;0x 0  
+3,2926,376138768,-;
+3,2927,376138781,-;parameters: a=180, c=545, d=152,e=220,f=43
+3,2928,376141435,-;[LCD_INFO] Enter fb_blank, blank_mode = [0].
+3,2929,376141458,-;[LCD_INFO]  mdss_fb_blank_sub:blank_mode is FB_BLANK_UNBLANK when panel on
+3,2930,376141875,-;[LCD_INFO] start mdss_mdp_overlay_on
+3,2931,376149497,-;[LCD_INFO] start mdss_mdp_video_start
+3,2932,376149503,-;[LCD_INFO] start mdss_mdp_video_intfs_setup
+3,2933,376150036,-;apds993x_set_pilt,line 940:set apds993x pilt =549
+3,2934,376150486,-;apds993x_set_piht,line 957:set apds993x piht =550
+3,2935,376151299,-;apds993x_set_pilt,line 940:set apds993x pilt =549
+3,2936,376151740,-;apds993x_set_piht,line 957:set apds993x piht =550
+3,2937,376152597,-;apds993x_open_ps_sensor,line 1746:change threshoid,data->ps_data =0,data->pilt=549,data->piht=550,
+3,2938,376153237,-;apds993x_open_ps_sensor: line:1765,enable pls sensor.data->enable = 0x37
+3,2939,376153328,-;apds993x_open_ps_sensor,line 1769:input_report_abs report ABS_DISTANCE, far event, data->ps_data:0
+3,2940,376139548,-;apds993x_set_als_poll_delay,line 1909:poll delay 200, atime_index 219
+6,2941,376160515,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=29141 b=25714
+3,2942,376171463,-;apds993x_ps_report_event, line 1126: read status reg data: 0x22; ch0data: 19, sunlight_detect:0
+3,2943,376179056,-;apds993x_ps_report_event,line 1170:change threshoid,data->ps_data =46,data->pilt=102,data->piht=207,
+3,2944,376180295,-;apds993x_ps_report_event,line 1226:PROXIMITY far event, data->ps_data=46,data->pilt=102,data->piht=207,
+6,2945,376181143,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=29141 b=25714
+3,2946,376181193,-;apds993x_ps_report_event,line 1238:change threshoid,data->ps_data =46,data->pilt=0,data->piht=207,
+3,2947,376184988,-;[LCD_INFO] mdss_dsi_on: dsi_on_time = 30
+6,2948,376188827,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=29141 b=25714
+3,2949,376233396,-;[LCD_INFO] mdss_dsi_panel_reset: panel reset time = 50
+3,2950,376314465,-;[ALS_PS]: the cycle luxValue = 65,ch0data = 30,ch1data = 4
+3,2951,376409949,-;[LCD_INFO] exit mdss_dsi_panel_on
+3,2952,376409964,-;[LCD_INFO] mdss_dsi_panel_on: panel_on_time = 170
+3,2953,376414014,-;[LCD_INFO] fb_blank: fb blank time = 280
+3,2954,376414034,-;[I/FPC] fb_notifier_callback 449: FB_EVENT_BLANK resume: fpc1020->taskstate:11
+3,2955,376414045,-;[COMMON][INFO]fb_notifier_callback: UNBLANK!
+3,2956,376414068,-;[COMMON][WARNING]cyttsp5_core_rt_resume 4989:Enter rt resume.
+3,2957,376414082,-;[COMMON][INFO]cyttsp5_core_wake_ 4459:Wake deivce
+3,2958,376443760,-;[COMMON][INFO]cyttsp5_core_wake_device_:wake device from easy wakeup
+3,2959,376449641,-;[COMMON][INFO]cyttsp5_core_wake_device_from_easy_wakeup_ Device may wakeup
+3,2960,376449662,-;[COMMON][INFO]cyttsp5_core_wake: pass release exclusive
+3,2961,376449680,-;[COMMON][INFO]cyttsp5_core_rt_resume 4997:Exit runtime resume:success.
+3,2962,376449704,-;[LCD_INFO] Exit fb_blank, blank_mode = [0].
+3,2963,376471115,-;[LCD_INFO] __mdss_fb_perform_commit:begin to display the first frame.
+3,2964,376492438,-;lis3dh_acc_enable: acc->enabled=0
+3,2965,376535745,-;lis3dh_acc_enable,lis3dh enable in hrtimer mode, poll_interval = 66
+3,2966,376536728,-;lis3dh_acc_poll_delay_set,set poll delay =66
+3,2967,376540062,-;[ALS_PS]: the skip  luxValue = 59,ch0data = 28,ch1data = 4,als_print = 1
+3,2968,376540083,-;[LCD_INFO] mdss_fb_set_backlight: set backlight to 76
+3,2969,376597670,-;[LCD_INFO] exit mdss_dsi_check_panel_status_n ,0x0A = 0x9c 
+3,2970,376602819,-;lis3dh_acc_report_values,xyz[0]=-7, xyz[1]=450, xyz[2]=888
+3,2971,376634488,-;[LCD_INFO] mdss_fb_set_bl_brightness:  level = 76, set backlight time = 100
+3,2972,377148552,-;[ALS_PS]: the skip  luxValue = 79,ch0data = 37,ch1data = 5,als_print = 0
+3,2973,377755736,-;[ALS_PS]: the skip  luxValue = 68,ch0data = 33,ch1data = 5,als_print = 0
+3,2974,378565750,-;[ALS_PS]: the skip  luxValue = 45,ch0data = 21,ch1data = 3,als_print = 0
+3,2975,378805673,-;apds993x_enable_ps_sensor: line:1823,disable pls sensor,data->enable = 0x3
+3,2976,378833353,-;qpnp_vib_enable,value=0
+3,2977,379182222,-;[ALS_PS]: the skip  luxValue = 53,ch0data = 26,ch1data = 4,als_print = 0
+6,2978,379473243,-;mmcqd/1 rw time:71270469 ms,write time:71270469 ms,read time:0 ms
+6,2979,379473256,-;mmcqd/1 workload < 1%, duty 71270469, period 12203215714, req_cnt=7
+6,2980,379473262,-;mmcqd/1 Write Throughput=12432 KB/s, size: 882688 bytes, time:71 ms
+3,2981,379799992,-;[13:06:12.129116] [00000001B7B126AF] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,2982,379815224,-;wlan: [3595:E :CTL] Error returned WDI_ProcessInitScanRspi:0 BMPS0
+3,2983,380386113,-;[13:06:12.715248] [00000001B85CDE83] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+3,2984,380393248,-;[ALS_PS]: the skip  luxValue = 48,ch0data = 22,ch1data = 3,als_print = 0
+3,2985,380595561,-;[ALS_PS]: the skip  luxValue = 51,ch0data = 23,ch1data = 3,als_print = 0
+4,2986,380630459,-;FAT-fs (mmcblk1p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+7,2987,380630504,-;SELinux: initialized (dev mmcblk1p1, type vfat), uses genfs_contexts
+6,2988,380655657,-;sdcardfs version 2.0
+6,2989,380655676,-;sdcardfs: dev_name -> /mnt/media_rw/6266-3234
+6,2990,380655684,-;sdcardfs: options -> fsuid=1023,fsgid=1023,mask=6,userid=0,gid=1015
+6,2991,380655693,-;sdcardfs: mnt -> ffffffc05057e7a0
+6,2992,380655765,-;sdcardfs: mounted on top of /mnt/media_rw/6266-3234 type vfat
+7,2993,380655788,-;SELinux: initialized (dev sdcardfs, type sdcardfs), uses genfs_contexts
+6,2994,380657385,-;sdcardfs version 2.0
+6,2995,380657396,-;sdcardfs: dev_name -> /mnt/media_rw/6266-3234
+6,2996,380657404,-;sdcardfs: options -> fsuid=1023,fsgid=1023,mask=18,userid=0,gid=9997
+6,2997,380657413,-;sdcardfs: mnt -> ffffffc09bfa23e0
+6,2998,380657448,-;sdcardfs: mounted on top of /mnt/media_rw/6266-3234 type vfat
+7,2999,380657464,-;SELinux: initialized (dev sdcardfs, type sdcardfs), uses genfs_contexts
+6,3000,380658546,-;sdcardfs version 2.0
+6,3001,380658556,-;sdcardfs: dev_name -> /mnt/media_rw/6266-3234
+6,3002,380658565,-;sdcardfs: options -> fsuid=1023,fsgid=1023,mask=18,userid=0,gid=9997
+6,3003,380658573,-;sdcardfs: mnt -> ffffffc08d6d23e0
+6,3004,380658605,-;sdcardfs: mounted on top of /mnt/media_rw/6266-3234 type vfat
+7,3005,380658620,-;SELinux: initialized (dev sdcardfs, type sdcardfs), uses genfs_contexts
+6,3006,384238681,-;sdcardfs_lookup: need to check the caller's gid in packages.list\x0a\x09dentry: .android_secure, task:MediaScannerSer
+6,3007,384238706,-;sdcardfs_lookup: need to check the caller's gid in packages.list\x0a\x09dentry: .android_secure, task:MediaScannerSer
+6,3008,384238723,-;sdcardfs_lookup: need to check the caller's gid in packages.list\x0a\x09dentry: .android_secure, task:MediaScannerSer
+3,3009,384291828,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,3010,384297695,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,3011,384302872,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,3012,384367092,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,3013,384372331,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,3014,384395750,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,3015,384401078,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,3016,384408080,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,3017,384414915,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,3018,384417503,-;sdcardfs: Failed to touch up lower fs gid/uid.
+3,3019,387271596,-;[ALS_PS]: the skip  luxValue = 36,ch0data = 16,ch1data = 2,als_print = 0
+3,3020,387883925,-;[ALS_PS]: the skip  luxValue = 62,ch0data = 29,ch1data = 4,als_print = 0
+3,3021,388491694,-;[ALS_PS]: the skip  luxValue = 34,ch0data = 15,ch1data = 2,als_print = 0
+6,3022,389496304,-;mmcqd/1 rw time:401934583 ms,write time:0 ms,read time:401934583 ms
+6,3023,389496367,-;mmcqd/1 rw_workload = 4%, w_workload = 0%, duty 401934583, period 10023043700, req_cnt=214
+6,3024,389496408,-;mmcqd/1 Read Throughput=27595 kB/s, size: 11065856 bytes, time:401 ms
+36,3025,391275717,-;type=1400 audit(1230768383.599:5): avc: denied { getattr } for pid=4543 comm="dboxed_process0" path="/data/data/org.cyanogenmod.gello.browser" dev="mmcblk0p26" ino=579395 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+36,3026,391450799,-;type=1400 audit(1230768383.769:6): avc: denied { read } for pid=4561 comm="DnsConfigServic" name="/" dev="rootfs" ino=1 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:rootfs:s0 tclass=dir permissive=0
+36,3027,391512100,-;type=1400 audit(1230768383.829:7): avc: denied { search } for pid=4572 comm="Chrome_IOThread" name="tombstones" dev="mmcblk0p26" ino=220321 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=0
+36,3028,392031485,-;type=1400 audit(1230768384.349:8): avc: denied { search } for pid=4557 comm="CrRendererMain" name="tombstones" dev="mmcblk0p26" ino=220321 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=0
+3,3029,394505560,-;qpnp_vib_enable,value=0
+6,3030,399513945,-;mmcqd/1 rw time:64693072 ms,write time:64693072 ms,read time:0 ms
+6,3031,399513976,-;mmcqd/1 workload < 1%, duty 64693072, period 10017649145, req_cnt=7
+6,3032,399513994,-;mmcqd/1 Write Throughput=6088 KB/s, size: 389632 bytes, time:64 ms
+3,3033,399803463,-;[13:06:32.132573] [00000001CE958A0F] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,3034,399819078,-;wlan: [3595:E :CTL] Error returned WDI_ProcessInitScanRspi:0 BMPS0
+3,3035,400381789,-;[13:06:32.710921] [00000001CF3EFA0A] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+3,3036,400603654,-;[13:06:32.932792] [00000001CF7FFA4A] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,3037,400618786,-;wlan: [3595:E :CTL] Error returned WDI_ProcessInitScanRspi:0 BMPS0
+3,3038,401187746,-;[13:06:33.516856] [00000001D02B173E] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+3,3039,406372782,-;[ALS_PS]: the cycle luxValue = 34,ch0data = 15,ch1data = 2
+3,3040,406786958,-;qpnp_vib_enable,value=0
+3,3041,406787691,-;qpnp_vib_enable,value=40
+3,3042,406828068,-;qpnp_vib_enable,value=0
+3,3043,407148540,-;qpnp_vib_enable,value=0
+3,3044,407148976,-;qpnp_vib_enable,value=40
+3,3045,407189327,-;qpnp_vib_enable,value=0
+3,3046,407799166,-;qpnp_vib_enable,value=0
+3,3047,407799902,-;qpnp_vib_enable,value=40
+3,3048,407840409,-;qpnp_vib_enable,value=0
+3,3049,408211737,-;[ALS_PS]: the skip  luxValue = 53,ch0data = 24,ch1data = 3,als_print = 0
+3,3050,408320654,-;qpnp_vib_enable,value=0
+3,3051,408321337,-;qpnp_vib_enable,value=40
+3,3052,408362623,-;qpnp_vib_enable,value=0
+3,3053,408864302,-;qpnp_vib_enable,value=0
+3,3054,408865135,-;qpnp_vib_enable,value=40
+3,3055,408906756,-;qpnp_vib_enable,value=0
+3,3056,409023300,-;[ALS_PS]: the skip  luxValue = 76,ch0data = 36,ch1data = 5,als_print = 0
+3,3057,409227583,-;[ALS_PS]: the skip  luxValue = 65,ch0data = 30,ch1data = 4,als_print = 0
+3,3058,409346420,-;qpnp_vib_enable,value=0
+3,3059,409347145,-;qpnp_vib_enable,value=40
+3,3060,409388396,-;qpnp_vib_enable,value=0
+6,3061,409534303,-;mmcqd/1 rw time:24586406 ms,write time:24586406 ms,read time:0 ms
+6,3062,409534332,-;mmcqd/1 workload < 1%, duty 24586406, period 10020356333, req_cnt=6
+6,3063,409534343,-;mmcqd/1 Write Throughput=341 KB/s, size: 8192 bytes, time:24 ms
+3,3064,409655618,-;qpnp_vib_enable,value=0
+3,3065,409656506,-;qpnp_vib_enable,value=40
+3,3066,409697313,-;qpnp_vib_enable,value=0
+3,3067,409852942,-;qpnp_vib_enable,value=0
+3,3068,409854903,-;qpnp_vib_enable,value=40
+3,3069,409896483,-;qpnp_vib_enable,value=0
+3,3070,410242153,-;[ALS_PS]: the skip  luxValue = 48,ch0data = 22,ch1data = 3,als_print = 0
+3,3071,410838524,-;[13:06:43.167639] [00000001DB3677CD] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,3072,410852674,-;wlan: [3595:E :CTL] Error returned WDI_ProcessInitScanRspi:0 BMPS0
+3,3073,411424520,-;[13:06:43.753629] [00000001DBE22541] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+3,3074,411436000,-;[13:06:43.765134] [00000001DBE583F3] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,3075,411521846,-;[13:06:43.850982] [00000001DBFEAA8C] [VosMC]  wlan: [E :WDA] Peer staIdx 3 hasn't established yet(0). Send ADD BA failure to PE.
+6,3076,411543786,-;wlan: 00:0a:f5:0b:a4:d0 connected to c8:3a:35:14:ab:18
+6,3077,411543999,-;IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+6,3078,411543850,-;wlan(10) c8:3a:35:14:ab:18 Standalone
+3,3079,411547220,-;[13:06:43.876345] [00000001DC0618C2] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_connection_callback: wlan_hdd_sta_tdls_init failed
+3,3080,413780660,-;[13:06:46.109797] [00000001DE946DA7] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,3081,414505393,-;[13:06:46.834515] [00000001DF68BF97] [VosMC]  wlan: [E :PE ] limProcessAddBaInd: 5719: BA setup for staId = 3, TID: 0, SSN: 11
+3,3082,414742675,-;[13:06:47.071813] [00000001DFAE44DD] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+3,3083,415505350,-;[13:06:47.834459] [00000001E08DB387] [VosMC]  wlan: [E :PE ] limProcessAddBaInd: 5719: BA setup for staId = 3, TID: 0, SSN: 44
+6,3084,417208468,-;nf_conntrack: automatic helper assignment is deprecated and it will be removed soon. Use the iptables CT target to attach helpers instead.
+3,3085,418577862,-;[ALS_PS]: the skip  luxValue = 51,ch0data = 23,ch1data = 3,als_print = 0
+3,3086,418690908,-;qpnp_vib_enable,value=0
+3,3087,418691174,-;qpnp_vib_enable,value=40
+3,3088,418731959,-;qpnp_vib_enable,value=0
+3,3089,418985870,-;[ALS_PS]: the skip  luxValue = 48,ch0data = 22,ch1data = 3,als_print = 0
+3,3090,419192215,-;[ALS_PS]: the skip  luxValue = 59,ch0data = 28,ch1data = 4,als_print = 0
+3,3091,419287730,-;qpnp_vib_enable,value=0
+3,3092,419288457,-;qpnp_vib_enable,value=40
+3,3093,419328890,-;qpnp_vib_enable,value=0
+3,3094,419398458,-;[ALS_PS]: the skip  luxValue = 79,ch0data = 37,ch1data = 5,als_print = 0
+6,3095,419553747,-;mmcqd/1 rw time:13655416 ms,write time:13655416 ms,read time:0 ms
+6,3096,419553767,-;mmcqd/1 workload < 1%, duty 13655416, period 10019452843, req_cnt=2
+6,3097,419553778,-;mmcqd/1 Write Throughput=1457 KB/s, size: 18944 bytes, time:13 ms
+3,3098,419600690,-;[ALS_PS]: the skip  luxValue = 59,ch0data = 28,ch1data = 4,als_print = 0
+3,3099,419806667,-;[ALS_PS]: the skip  luxValue = 42,ch0data = 18,ch1data = 2,als_print = 0
+3,3100,419811759,-;[02:07:37.064376] [00000001E57B5A26] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+6,3101,419837200,-;mdss_set_rgb: mdss_set_rgb: r=32768 g=29141 b=25714
+6,3102,419854759,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=29141 b=25714
+3,3103,419883287,-;[02:07:37.135902] [00000001E5904E8E] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+6,3104,419871876,-;mdss_set_rgb: mdss_set_rgb: r=32768 g=29523 b=26458
+6,3105,419889690,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=29906 b=27203
+6,3106,419912587,+;mdss_set_rgb: mdss_set_rgb: r=32768 g=30267 b=27904
+6,3107,419934344,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=30650 b=28649
+6,3108,419959502,+;mdss_set_rgb: mdss_set_rgb: r=32768 g=31393 b=30095
+6,3109,419986106,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=32159 b=31585
+6,3110,420007680,+;mdss_set_rgb: mdss_set_rgb: r=32768 g=32520 b=32286
+6,3111,420021238,c;mdss_set_rgb: mdss_set_rgb: r=32768 g=32768 b=32768
+3,3112,420088560,-;qpnp_vib_enable,value=0
+3,3113,420088760,-;qpnp_vib_enable,value=40
+3,3114,420129429,-;qpnp_vib_enable,value=0
+3,3115,420779390,-;qpnp_vib_enable,value=0
+3,3116,420779660,-;qpnp_vib_enable,value=40
+3,3117,420820768,-;qpnp_vib_enable,value=0
+3,3118,421841759,-;[ALS_PS]: the skip  luxValue = 56,ch0data = 27,ch1data = 4,als_print = 0
+3,3119,421856884,-;[02:07:39.109476] [00000001E7D280B4] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,3120,421869296,-;qpnp_vib_enable,value=0
+3,3121,421870080,-;qpnp_vib_enable,value=40
+3,3122,421911321,-;qpnp_vib_enable,value=0
+3,3123,422246921,-;[ALS_PS]: the skip  luxValue = 42,ch0data = 20,ch1data = 3,als_print = 0
+3,3124,422758885,-;qpnp_vib_enable,value=0
+3,3125,422759910,-;qpnp_vib_enable,value=40
+3,3126,422801118,-;qpnp_vib_enable,value=0
+3,3127,422856612,-;[02:07:40.109225] [00000001E8F765CB] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+3,3128,423186843,-;qpnp_vib_enable,value=0
+3,3129,423187632,-;qpnp_vib_enable,value=40
+3,3130,423228734,-;qpnp_vib_enable,value=0
+3,3131,423886014,-;qpnp_vib_enable,value=0
+3,3132,423886342,-;qpnp_vib_enable,value=40
+3,3133,423926964,-;qpnp_vib_enable,value=0
+3,3134,424481682,-;[ALS_PS]: the skip  luxValue = 70,ch0data = 32,ch1data = 4,als_print = 0
+3,3135,424597321,-;qpnp_vib_enable,value=0
+3,3136,424597904,-;qpnp_vib_enable,value=40
+3,3137,424637976,-;qpnp_vib_enable,value=0
+3,3138,424684714,-;[ALS_PS]: the skip  luxValue = 79,ch0data = 37,ch1data = 5,als_print = 0
+3,3139,425045855,-;qpnp_vib_enable,value=0
+3,3140,425046692,-;qpnp_vib_enable,value=40
+3,3141,425088013,-;qpnp_vib_enable,value=0
+3,3142,425232730,-;qpnp_vib_enable,value=0
+3,3143,425234182,-;qpnp_vib_enable,value=40
+3,3144,425275424,-;qpnp_vib_enable,value=0
+3,3145,425699303,-;[ALS_PS]: the skip  luxValue = 39,ch0data = 19,ch1data = 3,als_print = 0
+3,3146,426013757,-;qpnp_vib_enable,value=0
+3,3147,426014469,-;qpnp_vib_enable,value=40
+3,3148,426056200,-;qpnp_vib_enable,value=0
+36,3149,426303014,-;type=1400 audit(1492002463.538:9): avc: denied { getattr } for pid=4784 comm="dboxed_process1" path="/data/data/org.cyanogenmod.gello.browser" dev="mmcblk0p26" ino=579395 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+36,3150,426322274,-;type=1400 audit(1492002463.558:10): avc: denied { getattr } for pid=4796 comm="dboxed_process2" path="/data/data/org.cyanogenmod.gello.browser" dev="mmcblk0p26" ino=579395 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+6,3151,426433533,-;CPU4: Booted secondary processor
+6,3152,426435731,-;CPU5: Booted secondary processor
+6,3153,426437337,-;CPU6: Booted secondary processor
+6,3154,426439538,-;CPU7: Booted secondary processor
+6,3155,426441444,-;cluster_plug: 4 little cpus enabled
+36,3156,426526574,-;type=1400 audit(1492002463.768:11): avc: denied { search } for pid=4813 comm="CrRendererMain" name="tombstones" dev="mmcblk0p26" ino=220321 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=0
+36,3157,426537213,-;type=1400 audit(1492002463.778:12): avc: denied { search } for pid=4812 comm="CrRendererMain" name="tombstones" dev="mmcblk0p26" ino=220321 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=0
+3,3158,426573334,-;[02:07:43.825950] [00000001ED38482E] [VosMC]  wlan: [E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+4,3159,426688951,-;migrate_irqs: 1268 callbacks suppressed
+4,3160,426688973,-;IRQ32 no longer affine to CPU4
+4,3161,426688986,-;IRQ33 no longer affine to CPU4
+4,3162,426688999,-;IRQ34 no longer affine to CPU4
+4,3163,426689011,-;IRQ35 no longer affine to CPU4
+4,3164,426689024,-;IRQ36 no longer affine to CPU4
+4,3165,426689036,-;IRQ37 no longer affine to CPU4
+4,3166,426689048,-;IRQ38 no longer affine to CPU4
+4,3167,426689060,-;IRQ40 no longer affine to CPU4
+4,3168,426689072,-;IRQ41 no longer affine to CPU4
+4,3169,426689084,-;IRQ42 no longer affine to CPU4
+5,3170,426690218,-;CPU4: shutdown
+5,3171,426693967,-;CPU5: shutdown
+5,3172,426697596,-;CPU6: shutdown
+5,3173,426701308,-;CPU7: shutdown
+6,3174,426702170,-;cluster_plug: 4 little cpus disabled
+6,3175,426893522,-;CPU4: Booted secondary processor
+6,3176,426894986,-;CPU5: Booted secondary processor
+6,3177,426896468,-;CPU6: Booted secondary processor
+6,3178,426897800,-;CPU7: Booted secondary processor
+6,3179,426898838,-;cluster_plug: 4 little cpus enabled
+6,3180,426971514,-;binder: undelivered transaction 198762
+6,3181,426971529,-;binder: undelivered transaction 198765
+6,3182,426971536,-;binder: undelivered transaction 198766
+6,3183,426971621,-;binder: undelivered transaction 198754
+5,3184,427099275,-;CPU4: shutdown
+5,3185,427105354,-;CPU5: shutdown
+5,3186,427110633,-;CPU6: shutdown
+5,3187,427114046,-;CPU7: shutdown
+6,3188,427114438,-;cluster_plug: 4 little cpus disabled
+3,3189,427836456,-;binder: 4784: binder_alloc_buf, no vma
+6,3190,427836565,-;binder: 1454:3109 transaction failed 29201, size 76-0
+3,3191,427845371,-;binder: 4784: binder_alloc_buf, no vma
+6,3192,427845414,-;binder: 1454:3509 transaction failed 29201, size 76-0
+3,3193,427849371,-;binder: 4784: binder_alloc_buf, no vma
+6,3194,427849415,-;binder: 1454:3509 transaction failed 29201, size 2568-8
+3,3195,427851471,-;binder: 4784: binder_alloc_buf, no vma
+6,3196,427851499,-;binder: 1454:3509 transaction failed 29201, size 76-0
+6,3197,429574258,-;mmcqd/1 rw time:28649478 ms,write time:28649478 ms,read time:0 ms
+6,3198,429574283,-;mmcqd/1 workload < 1%, duty 28649478, period 10020506020, req_cnt=7
+6,3199,429574295,-;mmcqd/1 Write Throughput=621 KB/s, size: 17408 bytes, time:28 ms
+3,3200,432550641,-;qpnp_vib_enable,value=0
+3,3201,432551861,-;qpnp_vib_enable,value=40
+3,3202,432591960,-;qpnp_vib_enable,value=0
+3,3203,433034714,-;[ALS_PS]: the skip  luxValue = 56,ch0data = 25,ch1data = 3,als_print = 0
+3,3204,433126507,-;qpnp_vib_enable,value=0
+3,3205,433127263,-;qpnp_vib_enable,value=40
+3,3206,433168186,-;qpnp_vib_enable,value=0
+3,3207,433245082,-;[ALS_PS]: the skip  luxValue = 76,ch0data = 36,ch1data = 5,als_print = 0
+3,3208,433370039,-;qpnp_vib_enable,value=0
+3,3209,433370319,-;qpnp_vib_enable,value=40
+3,3210,433411069,-;qpnp_vib_enable,value=0
+3,3211,433676872,-;qpnp_vib_enable,value=0
+3,3212,433677625,-;qpnp_vib_enable,value=40
+3,3213,433718231,-;qpnp_vib_enable,value=0
+3,3214,434058778,-;[ALS_PS]: the skip  luxValue = 59,ch0data = 28,ch1data = 4,als_print = 0
+3,3215,434262734,-;[ALS_PS]: the skip  luxValue = 42,ch0data = 20,ch1data = 3,als_print = 0
+3,3216,435055001,-;qpnp_vib_enable,value=0
+3,3217,435055693,-;qpnp_vib_enable,value=40
+3,3218,435095959,-;qpnp_vib_enable,value=0
+3,3219,436503100,-;[ALS_PS]: the cycle luxValue = 42,ch0data = 18,ch1data = 2
+3,3220,436593891,-;[02:07:53.846481] [00000001F8AFFC0E] [VosMC]  wlan: [E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+3,3221,438137064,-;[ALS_PS]: the skip  luxValue = 70,ch0data = 32,ch1data = 4,als_print = 0
+3,3222,438188867,-;qpnp_vib_enable,value=0
+3,3223,438189889,-;qpnp_vib_enable,value=40
+3,3224,438231260,-;qpnp_vib_enable,value=0
+3,3225,438340078,-;[ALS_PS]: the skip  luxValue = 85,ch0data = 39,ch1data = 5,als_print = 0
+3,3226,438543051,-;[ALS_PS]: the skip  luxValue = 62,ch0data = 29,ch1data = 4,als_print = 0
+3,3227,438712569,-;qpnp_vib_enable,value=0
+3,3228,438713697,-;qpnp_vib_enable,value=40
+3,3229,438754685,-;qpnp_vib_enable,value=0
+3,3230,439197539,-;qpnp_vib_enable,value=0
+3,3231,439198307,-;qpnp_vib_enable,value=40
+3,3232,439243052,-;qpnp_vib_enable,value=0
+3,3233,439356924,-;[ALS_PS]: the skip  luxValue = 48,ch0data = 22,ch1data = 3,als_print = 0
+3,3234,439561386,-;[ALS_PS]: the skip  luxValue = 68,ch0data = 31,ch1data = 4,als_print = 0
+6,3235,439594122,-;mmcqd/1 rw time:26612345 ms,write time:26612345 ms,read time:0 ms
+6,3236,439594179,-;mmcqd/1 workload < 1%, duty 26612345, period 10019853103, req_cnt=3
+6,3237,439594218,-;mmcqd/1 Write Throughput=137 KB/s, size: 3584 bytes, time:26 ms
+3,3238,439748010,-;qpnp_vib_enable,value=0
+3,3239,439748760,-;qpnp_vib_enable,value=40
+3,3240,439764736,-;[ALS_PS]: the skip  luxValue = 116,ch0data = 54,ch1data = 7,als_print = 0
+3,3241,439789909,-;qpnp_vib_enable,value=0
+3,3242,440170746,-;[ALS_PS]: the skip  luxValue = 65,ch0data = 30,ch1data = 4,als_print = 0
+3,3243,440373832,-;[ALS_PS]: the skip  luxValue = 42,ch0data = 20,ch1data = 3,als_print = 0
+3,3244,440840222,-;qpnp_vib_enable,value=0
+3,3245,440840929,-;qpnp_vib_enable,value=40
+3,3246,440880903,-;qpnp_vib_enable,value=0
+3,3247,441391780,-;[ALS_PS]: the skip  luxValue = 51,ch0data = 23,ch1data = 3,als_print = 0
+3,3248,441608887,-;qpnp_vib_enable,value=0
+3,3249,441609584,-;qpnp_vib_enable,value=40
+3,3250,441650067,-;qpnp_vib_enable,value=0
+3,3251,442003938,-;qpnp_vib_enable,value=0
+3,3252,442004713,-;qpnp_vib_enable,value=40
+3,3253,442045242,-;qpnp_vib_enable,value=0
+3,3254,442409154,-;[ALS_PS]: the skip  luxValue = 39,ch0data = 19,ch1data = 3,als_print = 0
+3,3255,442718951,-;qpnp_vib_enable,value=0
+3,3256,442719683,-;qpnp_vib_enable,value=40
+3,3257,442772748,-;qpnp_vib_enable,value=0
+3,3258,443143301,-;qpnp_vib_enable,value=0
+3,3259,443144067,-;qpnp_vib_enable,value=40
+3,3260,443188706,-;qpnp_vib_enable,value=0
+3,3261,443424513,-;[ALS_PS]: the skip  luxValue = 53,ch0data = 24,ch1data = 3,als_print = 0
+3,3262,443603069,-;qpnp_vib_enable,value=0
+3,3263,443604386,-;qpnp_vib_enable,value=40
+3,3264,443645325,-;qpnp_vib_enable,value=0
+3,3265,444032818,-;[ALS_PS]: the skip  luxValue = 48,ch0data = 22,ch1data = 3,als_print = 0
+3,3266,444360159,-;qpnp_vib_enable,value=0
+3,3267,444360903,-;qpnp_vib_enable,value=40
+3,3268,444401153,-;qpnp_vib_enable,value=0
+3,3269,445530674,-;qpnp_vib_enable,value=0
+3,3270,445531427,-;qpnp_vib_enable,value=40
+3,3271,445572453,-;qpnp_vib_enable,value=0
+3,3272,445604568,-;[02:08:02.857182] [0000000202FFD692] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,3273,445686830,-;[02:08:02.939444] [000000020317F034] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+36,3274,445821976,-;type=1400 audit(1492002483.058:13): avc: denied { getattr } for pid=4872 comm="dboxed_process3" path="/data/data/org.cyanogenmod.gello.browser" dev="mmcblk0p26" ino=579395 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+6,3275,445833621,-;CPU4: Booted secondary processor
+6,3276,445835835,-;CPU5: Booted secondary processor
+6,3277,445837258,-;CPU6: Booted secondary processor
+6,3278,445839512,-;CPU7: Booted secondary processor
+6,3279,445841201,-;cluster_plug: 4 little cpus enabled
+36,3280,445849890,-;type=1400 audit(1492002483.088:14): avc: denied { getattr } for pid=4885 comm="dboxed_process4" path="/data/data/org.cyanogenmod.gello.browser" dev="mmcblk0p26" ino=579395 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+36,3281,445998650,-;type=1400 audit(1492002483.238:15): avc: denied { search } for pid=4900 comm="CrRendererMain" name="tombstones" dev="mmcblk0p26" ino=220321 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=0
+36,3282,446019248,-;type=1400 audit(1492002483.258:16): avc: denied { search } for pid=4901 comm="CrRendererMain" name="tombstones" dev="mmcblk0p26" ino=220321 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=0
+4,3283,446087215,-;migrate_irqs: 2530 callbacks suppressed
+4,3284,446087243,-;IRQ32 no longer affine to CPU4
+4,3285,446087254,-;IRQ33 no longer affine to CPU4
+4,3286,446087264,-;IRQ34 no longer affine to CPU4
+4,3287,446087275,-;IRQ35 no longer affine to CPU4
+4,3288,446087284,-;IRQ36 no longer affine to CPU4
+4,3289,446087294,-;IRQ37 no longer affine to CPU4
+4,3290,446087304,-;IRQ38 no longer affine to CPU4
+4,3291,446087314,-;IRQ39 no longer affine to CPU4
+4,3292,446087324,-;IRQ40 no longer affine to CPU4
+4,3293,446087333,-;IRQ41 no longer affine to CPU4
+5,3294,446088491,-;CPU4: shutdown
+5,3295,446093214,-;CPU5: shutdown
+5,3296,446097983,-;CPU6: shutdown
+5,3297,446101921,-;CPU7: shutdown
+6,3298,446102442,-;cluster_plug: 4 little cpus disabled
+6,3299,446737004,-;binder: undelivered transaction 201735
+6,3300,446737019,-;binder: undelivered transaction 201736
+6,3301,446737024,-;binder: undelivered transaction 201737
+6,3302,446737083,-;binder: undelivered transaction 201727
+6,3303,447093538,-;CPU4: Booted secondary processor
+6,3304,447095181,-;CPU5: Booted secondary processor
+6,3305,447096437,-;CPU6: Booted secondary processor
+6,3306,447098250,-;CPU7: Booted secondary processor
+6,3307,447099416,-;cluster_plug: 4 little cpus enabled
+5,3308,447447234,-;CPU4: shutdown
+5,3309,447453211,-;CPU5: shutdown
+5,3310,447456716,-;CPU6: shutdown
+5,3311,447460591,-;CPU7: shutdown
+6,3312,447461504,-;cluster_plug: 4 little cpus disabled
+6,3313,448203529,-;CPU4: Booted secondary processor
+6,3314,448205439,-;CPU5: Booted secondary processor
+6,3315,448206843,-;CPU6: Booted secondary processor
+6,3316,448208928,-;CPU7: Booted secondary processor
+6,3317,448210310,-;cluster_plug: 4 little cpus enabled
+5,3318,448457061,-;CPU4: shutdown
+5,3319,448461703,-;CPU5: shutdown
+5,3320,448467030,-;CPU6: shutdown
+5,3321,448470186,-;CPU7: shutdown
+6,3322,448470697,-;cluster_plug: 4 little cpus disabled
+6,3323,448904292,-;binder: undelivered transaction 202335
+6,3324,448904307,-;binder: undelivered transaction 202336
+6,3325,448904313,-;binder: undelivered transaction 202337
+6,3326,448904365,-;binder: undelivered transaction 202329
+36,3327,451657463,-;type=1400 audit(1492002488.898:17): avc: denied { getattr } for pid=4947 comm="dboxed_process5" path="/data/data/org.cyanogenmod.gello.browser" dev="mmcblk0p26" ino=579395 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+36,3328,451865800,-;type=1400 audit(1492002489.108:18): avc: denied { search } for pid=4961 comm="CrUtilityMain" name="tombstones" dev="mmcblk0p26" ino=220321 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=0
+6,3329,452884322,-;mmcqd/1 rw time:8023178 ms,write time:8023178 ms,read time:0 ms
+6,3330,452884382,-;mmcqd/1 workload < 1%, duty 8023178, period 13290201656, req_cnt=4
+6,3331,452884422,-;mmcqd/1 Write Throughput=1728 KB/s, size: 13824 bytes, time:8 ms
+3,3332,453980551,-;[ALS_PS]: the skip  luxValue = 28,ch0data = 13,ch1data = 2,als_print = 0
+3,3333,455410508,-;[ALS_PS]: the skip  luxValue = 31,ch0data = 14,ch1data = 2,als_print = 0
+3,3334,456633361,-;[02:08:13.885975] [000000020F9EEE16] [VosMC]  wlan: [E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+2,3335,457928820,-;wlan: [3595:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+2,3336,457928842,-;wlan: [3595:F :CTL] a080eb4: 0
+2,3337,457928850,-;wlan: [3595:F :CTL] a080e20: 10ea500
+2,3338,457928856,-;wlan: [3595:F :CTL] a08040c: 0
+2,3339,457928864,-;wlan: [3595:F :CTL] a0821b8: 8f
+2,3340,457928871,-;wlan: [3595:F :CTL] a013c50: 28
+2,3341,457928878,-;wlan: [3595:F :CTL] a013c5c: 12
+2,3342,457928886,-;wlan: [3595:F :CTL] a013d38: b4
+2,3343,457928892,-;wlan: [3595:F :CTL] a0800f4: 800007ff
+2,3344,457928899,-;wlan: [3595:F :CTL] a0801d0: 0
+3,3345,458069519,-;[LCD_INFO] mdss_fb_set_bl_brightness:  level = 56, set backlight time = 130
+6,3346,458113534,-;CPU4: Booted secondary processor
+6,3347,458114855,-;CPU5: Booted secondary processor
+6,3348,458116101,-;CPU6: Booted secondary processor
+6,3349,458117490,-;CPU7: Booted secondary processor
+6,3350,458120405,-;cluster_plug: 4 little cpus enabled
+4,3351,458415737,-;migrate_irqs: 3800 callbacks suppressed
+4,3352,458415759,-;IRQ32 no longer affine to CPU4
+4,3353,458415772,-;IRQ33 no longer affine to CPU4
+4,3354,458415784,-;IRQ34 no longer affine to CPU4
+4,3355,458415796,-;IRQ35 no longer affine to CPU4
+4,3356,458415808,-;IRQ36 no longer affine to CPU4
+4,3357,458415820,-;IRQ37 no longer affine to CPU4
+4,3358,458415832,-;IRQ38 no longer affine to CPU4
+4,3359,458415844,-;IRQ39 no longer affine to CPU4
+4,3360,458415856,-;IRQ40 no longer affine to CPU4
+4,3361,458415868,-;IRQ41 no longer affine to CPU4
+5,3362,458417087,-;CPU4: shutdown
+5,3363,458421980,-;CPU5: shutdown
+5,3364,458425594,-;CPU6: shutdown
+5,3365,458430476,-;CPU7: shutdown
+6,3366,458431735,-;cluster_plug: 4 little cpus disabled
+3,3367,466584589,-;[ALS_PS]: the cycle luxValue = 36,ch0data = 16,ch1data = 2
+6,3368,472277775,-;mmc1:add delay for sd vdd power off
+6,3369,476404452,-;mmc1: Starting deferred resume
+3,3370,476599361,-;[EMMC_SD_INFO] mmc1: this sd support SDHC or later 
+3,3371,476722465,-;[EMMC_SD_INFO] mmc1:send acmd41 with ocr:0x41040000,get rocr:0xc1ff8000
+3,3372,476722486,-;[EMMC_SD_INFO] mmc1:support uhs-1,and accept 1.8V switching request
+3,3373,476737263,-;[EMMC_SD_INFO] mmc1:host and card voltage have changed into 1.8v success!
+3,3374,476739795,-;[EMMC_SD_INFO] mmc1:host support SDR12 SDR25 SDR50  DDR50
+6,3375,476746483,-;mmc1: Deferred resume completed
+6,3376,476746501,-;mmcqd/1 rw time:28599635 ms,write time:28599635 ms,read time:0 ms
+6,3377,476746508,-;mmcqd/1 workload < 1%, duty 28599635, period 23862199604, req_cnt=2
+6,3378,476746514,-;mmcqd/1 Write Throughput=36 KB/s, size: 1024 bytes, time:28 ms
+3,3379,485605620,-;[02:08:42.858211] [0000000230C6E3D5] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,3380,485686336,-;[02:08:42.938948] [0000000230DE8B10] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+6,3381,491533447,-;mmcqd/1 rw time:22071459 ms,write time:22071459 ms,read time:0 ms
+6,3382,491533467,-;mmcqd/1 workload < 1%, duty 22071459, period 14786923638, req_cnt=3
+6,3383,491533476,-;mmcqd/1 Write Throughput=302 KB/s, size: 6656 bytes, time:22 ms
+3,3384,496685687,-;[ALS_PS]: the cycle luxValue = 31,ch0data = 14,ch1data = 2
+3,3385,497297493,-;[ALS_PS]: the skip  luxValue = 28,ch0data = 13,ch1data = 2,als_print = 0
+3,3386,498521619,-;[ALS_PS]: the skip  luxValue = 31,ch0data = 14,ch1data = 2,als_print = 0
+6,3387,507864270,-;mmcqd/1 rw time:31574375 ms,write time:31574375 ms,read time:0 ms
+6,3388,507864328,-;mmcqd/1 workload < 1%, duty 31574375, period 16330824373, req_cnt=5
+6,3389,507864367,-;mmcqd/1 Write Throughput=82 KB/s, size: 2560 bytes, time:31 ms
+3,3390,518515822,-;[ALS_PS]: the skip  luxValue = 28,ch0data = 13,ch1data = 2,als_print = 0
+3,3391,519125562,-;[ALS_PS]: the skip  luxValue = 31,ch0data = 14,ch1data = 2,als_print = 0
+6,3392,519954137,-;mmcqd/1 rw time:24147916 ms,write time:24147916 ms,read time:0 ms
+6,3393,519954155,-;mmcqd/1 workload < 1%, duty 24147916, period 12089878058, req_cnt=2
+6,3394,519954163,-;mmcqd/1 Write Throughput=64 KB/s, size: 1536 bytes, time:24 ms
+3,3395,523592738,-;[ALS_PS]: the skip  luxValue = 53,ch0data = 24,ch1data = 3,als_print = 0
+3,3396,523596303,-;qpnp_vib_enable,value=0
+3,3397,523597363,-;qpnp_vib_enable,value=40
+3,3398,523638903,-;qpnp_vib_enable,value=0
+3,3399,523998913,-;[ALS_PS]: the skip  luxValue = 39,ch0data = 17,ch1data = 2,als_print = 0
+3,3400,525020061,-;qpnp_vib_enable,value=0
+3,3401,525020829,-;qpnp_vib_enable,value=40
+3,3402,525061695,-;qpnp_vib_enable,value=0
+3,3403,525387836,-;qpnp_vib_enable,value=0
+3,3404,525388154,-;qpnp_vib_enable,value=40
+3,3405,525429205,-;qpnp_vib_enable,value=0
+3,3406,525917934,-;qpnp_vib_enable,value=0
+3,3407,525918618,-;qpnp_vib_enable,value=40
+3,3408,525959237,-;qpnp_vib_enable,value=0
+3,3409,526453382,-;[ALS_PS]: the skip  luxValue = 59,ch0data = 28,ch1data = 4,als_print = 0
+3,3410,526488854,-;qpnp_vib_enable,value=0
+3,3411,526489590,-;qpnp_vib_enable,value=40
+3,3412,526532131,-;qpnp_vib_enable,value=0
+3,3413,526868547,-;[ALS_PS]: the cycle luxValue = 42,ch0data = 20,ch1data = 3
+3,3414,527072412,-;[ALS_PS]: the skip  luxValue = 42,ch0data = 18,ch1data = 2,als_print = 0
+3,3415,527190113,-;qpnp_vib_enable,value=0
+3,3416,527190622,-;qpnp_vib_enable,value=40
+3,3417,527231051,-;qpnp_vib_enable,value=0
+3,3418,527619133,-;qpnp_vib_enable,value=0
+3,3419,527619849,-;qpnp_vib_enable,value=40
+3,3420,527660263,-;qpnp_vib_enable,value=0
+3,3421,528071134,-;qpnp_vib_enable,value=0
+3,3422,528072562,-;qpnp_vib_enable,value=40
+3,3423,528115044,-;qpnp_vib_enable,value=0
+6,3424,530004005,-;mmcqd/1 rw time:21062396 ms,write time:21062396 ms,read time:0 ms
+6,3425,530004063,-;mmcqd/1 workload < 1%, duty 21062396, period 10049856385, req_cnt=2
+6,3426,530004103,-;mmcqd/1 Write Throughput=146 KB/s, size: 3072 bytes, time:21 ms
+3,3427,530045086,-;qpnp_vib_enable,value=0
+3,3428,530045446,-;qpnp_vib_enable,value=40
+3,3429,530086486,-;qpnp_vib_enable,value=0
+3,3430,530547784,-;qpnp_vib_enable,value=0
+3,3431,530548085,-;qpnp_vib_enable,value=40
+3,3432,530592976,-;qpnp_vib_enable,value=0
+3,3433,531234255,-;qpnp_vib_enable,value=0
+3,3434,531234871,-;qpnp_vib_enable,value=40
+3,3435,531276142,-;qpnp_vib_enable,value=0
+3,3436,531349938,-;[ALS_PS]: the skip  luxValue = 53,ch0data = 24,ch1data = 3,als_print = 0
+3,3437,531728925,-;qpnp_vib_enable,value=0
+3,3438,531729858,-;qpnp_vib_enable,value=40
+3,3439,531763396,-;[ALS_PS]: the skip  luxValue = 48,ch0data = 22,ch1data = 3,als_print = 0
+3,3440,531770622,-;qpnp_vib_enable,value=0
+3,3441,532429230,-;qpnp_vib_enable,value=0
+3,3442,532430041,-;qpnp_vib_enable,value=40
+3,3443,532472827,-;qpnp_vib_enable,value=0
+3,3444,533598616,-;qpnp_vib_enable,value=0
+3,3445,533600937,-;qpnp_vib_enable,value=40
+3,3446,533644293,-;qpnp_vib_enable,value=0
+3,3447,534212931,-;[ALS_PS]: the skip  luxValue = 51,ch0data = 23,ch1data = 3,als_print = 0
+3,3448,534316724,-;qpnp_vib_enable,value=0
+3,3449,534317098,-;qpnp_vib_enable,value=40
+3,3450,534358133,-;qpnp_vib_enable,value=0
+3,3451,534733756,-;qpnp_vib_enable,value=0
+3,3452,534734625,-;qpnp_vib_enable,value=40
+3,3453,534775688,-;qpnp_vib_enable,value=0
+3,3454,535225660,-;[ALS_PS]: the skip  luxValue = 36,ch0data = 16,ch1data = 2,als_print = 0
+3,3455,535529022,-;qpnp_vib_enable,value=0
+3,3456,535529773,-;qpnp_vib_enable,value=40
+3,3457,535570272,-;qpnp_vib_enable,value=0
+36,3458,535816260,-;type=1400 audit(1492002573.058:19): avc: denied { getattr } for pid=5136 comm="dboxed_process6" path="/data/data/org.cyanogenmod.gello.browser" dev="mmcblk0p26" ino=579395 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+36,3459,535862708,-;type=1400 audit(1492002573.098:20): avc: denied { getattr } for pid=5148 comm="dboxed_process7" path="/data/data/org.cyanogenmod.gello.browser" dev="mmcblk0p26" ino=579395 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+36,3460,536026557,-;type=1400 audit(1492002573.268:21): avc: denied { search } for pid=5164 comm="CrRendererMain" name="tombstones" dev="mmcblk0p26" ino=220321 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=0
+36,3461,536041384,-;type=1400 audit(1492002573.278:22): avc: denied { search } for pid=5165 comm="CrRendererMain" name="tombstones" dev="mmcblk0p26" ino=220321 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=0
+3,3462,536490655,-;[ALS_PS]: the skip  luxValue = 28,ch0data = 13,ch1data = 2,als_print = 0
+3,3463,536692324,-;[ALS_PS]: the skip  luxValue = 31,ch0data = 14,ch1data = 2,als_print = 0
+3,3464,536894001,-;[ALS_PS]: the skip  luxValue = 28,ch0data = 13,ch1data = 2,als_print = 0
+3,3465,537097017,-;[ALS_PS]: the skip  luxValue = 31,ch0data = 14,ch1data = 2,als_print = 0
+6,3466,540045274,-;mmc1:add delay for sd vdd power off
+6,3467,540653795,-;mmc1: Starting deferred resume
+3,3468,540843463,-;[EMMC_SD_INFO] mmc1: this sd support SDHC or later 
+3,3469,540967053,-;[EMMC_SD_INFO] mmc1:send acmd41 with ocr:0x41040000,get rocr:0xc1ff8000
+3,3470,540967117,-;[EMMC_SD_INFO] mmc1:support uhs-1,and accept 1.8V switching request
+3,3471,540982823,-;[EMMC_SD_INFO] mmc1:host and card voltage have changed into 1.8v success!
+3,3472,540991354,-;[EMMC_SD_INFO] mmc1:host support SDR12 SDR25 SDR50  DDR50
+6,3473,541003096,-;mmc1: Deferred resume completed
+6,3474,541003359,-;mmcqd/1 rw time:3775312 ms,write time:3775312 ms,read time:0 ms
+6,3475,541003387,-;mmcqd/1 workload < 1%, duty 3775312, period 10999366700, req_cnt=1
+6,3476,541003409,-;mmcqd/1 Write Throughput=341 KB/s, size: 1024 bytes, time:3 ms
+6,3477,541485361,-;binder: undelivered transaction 217670
+6,3478,541485379,-;binder: undelivered transaction 217673
+6,3479,541485387,-;binder: undelivered transaction 217674
+6,3480,541485455,-;binder: undelivered transaction 217664
+3,3481,552576224,-;[ALS_PS]: the skip  luxValue = 59,ch0data = 28,ch1data = 4,als_print = 0
+3,3482,552780591,-;[ALS_PS]: the skip  luxValue = 269,ch0data = 124,ch1data = 16,als_print = 0
+3,3483,552984640,-;[ALS_PS]: the skip  luxValue = 187,ch0data = 86,ch1data = 11,als_print = 0
+3,3484,553187692,-;[ALS_PS]: the skip  luxValue = 65,ch0data = 30,ch1data = 4,als_print = 0
+3,3485,553398603,-;[ALS_PS]: the skip  luxValue = 42,ch0data = 18,ch1data = 2,als_print = 0
+6,3486,556399672,-;mmc1:add delay for sd vdd power off
+3,3487,557061180,-;[ALS_PS]: the cycle luxValue = 31,ch0data = 14,ch1data = 2
+3,3488,562144553,-;[ALS_PS]: the skip  luxValue = 28,ch0data = 13,ch1data = 2,als_print = 0
+3,3489,563568333,-;[ALS_PS]: the skip  luxValue = 31,ch0data = 14,ch1data = 2,als_print = 0
+3,3490,565616720,-;[02:10:02.869311] [000000028C57A45A] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,3491,565688407,-;[02:10:02.940996] [000000028C6CA4B4] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+6,3492,567864090,-;mmc1: Starting deferred resume
+3,3493,568061443,-;[EMMC_SD_INFO] mmc1: this sd support SDHC or later 
+3,3494,568194069,-;[EMMC_SD_INFO] mmc1:send acmd41 with ocr:0x41040000,get rocr:0xc1ff8000
+3,3495,568194134,-;[EMMC_SD_INFO] mmc1:support uhs-1,and accept 1.8V switching request
+3,3496,568208709,-;[EMMC_SD_INFO] mmc1:host and card voltage have changed into 1.8v success!
+3,3497,568212924,-;[EMMC_SD_INFO] mmc1:host support SDR12 SDR25 SDR50  DDR50
+6,3498,568227505,-;mmc1: Deferred resume completed
+6,3499,568227567,-;mmcqd/1 rw time:10022605 ms,write time:10022605 ms,read time:0 ms
+6,3500,568227609,-;mmcqd/1 workload < 1%, duty 10022605, period 27224205187, req_cnt=2
+6,3501,568227914,-;mmcqd/1 Write Throughput=256 KB/s, size: 2560 bytes, time:10 ms
+3,3502,568256251,-;[ALS_PS]: the skip  luxValue = 28,ch0data = 13,ch1data = 2,als_print = 0
+3,3503,570906328,-;[ALS_PS]: the skip  luxValue = 31,ch0data = 14,ch1data = 2,als_print = 0
+3,3504,572949714,-;[ALS_PS]: the skip  luxValue = 99,ch0data = 46,ch1data = 6,als_print = 0
+3,3505,573784921,-;[ALS_PS]: the skip  luxValue = 62,ch0data = 27,ch1data = 3,als_print = 0
+3,3506,573989649,-;[ALS_PS]: the skip  luxValue = 42,ch0data = 18,ch1data = 2,als_print = 0
+6,3507,578264814,-;mmc1:add delay for sd vdd power off
+3,3508,586893876,-;[02:10:24.146466] [00000002A4B12EF2] [VosMC]  wlan: [E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+3,3509,587060546,-;[ALS_PS]: the cycle luxValue = 31,ch0data = 14,ch1data = 2
+6,3510,604834198,-;mmc1: Starting deferred resume
+3,3511,605031441,-;[EMMC_SD_INFO] mmc1: this sd support SDHC or later 
+3,3512,605159536,-;[EMMC_SD_INFO] mmc1:send acmd41 with ocr:0x41040000,get rocr:0xc1ff8000
+3,3513,605159602,-;[EMMC_SD_INFO] mmc1:support uhs-1,and accept 1.8V switching request
+3,3514,605174849,-;[EMMC_SD_INFO] mmc1:host and card voltage have changed into 1.8v success!
+3,3515,605178370,-;[EMMC_SD_INFO] mmc1:host support SDR12 SDR25 SDR50  DDR50
+6,3516,605191458,-;mmc1: Deferred resume completed
+6,3517,605191517,-;mmcqd/1 rw time:4670157 ms,write time:4670157 ms,read time:0 ms
+6,3518,605191561,-;mmcqd/1 workload < 1%, duty 4670157, period 36963948967, req_cnt=1
+6,3519,605191601,-;mmcqd/1 Write Throughput=128 KB/s, size: 512 bytes, time:4 ms
+3,3520,617078129,-;[ALS_PS]: the cycle luxValue = 31,ch0data = 14,ch1data = 2
+6,3521,622858748,-;mmc1:add delay for sd vdd power off
+3,3522,628740366,-;[ALS_PS]: the skip  luxValue = 62,ch0data = 29,ch1data = 4,als_print = 0
+3,3523,629144338,-;[ALS_PS]: the skip  luxValue = 39,ch0data = 19,ch1data = 3,als_print = 0
+6,3524,630405888,-;binder: undelivered transaction 221071
+6,3525,630405913,-;binder: undelivered transaction 221073
+6,3526,630405923,-;binder: undelivered transaction 221075
+6,3527,630406010,-;binder: undelivered transaction 221066
+3,3528,631984169,-;[02:11:09.236757] [00000002D84B3AD2] [VosMC]  wlan: [E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+6,3529,634244267,-;mmc1: Starting deferred resume
+3,3530,634441166,-;[EMMC_SD_INFO] mmc1: this sd support SDHC or later 
+3,3531,634567812,-;[EMMC_SD_INFO] mmc1:send acmd41 with ocr:0x41040000,get rocr:0xc1ff8000
+3,3532,634567875,-;[EMMC_SD_INFO] mmc1:support uhs-1,and accept 1.8V switching request
+3,3533,634582277,-;[EMMC_SD_INFO] mmc1:host and card voltage have changed into 1.8v success!
+3,3534,634588888,-;[EMMC_SD_INFO] mmc1:host support SDR12 SDR25 SDR50  DDR50
+6,3535,634601668,-;mmc1: Deferred resume completed
+6,3536,634601709,-;mmcqd/1 rw time:10628124 ms,write time:10628124 ms,read time:0 ms
+6,3537,634601733,-;mmcqd/1 workload < 1%, duty 10628124, period 29410197382, req_cnt=2
+6,3538,634601756,-;mmcqd/1 Write Throughput=409 KB/s, size: 4096 bytes, time:10 ms
+3,3539,639742443,-;[ALS_PS]: the skip  luxValue = 28,ch0data = 13,ch1data = 2,als_print = 0
+3,3540,639947542,-;[ALS_PS]: the skip  luxValue = 31,ch0data = 14,ch1data = 2,als_print = 0
+3,3541,642936170,-;qpnp_vib_enable,value=0
+3,3542,642937155,-;qpnp_vib_enable,value=40
+3,3543,642978520,-;qpnp_vib_enable,value=0
+36,3544,644446619,-;type=1400 audit(1492002681.678:23): avc: denied { getattr } for pid=5247 comm="dboxed_process8" path="/data/data/org.cyanogenmod.gello.browser" dev="mmcblk0p26" ino=579395 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+6,3545,644473888,-;CPU4: Booted secondary processor
+6,3546,644475627,-;CPU5: Booted secondary processor
+6,3547,644476906,-;CPU6: Booted secondary processor
+6,3548,644480280,-;CPU7: Booted secondary processor
+6,3549,644482954,-;cluster_plug: 4 little cpus enabled
+36,3550,644496672,-;type=1400 audit(1492002681.738:24): avc: denied { getattr } for pid=5261 comm="dboxed_process9" path="/data/data/org.cyanogenmod.gello.browser" dev="mmcblk0p26" ino=579395 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+36,3551,644638811,-;type=1400 audit(1492002681.878:25): avc: denied { search } for pid=5275 comm="CrRendererMain" name="tombstones" dev="mmcblk0p26" ino=220321 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=0
+6,3552,644647788,-;mmc1:add delay for sd vdd power off
+36,3553,644676465,-;type=1400 audit(1492002681.918:26): avc: denied { search } for pid=5276 comm="CrRendererMain" name="tombstones" dev="mmcblk0p26" ino=220321 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=0
+4,3554,644726107,-;migrate_irqs: 1262 callbacks suppressed
+4,3555,644726181,-;IRQ32 no longer affine to CPU4
+4,3556,644726192,-;IRQ33 no longer affine to CPU4
+4,3557,644726202,-;IRQ34 no longer affine to CPU4
+4,3558,644726212,-;IRQ35 no longer affine to CPU4
+4,3559,644726222,-;IRQ36 no longer affine to CPU4
+4,3560,644726232,-;IRQ37 no longer affine to CPU4
+4,3561,644726242,-;IRQ38 no longer affine to CPU4
+4,3562,644726253,-;IRQ40 no longer affine to CPU4
+4,3563,644726263,-;IRQ41 no longer affine to CPU4
+4,3564,644726273,-;IRQ42 no longer affine to CPU4
+5,3565,644727258,-;CPU4: shutdown
+5,3566,644730243,-;CPU5: shutdown
+5,3567,644733561,-;CPU6: shutdown
+5,3568,644737351,-;CPU7: shutdown
+6,3569,644737856,-;cluster_plug: 4 little cpus disabled
+6,3570,645233903,-;CPU4: Booted secondary processor
+6,3571,645235117,-;CPU5: Booted secondary processor
+6,3572,645236341,-;CPU6: Booted secondary processor
+6,3573,645238247,-;CPU7: Booted secondary processor
+6,3574,645239368,-;cluster_plug: 4 little cpus enabled
+6,3575,645353969,-;mmc1: Starting deferred resume
+3,3576,645550940,-;[EMMC_SD_INFO] mmc1: this sd support SDHC or later 
+3,3577,645685723,-;[EMMC_SD_INFO] mmc1:send acmd41 with ocr:0x41040000,get rocr:0xc1ff8000
+3,3578,645685758,-;[EMMC_SD_INFO] mmc1:support uhs-1,and accept 1.8V switching request
+3,3579,645706335,-;[EMMC_SD_INFO] mmc1:host and card voltage have changed into 1.8v success!
+3,3580,645712976,-;[EMMC_SD_INFO] mmc1:host support SDR12 SDR25 SDR50  DDR50
+6,3581,645724593,-;mmc1: Deferred resume completed
+6,3582,645724638,-;mmcqd/1 rw time:5825834 ms,write time:5825834 ms,read time:0 ms
+6,3583,645724646,-;mmcqd/1 workload < 1%, duty 5825834, period 11122933836, req_cnt=1
+6,3584,645724654,-;mmcqd/1 Write Throughput=716 KB/s, size: 3584 bytes, time:5 ms
+5,3585,645986612,-;CPU4: shutdown
+5,3586,645990840,-;CPU5: shutdown
+5,3587,645994747,-;CPU6: shutdown
+5,3588,646002050,-;CPU7: shutdown
+6,3589,646002847,-;cluster_plug: 4 little cpus disabled
+3,3590,647077327,-;[ALS_PS]: the cycle luxValue = 31,ch0data = 14,ch1data = 2
+6,3591,656003474,-;mmcqd/1 rw time:13543699 ms,write time:13543699 ms,read time:0 ms
+6,3592,656003487,-;mmcqd/1 workload < 1%, duty 13543699, period 10278833260, req_cnt=5
+6,3593,656003492,-;mmcqd/1 Write Throughput=551 KB/s, size: 7168 bytes, time:13 ms
+3,3594,667064120,-;[02:11:44.316709] [0000000300708F32] [VosMC]  wlan: [E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+6,3595,668023752,-;mmcqd/1 rw time:8843333 ms,write time:8843333 ms,read time:0 ms
+6,3596,668023781,-;mmcqd/1 workload < 1%, duty 8843333, period 12020270297, req_cnt=2
+6,3597,668023793,-;mmcqd/1 Write Throughput=576 KB/s, size: 4608 bytes, time:8 ms
+3,3598,674763645,-;[ALS_PS]: the skip  luxValue = 53,ch0data = 24,ch1data = 3,als_print = 0
+3,3599,677207130,-;[ALS_PS]: the cycle luxValue = 56,ch0data = 27,ch1data = 4
+3,3600,677411371,-;[ALS_PS]: the skip  luxValue = 45,ch0data = 19,ch1data = 2,als_print = 0
+36,3601,679169054,-;type=1400 audit(1492002716.408:27): avc: denied { getattr } for pid=5376 comm="boxed_process10" path="/data/data/org.cyanogenmod.gello.browser" dev="mmcblk0p26" ino=579395 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+6,3602,679243647,-;CPU4: Booted secondary processor
+6,3603,679246219,-;CPU5: Booted secondary processor
+6,3604,679248759,-;CPU6: Booted secondary processor
+6,3605,679250405,-;CPU7: Booted secondary processor
+6,3606,679251829,-;cluster_plug: 4 little cpus enabled
+36,3607,679364417,-;type=1400 audit(1492002716.598:28): avc: denied { search } for pid=5390 comm="CrRendererMain" name="tombstones" dev="mmcblk0p26" ino=220321 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=0
+6,3608,679634360,-;binder: undelivered transaction 228544
+6,3609,679634375,-;binder: undelivered transaction 228545
+6,3610,679634380,-;binder: undelivered transaction 228546
+6,3611,679634460,-;binder: undelivered transaction 228539
+4,3612,679795717,-;migrate_irqs: 2517 callbacks suppressed
+4,3613,679795740,-;IRQ32 no longer affine to CPU4
+4,3614,679795753,-;IRQ33 no longer affine to CPU4
+4,3615,679795765,-;IRQ34 no longer affine to CPU4
+4,3616,679795777,-;IRQ35 no longer affine to CPU4
+4,3617,679795789,-;IRQ36 no longer affine to CPU4
+4,3618,679795801,-;IRQ37 no longer affine to CPU4
+4,3619,679795813,-;IRQ38 no longer affine to CPU4
+4,3620,679795825,-;IRQ40 no longer affine to CPU4
+4,3621,679795837,-;IRQ41 no longer affine to CPU4
+4,3622,679795849,-;IRQ42 no longer affine to CPU4
+5,3623,679797009,-;CPU4: shutdown
+5,3624,679803281,-;CPU5: shutdown
+5,3625,679808819,-;CPU6: shutdown
+5,3626,679814576,-;CPU7: shutdown
+6,3627,679815494,-;cluster_plug: 4 little cpus disabled
+6,3628,679923540,-;mmcqd/1 rw time:9635158 ms,write time:9635158 ms,read time:0 ms
+6,3629,679923559,-;mmcqd/1 workload < 1%, duty 9635158, period 11899790245, req_cnt=2
+6,3630,679923565,-;mmcqd/1 Write Throughput=113 KB/s, size: 1024 bytes, time:9 ms
+3,3631,683757103,-;qpnp_vib_enable,value=0
+3,3632,683757797,-;qpnp_vib_enable,value=40
+3,3633,683799207,-;qpnp_vib_enable,value=0
+36,3634,685134475,-;type=1400 audit(1492002722.368:29): avc: denied { getattr } for pid=5420 comm="boxed_process11" path="/data/data/org.cyanogenmod.gello.browser" dev="mmcblk0p26" ino=579395 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+36,3635,685186105,-;type=1400 audit(1492002722.418:30): avc: denied { getattr } for pid=5429 comm="boxed_process12" path="/data/data/org.cyanogenmod.gello.browser" dev="mmcblk0p26" ino=579395 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+36,3636,685351558,-;type=1400 audit(1492002722.588:31): avc: denied { search } for pid=5448 comm="CrRendererMain" name="tombstones" dev="mmcblk0p26" ino=220321 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=0
+36,3637,685392688,-;type=1400 audit(1492002722.628:32): avc: denied { search } for pid=5449 comm="CrRendererMain" name="tombstones" dev="mmcblk0p26" ino=220321 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=0
+6,3638,685863521,-;CPU4: Booted secondary processor
+6,3639,685865636,-;CPU5: Booted secondary processor
+6,3640,685866622,-;CPU6: Booted secondary processor
+6,3641,685868389,-;CPU7: Booted secondary processor
+6,3642,685869718,-;cluster_plug: 4 little cpus enabled
+6,3643,686007391,-;binder: undelivered transaction 230273
+6,3644,686007413,-;binder: undelivered transaction 230274
+6,3645,686007418,-;binder: undelivered transaction 230275
+6,3646,686007517,-;binder: undelivered transaction 230268
+4,3647,686565018,-;migrate_irqs: 1254 callbacks suppressed
+4,3648,686565040,-;IRQ32 no longer affine to CPU4
+4,3649,686565053,-;IRQ33 no longer affine to CPU4
+4,3650,686565065,-;IRQ34 no longer affine to CPU4
+4,3651,686565077,-;IRQ35 no longer affine to CPU4
+4,3652,686565090,-;IRQ36 no longer affine to CPU4
+4,3653,686565101,-;IRQ37 no longer affine to CPU4
+4,3654,686565113,-;IRQ38 no longer affine to CPU4
+4,3655,686565125,-;IRQ39 no longer affine to CPU4
+4,3656,686565137,-;IRQ40 no longer affine to CPU4
+4,3657,686565148,-;IRQ41 no longer affine to CPU4
+5,3658,686566333,-;CPU4: shutdown
+5,3659,686570527,-;CPU5: shutdown
+5,3660,686574176,-;CPU6: shutdown
+5,3661,686578118,-;CPU7: shutdown
+6,3662,686578741,-;cluster_plug: 4 little cpus disabled
+6,3663,687849074,-;binder: undelivered transaction 230909
+6,3664,687849099,-;binder: undelivered transaction 230910
+6,3665,687849104,-;binder: undelivered transaction 230911
+6,3666,687849159,-;binder: undelivered transaction 230900
+6,3667,690553844,-;mmcqd/1 rw time:10852969 ms,write time:10852969 ms,read time:0 ms
+6,3668,690553864,-;mmcqd/1 workload < 1%, duty 10852969, period 10630307741, req_cnt=5
+6,3669,690553875,-;mmcqd/1 Write Throughput=1433 KB/s, size: 14336 bytes, time:10 ms
+3,3670,702135263,-;[02:12:19.387850] [0000000328934ECE] [VosMC]  wlan: [E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+6,3671,703243567,-;mmcqd/1 rw time:9344532 ms,write time:9344532 ms,read time:0 ms
+6,3672,703243593,-;mmcqd/1 workload < 1%, duty 9344532, period 12689719778, req_cnt=2
+6,3673,703243608,-;mmcqd/1 Write Throughput=113 KB/s, size: 1024 bytes, time:9 ms
+3,3674,707339154,-;[ALS_PS]: the cycle luxValue = 31,ch0data = 14,ch1data = 2
+3,3675,712154023,-;[02:12:29.406611] [00000003340A7DE0] [VosMC]  wlan: [E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+6,3676,718722475,-;mmc1:add delay for sd vdd power off
+6,3677,722334132,-;mmc1: Starting deferred resume
+3,3678,722532090,-;[EMMC_SD_INFO] mmc1: this sd support SDHC or later 
+3,3679,722660346,-;[EMMC_SD_INFO] mmc1:send acmd41 with ocr:0x41040000,get rocr:0xc1ff8000
+3,3680,722660412,-;[EMMC_SD_INFO] mmc1:support uhs-1,and accept 1.8V switching request
+3,3681,722674883,-;[EMMC_SD_INFO] mmc1:host and card voltage have changed into 1.8v success!
+3,3682,722678436,-;[EMMC_SD_INFO] mmc1:host support SDR12 SDR25 SDR50  DDR50
+6,3683,722691820,-;mmc1: Deferred resume completed
+6,3684,722691878,-;mmcqd/1 rw time:7489011 ms,write time:7489011 ms,read time:0 ms
+6,3685,722691922,-;mmcqd/1 workload < 1%, duty 7489011, period 19448309903, req_cnt=2
+6,3686,722691962,-;mmcqd/1 Write Throughput=219 KB/s, size: 1536 bytes, time:7 ms
+3,3687,725639137,-;[02:12:42.891728] [00000003437935A4] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+3,3688,725732739,-;[02:12:42.985327] [000000034394A189] [VosMC]  wlan: [E :HDD] wlan_hdd_tdls_scan_done_callback: 3074: Failed to revert: Mode=0, BTC enabled=1
+3,3689,728338506,-;[ALS_PS]: the skip  luxValue = 28,ch0data = 13,ch1data = 2,als_print = 0
+3,3690,728951536,-;[ALS_PS]: the skip  luxValue = 31,ch0data = 14,ch1data = 2,als_print = 0
+6,3691,734374380,-;mmcqd/1 rw time:11689948 ms,write time:11689948 ms,read time:0 ms
+6,3692,734374438,-;mmcqd/1 workload < 1%, duty 11689948, period 11682491859, req_cnt=2
+6,3693,734374479,-;mmcqd/1 Write Throughput=139 KB/s, size: 1536 bytes, time:11 ms
+3,3694,737203748,-;[02:12:54.456338] [0000000350B54756] [VosMC]  wlan: [E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+3,3695,737489230,-;[ALS_PS]: the cycle luxValue = 31,ch0data = 14,ch1data = 2
+6,3696,753204373,-;mmc1:add delay for sd vdd power off
+3,3697,767263842,-;[02:13:24.516430] [00000003731BF23D] [VosMC]  wlan: [E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+3,3698,767636813,-;[ALS_PS]: the cycle luxValue = 31,ch0data = 14,ch1data = 2
+6,3699,784223576,-;CPU4: Booted secondary processor
+6,3700,784225268,-;CPU5: Booted secondary processor
+6,3701,784226811,-;CPU6: Booted secondary processor
+6,3702,784229046,-;CPU7: Booted secondary processor
+6,3703,784230860,-;cluster_plug: 4 little cpus enabled
+3,3704,784556193,-;[02:13:41.808804] [0000000386E61247] [VosMC]  wlan: [E :PE ] limProcessAddBaInd: 5719: BA setup for staId = 3, TID: 1, SSN: 24
+4,3705,784576054,-;migrate_irqs: 1254 callbacks suppressed
+4,3706,784576077,-;IRQ32 no longer affine to CPU4
+4,3707,784576090,-;IRQ33 no longer affine to CPU4
+4,3708,784576102,-;IRQ34 no longer affine to CPU4
+4,3709,784576114,-;IRQ35 no longer affine to CPU4
+4,3710,784576127,-;IRQ36 no longer affine to CPU4
+4,3711,784576138,-;IRQ37 no longer affine to CPU4
+4,3712,784576151,-;IRQ38 no longer affine to CPU4
+4,3713,784576163,-;IRQ40 no longer affine to CPU4
+4,3714,784576175,-;IRQ41 no longer affine to CPU4
+4,3715,784576186,-;IRQ42 no longer affine to CPU4
+5,3716,784577317,-;CPU4: shutdown
+5,3717,784581175,-;CPU5: shutdown
+5,3718,784585367,-;CPU6: shutdown
+5,3719,784592427,-;CPU7: shutdown
+6,3720,784593826,-;cluster_plug: 4 little cpus disabled
+36,3721,784791619,-;type=1400 audit(1492002822.028:33): avc: denied { getattr } for pid=5597 comm="boxed_process13" path="/data/data/org.cyanogenmod.gello.browser" dev="mmcblk0p26" ino=579395 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:app_data_file:s0:c512,c768 tclass=dir permissive=0
+6,3722,784843885,-;CPU4: Booted secondary processor
+6,3723,784845293,-;CPU5: Booted secondary processor
+6,3724,784846791,-;CPU6: Booted secondary processor
+6,3725,784848041,-;CPU7: Booted secondary processor
+6,3726,784849736,-;cluster_plug: 4 little cpus enabled
+36,3727,784980309,-;type=1400 audit(1492002822.218:34): avc: denied { search } for pid=5611 comm="CrRendererMain" name="tombstones" dev="mmcblk0p26" ino=220321 scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:tombstone_data_file:s0 tclass=dir permissive=0
+5,3728,785446992,-;CPU4: shutdown
+5,3729,785451258,-;CPU5: shutdown
+5,3730,785456037,-;CPU6: shutdown
+5,3731,785460173,-;CPU7: shutdown
+6,3732,785461443,-;cluster_plug: 4 little cpus disabled
+6,3733,786444110,-;binder: undelivered transaction 240810
+6,3734,786444131,-;binder: undelivered transaction 240812
+6,3735,786444137,-;binder: undelivered transaction 240813
+6,3736,786444203,-;binder: undelivered transaction 240802
+6,3737,788154219,-;mmc1: Starting deferred resume
+3,3738,788349831,-;[EMMC_SD_INFO] mmc1: this sd support SDHC or later 
+3,3739,788482060,-;[EMMC_SD_INFO] mmc1:send acmd41 with ocr:0x41040000,get rocr:0xc1ff8000
+3,3740,788482081,-;[EMMC_SD_INFO] mmc1:support uhs-1,and accept 1.8V switching request
+3,3741,788495986,-;[EMMC_SD_INFO] mmc1:host and card voltage have changed into 1.8v success!
+3,3742,788498547,-;[EMMC_SD_INFO] mmc1:host support SDR12 SDR25 SDR50  DDR50
+6,3743,788504983,-;mmc1: Deferred resume completed
+6,3744,788505007,-;mmcqd/1 rw time:9351875 ms,write time:9351875 ms,read time:0 ms
+6,3745,788505024,-;mmcqd/1 workload < 1%, duty 9351875, period 54130645373, req_cnt=2
+6,3746,788505039,-;mmcqd/1 Write Throughput=398 KB/s, size: 3584 bytes, time:9 ms
+3,3747,796917124,-;[ALS_PS]: the skip  luxValue = 53,ch0data = 24,ch1data = 3,als_print = 0
+3,3748,797103123,-;PMIC input: code=116, sts=0x5
+6,3749,797103344,-;Exit qpnp_kpdpwr_irq : [2017-4-12]13:13:54:937
+3,3750,797274918,-;PMIC input: code=116, sts=0x4
+6,3751,797275141,-;Exit qpnp_kpdpwr_irq : [2017-4-12]13:13:54:735
+3,3752,797734414,-;[ALS_PS]: the cycle luxValue = 70,ch0data = 32,ch1data = 4
+3,3753,797881907,-;lis3dh_acc_poll_delay_set,set poll delay =66
+3,3754,797882133,-;lis3dh_acc_disable: acc->enabled=1
+3,3755,797882145,c;lis3dh_acc_disable:lis3dh diable with hrtimer mode , acc->enabled=0
+3,3756,797888817,+;apds993x_set_als_poll_delay,line 1909:poll delay 200, atime_index 219
+3,3757,797907416,c;[disable]
+3,3758,797907443,+; reg_buf= 
+3,3759,797907448,c;0x 3  
+3,3760,797907459,+;0xdb  
+3,3761,797907463,c;0xff  
+3,3762,797907474,+;0xb6  
+3,3763,797907479,c;0x 0  
+3,3764,797907489,+;0x 0  
+3,3765,797907493,c;0x98  
+3,3766,797907503,+;0x3a  
+3,3767,797907507,c;0x 0  
+3,3768,797907517,+;0x 0  
+3,3769,797907521,c;0xcf  
+3,3770,797907531,+;0x 0  
+3,3771,797907535,c;0x12  
+3,3772,797907545,+;0x 0  
+3,3773,797907549,c;0x c  
+3,3774,797907559,+;0x60  
+3,3775,797907563,c;0x 0  
+3,3776,797907573,+;0x 2  
+3,3777,797907577,c;0x39  
+3,3778,797907587,+;0x 1  
+3,3779,797907591,c;0x1f  
+3,3780,797907601,+;0x 0  
+3,3781,797907630,c;0x 4  
+3,3782,797907641,+;0x 0  
+3,3783,797907646,c;0x3a  
+3,3784,797907656,+;0x 0  
+3,3785,797907659,-;
+3,3786,797907672,-;parameters: a=180, c=545, d=152,e=220,f=43
+3,3787,797908101,-;apds993x_enable_als_sensor: line:1701,disable als sensor,data->enable = 0x0
+3,3788,797913971,-;[LCD_INFO] Enter fb_blank, blank_mode = [4].
+3,3789,798160635,-;[LCD_INFO] mdss_dsi_panel_reset: panel reset time = 10
+3,3790,798161950,-;[LCD_INFO] exit mdss_mdp_video_stop
+3,3791,798163567,-;[LCD_INFO] exit mdss_mdp_overlay_off
+3,3792,798164256,-;[LCD_INFO] fb_blank: fb blank time = 250
+3,3793,798164263,-;[I/FPC] fb_notifier_callback 472: FB_EVENT_BLANK suspend: fpc1020->taskstate:11
+3,3794,798164265,-;[COMMON][INFO]fb_notifier_callback: POWERDOWN!
+3,3795,798164284,-;[COMMON][WARNING]cyttsp5_core_rt_suspend 4970:Enter rt suspend.
+3,3796,798164290,-;[COMMON][INFO]cyttsp5_core_sleep_: put device into sleep
+3,3797,798164292,-;[COMMON][INFO]cyttsp5_put_device_into_sleep_:put_device into easy wakeup
+3,3798,798164338,-;[LCD_INFO] Exit fb_blank, blank_mode = [4].
+3,3799,798165551,-;[COMMON][INFO]cyttsp5_put_device_into_easy_wakeup_ Device may wakeup
+3,3800,798165568,-;[COMMON][INFO]cyttsp5_put_device_into_easy_wakeup_:rc = 0, gesture = 1921, status = 0
+3,3801,798165575,-;[COMMON][INFO]cyttsp5_core_sleep: pass release exclusive
+3,3802,798165584,-;[COMMON][INFO]cyttsp5_core_rt_suspend 4980:Exit runtime suspend:success.
+6,3803,798165640,-;CPU4: Booted secondary processor
+6,3804,798170893,-;CPU5: Booted secondary processor
+6,3805,798172583,-;CPU6: Booted secondary processor
+6,3806,798176014,-;CPU7: Booted secondary processor
+6,3807,798177651,-;cluster_plug: 4 little cpus enabled
+4,3808,798180022,-;migrate_irqs: 2519 callbacks suppressed
+4,3809,798180039,-;IRQ32 no longer affine to CPU0
+4,3810,798180047,-;IRQ33 no longer affine to CPU0
+4,3811,798180054,-;IRQ34 no longer affine to CPU0
+4,3812,798180062,-;IRQ35 no longer affine to CPU0
+4,3813,798180070,-;IRQ36 no longer affine to CPU0
+4,3814,798180077,-;IRQ37 no longer affine to CPU0
+4,3815,798180084,-;IRQ38 no longer affine to CPU0
+4,3816,798180092,-;IRQ40 no longer affine to CPU0
+4,3817,798180099,-;IRQ41 no longer affine to CPU0
+4,3818,798180107,-;IRQ42 no longer affine to CPU0
+5,3819,798181005,-;CPU0: shutdown
+5,3820,798183661,-;CPU1: shutdown
+5,3821,798186479,-;CPU2: shutdown
+5,3822,798188910,-;CPU3: shutdown
+6,3823,798192256,-;cluster_plug: 4 big cpus disabled
+3,3824,798289610,-;qpnp_vib_enable,value=0
+6,3825,800094267,-;mmcqd/1 rw time:10879999 ms,write time:10879999 ms,read time:0 ms
+6,3826,800094286,-;mmcqd/1 workload < 1%, duty 10879999, period 11589255661, req_cnt=5
+6,3827,800094297,-;mmcqd/1 Write Throughput=1433 KB/s, size: 14336 bytes, time:10 ms
+3,3828,802333811,-;[02:13:59.586423] [000000039B3E5BA6] [VosMC]  wlan: [E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+13,3829,804211545,-;init: Untracked pid 4468 exited with status 0
+6,3830,810113228,-;mmcqd/1 rw time:4372448 ms,write time:4372448 ms,read time:0 ms
+6,3831,810113246,-;mmcqd/1 workload < 1%, duty 4372448, period 10018962270, req_cnt=1
+6,3832,810113257,-;mmcqd/1 Write Throughput=128 KB/s, size: 512 bytes, time:4 ms
+^C
+130|kiwi:/ # 
+
