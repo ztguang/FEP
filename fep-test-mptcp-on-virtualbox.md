@@ -1,0 +1,166 @@
+#
+# This manual is released under GNU GPL v2,v3
+# Author: Tongguang Zhang
+# Date: 2017-05-23
+#
+
+
+========================================================= create bridge - begin - use
+tunctl -t tap_m_11
+ifconfig tap_m_11 up
+brctl addbr br_m_11
+brctl addif br_m_11 tap_m_11
+ifconfig br_m_11 up
+
+tunctl -t tap_m_12
+ifconfig tap_m_12 up
+brctl addbr br_m_12
+brctl addif br_m_12 tap_m_12
+ifconfig br_m_12 up
+
+tunctl -t tap_m_21
+ifconfig tap_m_21 up
+brctl addbr br_m_21
+brctl addif br_m_21 tap_m_21
+ifconfig br_m_21 up
+
+tunctl -t tap_m_22
+ifconfig tap_m_22 up
+brctl addbr br_m_22
+brctl addif br_m_22 tap_m_22
+ifconfig br_m_22 up
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ifconfig br_m_11 down
+brctl delif br_m_11 tap_m_11
+brctl delbr br_m_11
+ifconfig tap_m_11 down
+tunctl -d tap_m_11
+
+ifconfig br_m_12 down
+brctl delif br_m_12 tap_m_12
+brctl delbr br_m_12
+ifconfig tap_m_12 down
+tunctl -d tap_m_12
+
+ifconfig br_m_21 down
+brctl delif br_m_21 tap_m_21
+brctl delbr br_m_21
+ifconfig tap_m_21 down
+tunctl -d tap_m_21
+
+ifconfig br_m_22 down
+brctl delif br_m_22 tap_m_22
+brctl delbr br_m_22
+ifconfig tap_m_22 down
+tunctl -d tap_m_22
+
+========================================================= create bridge - end
+
+
+
+========================================================= install two lineage - begin - use
+
+----------------------------------------------------------
+/opt/android-x86/lineage-14.1-kiwi-on-VB/out/target/product/android_x86_64/cm_android_x86_64.iso
+/mnt/vm_share/VirtualBoxVMs/lineage-14.1-kiwi-4-vb-1/lineage-1.vdi
+
+----------------------------------------------------------
+cd
+VBoxManage unregistervm lineage-1
+rm /mnt/vm_share/VirtualBoxVMs/lineage-1 -rf
+
+mkdir /mnt/vm_share/VirtualBoxVMs/lineage-1
+cd /mnt/vm_share/VirtualBoxVMs/lineage-1
+/bin/cp /mnt/vm_share/VirtualBoxVMs/lineage-14.1-kiwi-4-vb-1/lineage-1.vdi lineage-1.vdi
+
+VBoxManage createvm --name lineage-1 --ostype Linux_64 --register
+VBoxManage modifyvm lineage-1 --memory 4096 --vram 128 --usb off --audio pulse --audiocontroller sb16 --acpi on --rtcuseutc off --boot1 disk --boot2 dvd --nic1 bridged --nictype1 Am79C973 --bridgeadapter1 br_m_11 --nic2 bridged --nictype2 Am79C973 --bridgeadapter2 br_m_21 --nic3 none --nic4 none
+VBoxManage storagectl lineage-1 --name "IDE Controller" --add ide --controller PIIX4
+VBoxManage internalcommands sethduuid lineage-1.vdi
+VBoxManage storageattach lineage-1 --storagectl "IDE Controller" --port 0 --device 0 --type hdd --medium lineage-1.vdi
+VBoxManage startvm lineage-1
+----------------------------------------------------------
+cd
+VBoxManage unregistervm lineage-2
+rm /mnt/vm_share/VirtualBoxVMs/lineage-2 -rf
+
+mkdir /mnt/vm_share/VirtualBoxVMs/lineage-2
+cd /mnt/vm_share/VirtualBoxVMs/lineage-2
+/bin/cp /mnt/vm_share/VirtualBoxVMs/lineage-14.1-kiwi-4-vb-1/lineage-1.vdi lineage-2.vdi
+
+VBoxManage createvm --name lineage-2 --ostype Linux_64 --register
+VBoxManage modifyvm lineage-2 --memory 4096 --vram 128 --usb off --audio pulse --audiocontroller sb16 --acpi on --rtcuseutc off --boot1 disk --boot2 dvd --nic1 bridged --nictype1 Am79C973 --bridgeadapter1 br_m_12 --nic2 bridged --nictype2 Am79C973 --bridgeadapter2 br_m_22 --nic3 none --nic4 none
+VBoxManage storagectl lineage-2 --name "IDE Controller" --add ide --controller PIIX4
+VBoxManage internalcommands sethduuid lineage-2.vdi
+VBoxManage storageattach lineage-2 --storagectl "IDE Controller" --port 0 --device 0 --type hdd --medium lineage-2.vdi
+VBoxManage startvm lineage-2
+----------------------------------------------------------
+
+========================================================= install two lineage - end
+
+
+
+========================================================= topology - begin - use
+
+eth0 (android-1) <--> br_m_11 <--> tap_m_11 <--> switch1 (NS3) <--> tap_m_12 <--> br_m_12 <--> eth0 (android-2)
+
+eth1 (android-1) <--> br_m_21 <--> tap_m_21 <--> switch2 (NS3) <--> tap_m_22 <--> br_m_22 <--> eth1 (android-2)
+
+eth2 (android-1) <-->  Host-only Adapter <--> eth2 (android-2)
+
+========================================================= topology - end
+
+
+
+========================================================= (android-1) - begin - use
+(android-1)
+ifconfig eth0 112.26.1.1/24 up
+ifconfig eth1 112.26.2.1/24 up
+========================================================= (android-1) - end
+
+
+
+========================================================= (android-2) - begin - use
+(android-2)
+ifconfig eth0 112.26.1.2/24 up
+ifconfig eth1 112.26.2.2/24 up
+========================================================= (android-2) - end
+
+
+
+========================================================= testing - begin - use
+
+------------------------------------------------------
+in notebook
+------------------------------------------------------ use
+[root@localhost fep]# 
+
+scp fep_mptcp_2_switches.cc 10.109.253.80:/opt/tools/network_simulators/ns3/ns-allinone-3.26/ns-3.26/scratch/
+------------------------------------------------------
+
+
+------------------------------------------------------
+in IBM Server HOST
+------------------------------------------------------ use
+
+--->>> terminal
+cd /opt/tools/network_simulators/ns3/ns-allinone-3.26/ns-3.26
+./waf --run scratch/fep_mptcp_2_switches --vis
+------------------------------------------------------
+
+
+------------------------------------------------------
+in android
+------------------------------------------------------ use
+
+(android-1)	nc -l cat /system/app/chrome.apk 12123			// nc -l 12123 < /system/app/chrome.apk
+
+(android-2)	nc 112.26.1.1 33186 > /data/chrome.apk			// nc 112.26.1.1 12123 > chrome.apk
+------------------------------------------------------
+
+========================================================= testing - end
+
+
+
