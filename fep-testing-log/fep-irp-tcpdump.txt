@@ -1,0 +1,69 @@
+07:46:41.961188 IP6 (hlim 255, next-header ICMPv6 (58) payload length: 24) fe80::83c:1ff:fe96:d681 > fe80::f0eb:2eff:fe58:579e: [icmp6 sum ok] ICMP6, neighbor advertisement, length 24, tgt is fe80::83c:1ff:fe96:d681, Flags [solicited]
+07:46:41.976115 IP6 (class 0xb8, flowlabel 0x1af05, hlim 1, next-header OSPF (89) payload length: 52) fe80::b4cf:5dff:fe46:5e2c > ff02::5: OSPFv3, Hello, length 52 [len 36]
+07:46:42.358409 IP6 (class 0xb8, flowlabel 0x12e4a, hlim 1, next-header OSPF (89) payload length: 92) fe80::83c:1ff:fe96:d681 > ff02::5: OSPFv3, LS-Update, length 92
+        Router-ID 10.1.1.2, Backbone Area, Instance 65
+          Advertising Router 10.1.1.5, seq 0x80000008, age 2s, length 52
+            Router LSA (1), Area Local Scope, LSA-ID 0.0.0.0
+              Options [V6, External, Router], RLA-Flags [none]
+              Neighbor Router-ID 10.1.1.2
+              Neighbor Interface-ID 0.0.8.203, Interface 0.0.8.215, metric 1
+              Neighbor Router-ID 10.1.1.4
+              Neighbor Interface-ID 0.0.8.211, Interface 0.0.8.215, metric 1
+              Neighbor Router-ID 10.1.1.6
+              Neighbor Interface-ID 0.0.8.219, Interface 0.0.8.215, metric 1
+07:46:42.458865 IP6 (class 0xb8, flowlabel 0x1af05, hlim 1, next-header OSPF (89) payload length: 92) fe80::b4cf:5dff:fe46:5e2c > ff02::5: OSPFv3, LS-Update, length 92
+        Router-ID 10.1.1.1, Backbone Area, Instance 65
+          Advertising Router 10.1.1.5, seq 0x80000008, age 3s, length 52
+            Router LSA (1), Area Local Scope, LSA-ID 0.0.0.0
+              Options [V6, External, Router], RLA-Flags [none]
+              Neighbor Router-ID 10.1.1.2
+              Neighbor Interface-ID 0.0.8.203, Interface 0.0.8.215, metric 1
+              Neighbor Router-ID 10.1.1.4
+              Neighbor Interface-ID 0.0.8.211, Interface 0.0.8.215, metric 1
+              Neighbor Router-ID 10.1.1.6
+              Neighbor Interface-ID 0.0.8.219, Interface 0.0.8.215, metric 1
+07:46:43.062070 IP6 (class 0xb8, flowlabel 0x12e4a, hlim 1, next-header OSPF (89) payload length: 76) fe80::83c:1ff:fe96:d681 > ff02::5: OSPFv3, LS-Update, length 76
+        Router-ID 10.1.1.2, Backbone Area, Instance 65
+          Advertising Router 10.1.1.6, seq 0x80000004, age 4s, length 36
+            Router LSA (1), Area Local Scope, LSA-ID 0.0.0.0
+              Options [V6, External, Router], RLA-Flags [none]
+              Neighbor Router-ID 10.1.1.3
+              Neighbor Interface-ID 0.0.8.207, Interface 0.0.8.219, metric 1
+              Neighbor Router-ID 10.1.1.5
+              Neighbor Interface-ID 0.0.8.215, Interface 0.0.8.219, metric 1
+07:46:43.063699 IP6 (class 0xb8, flowlabel 0x12e4a, hlim 1, next-header OSPF (89) payload length: 52) fe80::83c:1ff:fe96:d681 > ff02::5: OSPFv3, Hello, length 52 [len 36]
+07:46:43.162494 IP6 (class 0xb8, flowlabel 0x1af05, hlim 1, next-header OSPF (89) payload length: 76) fe80::b4cf:5dff:fe46:5e2c > ff02::5: OSPFv3, LS-Update, length 76
+        Router-ID 10.1.1.1, Backbone Area, Instance 65
+          Advertising Router 10.1.1.6, seq 0x80000004, age 5s, length 36
+            Router LSA (1), Area Local Scope, LSA-ID 0.0.0.0
+              Options [V6, External, Router], RLA-Flags [none]
+              Neighbor Router-ID 10.1.1.3
+              Neighbor Interface-ID 0.0.8.207, Interface 0.0.8.219, metric 1
+              Neighbor Router-ID 10.1.1.5
+              Neighbor Interface-ID 0.0.8.215, Interface 0.0.8.219, metric 1
+07:46:43.464449 IP6 (class 0xb8, flowlabel 0x12e4a, hlim 1, next-header OSPF (89) payload length: 36) fe80::83c:1ff:fe96:d681 > ff02::5: OSPFv3, LS-Ack, length 36
+        Router-ID 10.1.1.2, Backbone Area, Instance 65
+          Advertising Router 10.1.1.2, seq 0x80000004, age 12s, length 52
+            Router LSA (1), Area Local Scope, LSA-ID 0.0.0.0
+07:46:43.950836 IP6 (class 0xb8, flowlabel 0x1af05, hlim 1, next-header OSPF (89) payload length: 52) fe80::b4cf:5dff:fe46:5e2c > ff02::5: OSPFv3, Hello, length 52 [len 36]
+07:46:43.966646 IP6 (class 0xb8, flowlabel 0xa88af, hlim 64, next-header OSPF (89) payload length: 76) fe80::9c71:a0ff:feef:247e > fe80::b4cf:5dff:fe46:5e2c: OSPFv3, LS-Update, length 76
+        Router-ID 10.1.1.4, Backbone Area, Instance 65
+          Advertising Router 10.1.1.3, seq 0x80000004, age 11s, length 36
+            Router LSA (1), Area Local Scope, LSA-ID 0.0.0.0
+07:46:45.011022 IP6 (hlim 255, next-header ICMPv6 (58) payload length: 16) fe80::886:cfff:fe73:67e8 > ff02::2: [icmp6 sum ok] ICMP6, router solicitation, length 16
+          source link-address option (1), length 8 (1): 0a:86:cf:73:67:e8
+            0x0000:  0a86 cf73 67e8
+07:46:45.075492 IP6 (class 0xb8, flowlabel 0x12e4a, hlim 1, next-header OSPF (89) payload length: 64) fe80::83c:1ff:fe96:d681 > ff02::5: OSPFv3, Hello, length 64 [len 48]
+07:46:45.176360 IP6 (class 0xb8, flowlabel 0xa3bf9, hlim 1, next-header OSPF (89) payload length: 64) fe80::9c71:a0ff:feef:247e > ff02::5: OSPFv3, Hello, length 64 [len 48]
+07:46:45.277866 IP6 (class 0xb8, flowlabel 0x12e4a, hlim 1, next-header OSPF (89) payload length: 56) fe80::83c:1ff:fe96:d681 > ff02::5: OSPFv3, Hello, length 56 [len 40]
+07:46:45.279590 IP6 (hlim 255, next-header ICMPv6 (58) payload length: 32) fe80::83c:1ff:fe96:d681 > ff02::1:ffef:247e: [icmp6 sum ok] ICMP6, neighbor solicitation, length 32, who has fe80::9c71:a0ff:feef:247e
+          source link-address option (1), length 8 (1): 0a:3c:01:96:d6:81
+            0x0000:  0a3c 0196 d681
+07:46:45.379245 IP6 (class 0xb8, flowlabel 0xa3bf9, hlim 1, next-header OSPF (89) payload length: 56) fe80::9c71:a0ff:feef:247e > ff02::5: OSPFv3, Hello, length 56 [len 40]
+07:46:45.578475 IP6 (class 0xb8, flowlabel 0xa3bf9, hlim 1, next-header OSPF (89) payload length: 92) fe80::9c71:a0ff:feef:247e > ff02::5: OSPFv3, LS-Update, length 92
+        Router-ID 10.1.1.4, Backbone Area, Instance 65
+          Advertising Router 10.1.1.4, seq 0x80000007, age 1s, length 52
+            Router LSA (1), Area Local Scope, LSA-ID 0.0.0.0
+              Options [V6, External, Router], RLA-Flags [none]
+              Neighbor Router-ID 10.1.1.1
+
