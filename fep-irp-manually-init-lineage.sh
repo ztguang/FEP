@@ -7,7 +7,7 @@
 # 
 # copy quagga to /system/xbin/quagga, refer to http://blog.csdn.net/ztguang/article/details/51768680
 # that is: fep-irp-install_quagga_on_android_7_in_Fedora24.txt
-#
+# 
 
 #------------------------------------------------------------------------------------------
 adb connect 192.168.56.3 && adb -s 192.168.56.3 root
