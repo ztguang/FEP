@@ -1,5 +1,5 @@
 # gnuplot fep-test-cpu-mem.plt
-# display fep-cpu-mem.png
+# display fep-cpu-mem.png 
 
 set terminal png
 set output "fep-cpu-mem.png"  
