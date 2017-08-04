@@ -1,5 +1,5 @@
 # gnuplot fep-test-ping.plt
-# display fep-ping.png
+# display fep-ping.png 
 
 set terminal png
 set output "fep-ping.png"  
