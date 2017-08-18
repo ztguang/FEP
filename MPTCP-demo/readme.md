@@ -8,4 +8,4 @@ window W1 refers to lineage-1, windows W2 and W3 refer to the same VirtualBox in
 
 Testing a simple Information Release Platform for Disaster Relief in FEP.
 
-We run a simple Information Release Platform for Disaster Relief (IRP)  in MANET based on simplest_web_server and websocket_chat included by mongoose, and then we access IRP via a browser in lineage-irp-[2~5] respectively.
+We run a simple Information Release Platform for Disaster Relief (IRP) in MANET based on simplest_web_server and websocket_chat included by mongoose, and then we access IRP (in lineage-irp-6) via a browser in lineage-irp-[1~5] respectively.
